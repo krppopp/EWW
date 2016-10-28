@@ -1,0 +1,64 @@
+{
+    "levels":[
+        [
+            {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_pink", "s_blue"],
+                "Static": ["l_pink", "l_blue"]
+            },
+            {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_green", "s_orange"],
+                "Static": ["l_green", "l_orange"]
+            },
+            {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_yellow", "s_purple"],
+                "Static": ["l_yellow", "l_purple"]
+            }
+        ],
+        [
+            {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_pink", "s_blue", "s_green"],
+                "Static": ["l_pink", "l_blue", "l_green"]
+            },
+            {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_green", "s_orange", "s_purple"],
+                "Static": ["l_green", "l_orange", "l_purple"]
+            },
+            {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_yellow", "s_purple", "s_blue"],
+                "Static": ["l_yellow", "l_purple", "l_blue"]
+            }
+        ],
+        [
+           {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_pink", "s_blue", "s_green", "s_yellow"],
+                "Static": ["l_pink", "l_blue", "l_green", "l_yellow"]
+            },
+            {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_green", "s_orange", "s_purple", "s_pink"],
+                "Static": ["l_green", "l_orange", "l_purple", "l_pink"]
+            },
+            {
+                "Theme": "false",
+                "Sound": "null",
+                "Match": ["s_yellow", "s_purple", "s_blue", "s_orange"],
+                "Static": ["l_yellow", "l_purple", "l_blue", "l_orange"]
+            }
+        ]
+    ]
+}
