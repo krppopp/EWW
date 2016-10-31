@@ -22,16 +22,18 @@ BasicGame.Game.prototype = {
         var game = this;
         //game.stage.backgroundColor = "#f2c07b";
         //round num is the round number
-        //match num is the tot
+        //match num is the total
         game.roundNum = 0;
+        game.add.sprite(0,0,'bg1');
+        game.spriteNum = 12;
+        game.transitionPosX = -300;
+        game.newScale = 2;
+        game.hasTransitioned = false;
         //for movement/matching
         game.activeObject = null;
         game.follow = false;
         game.clickNum = 0;
         //for placement
-        game.matchObjPosX = 200;
-        game.staticObjPosX = 800;
-        //2D array for object positions
         game.roundYPos = [];
         game.roundYPos[0] = [.25, .75];
         game.roundYPos[1] = [.2, .5, .8];
@@ -42,8 +44,17 @@ BasicGame.Game.prototype = {
         game.staticRoundYPos[1] = [.5, .8, .2];
         game.staticRoundYPos[2] = [.91, .64, .12, .35];
         game.staticRoundYPos[3] = [.91, .64, .12, .35];
+        game.matchObjPosX = 200;
+        game.staticObjPosX = 800;
+        game.spriteNum = 12;
+        game.transitionPosXLeft = -100;
+        game.transitionPosXRight = 1300;
+        //2D array for object positions
         game.levelData = JSON.parse(game.cache.getText('levels'));
         game.roundDesign = [game.levelData.levels];
+        game.seenLevels = [];
+        game.lastRound = 0;
+        game.set = game.rnd.integerInRange(0, 2);
         //start the game
         game.roundCreate(game.roundNum);
     }
@@ -78,14 +89,14 @@ BasicGame.Game.prototype = {
     }, //create function for every round
     roundCreate(roundToPlay) {
         var game = this;
-        console.log(game.roundYPos[roundToPlay][0]);
         game.removeThings();
         game.correctTween = [];
         game.wrongAnswers = 0;
         game.rightAnswers = 0;
         var tempRoundNum = roundToPlay;
+        game.lastRound = tempRoundNum;
         game.matchNum = tempRoundNum += 2;
-        console.log(game.matchNum);
+        var bg = game.add.sprite(0,0,game.roundDesign[0][roundToPlay][game.set].Background);
         //groups to track what items are what
         //items go into the complete objects group when they've been matched
         game.matchObjects = game.add.group();
@@ -100,7 +111,6 @@ BasicGame.Game.prototype = {
         game.completeObjects.enableBody = true;
         game.completeObjects.physicsBodyType = Phaser.Physics.ARCADE;
         //randomly grab a set
-        var set = game.rnd.integerInRange(0, 2);
         //            if(game.roundDesign[0][roundToPlay][set].Theme){
         //                game.sfx.play(game.roundDesign[0][roundToPlay][set].Sound);
         //            } else{
@@ -108,13 +118,13 @@ BasicGame.Game.prototype = {
         //            }
         //creates the items, based on the round number
         for (var i = 0; i < game.matchNum; i++) {
-            var newMatchObj = game.matchObjects.create(game.matchObjPosX, game.world.height * game.roundYPos[roundToPlay][i], 'sprites', game.roundDesign[0][roundToPlay][set].Match[i]);
-            game.add.tween(newMatchObj.scale).from({
+            var newStaticObj = game.staticObjects.create(game.staticObjPosX, game.world.height * game.staticRoundYPos[roundToPlay][i], 'sprites', game.roundDesign[0][roundToPlay][game.set].Static[i]);
+            game.add.tween(newStaticObj.scale).from({
                 x: 0
                 , y: 0
             }, 1000, "Elastic", true);
-            var newStaticObj = game.staticObjects.create(game.staticObjPosX, game.world.height * game.staticRoundYPos[roundToPlay][i], 'sprites', game.roundDesign[0][roundToPlay][set].Static[i]);
-            game.add.tween(newStaticObj.scale).from({
+            var newMatchObj = game.matchObjects.create(game.matchObjPosX, game.world.height * game.roundYPos[roundToPlay][i], 'sprites', game.roundDesign[0][roundToPlay][game.set].Match[i]);
+            game.add.tween(newMatchObj.scale).from({
                 x: 0
                 , y: 0
             }, 1000, "Elastic", true);
@@ -132,7 +142,6 @@ BasicGame.Game.prototype = {
         game.matchObjects.onChildInputDown.add(function (sprite) {
             //game.sfx.play(sprite.name);
             sprite.body.collideWorldBounds = true;
-            console.log(sprite.body.collideWorldBounds);
             var clickScaleTween = game.add.tween(sprite.scale).to({
                 x: 1.2
                 , y: 1.2
@@ -199,9 +208,10 @@ BasicGame.Game.prototype = {
                 game.wrongAnswers = 0;
                 game.rightAnswers++;
                 var myIndex = game.rightAnswers;
+                matchObj.bringToTop();
                 game.correctTween = game.add.tween(matchObj).to({
                     x: staticObj.x, y: staticObj.y
-                }, 4000, "Linear", true);
+                }, 2000, "Linear", true);
                 game.clickNum = 0;
                 game.follow = false;
                 matchObj.alpha = 1;
@@ -211,11 +221,28 @@ BasicGame.Game.prototype = {
                     if (game.matchNum == game.rightAnswers && myIndex == game.rightAnswers) {
                         if (game.roundNum < game.roundDesign[0].length - 1) {
                             game.roundNum++;
-                            game.roundCreate(game.roundNum);
+                            game.set = game.rnd.integerInRange(0, 2);
+                            var bg = game.add.sprite(0,0,game.roundDesign[0][game.roundNum][game.set].Background);
+                            var BGTween = game.add.tween(bg).from({
+                                x: -game.world.width-1000
+                            }, 2000, "Linear", true);
+                            BGTween.onComplete.add(function () {
+                                game.roundCreate(game.roundNum);  
+                            })
                         }
                         else {
-                            console.log("finished rounds");
-                            game.roundCreate(game.rnd.integerInRange(1, game.roundDesign[0].length - 1));
+                            game.set = game.rnd.integerInRange(0, 2);
+                            var bg = game.add.sprite(0,0,game.roundDesign[0][game.roundNum][game.set].Background);
+                            var BGTween = game.add.tween(bg).from({
+                                x: -game.world.width-1000
+                            }, 2000, "Linear", true);
+                            BGTween.onComplete.add(function () {
+                                var nextRound = 0;
+                                do{
+                                    nextRound = game.rnd.integerInRange(1,game.roundDesign[0].length-1);
+                                } while (nextRound == game.lastRound);
+                                game.roundCreate(nextRound);
+                            })
                         }
                         //game.sfx.play(finalMatchSound);
                         //when have sounds, end based on sounds instead of tween
@@ -340,5 +367,5 @@ BasicGame.Game.prototype = {
             tween2.yoyo(true, 200);
             scaleTween2.yoyo(true, 200);
         });
-    }
-, };
+    },
+};

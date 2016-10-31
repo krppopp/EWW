@@ -6,6 +6,7 @@ BasicGame.Introduction.prototype = {
 
 	create: function () {
         var game = this;
+        game.add.sprite(0,0,'bg2');
         game.skipButton = game.add.sprite(game.world.width*.8, game.world.height/6, 'skipbtn');
         game.skipButton.anchor.setTo(.5,.5);
         game.add.tween(game.skipButton.scale).from({
