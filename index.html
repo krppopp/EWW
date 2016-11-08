@@ -6,6 +6,15 @@
     <script src = "Main.js"></script>
     <script src = "Game.js"></script>
     <script src = "Introduction.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+        }
+        
+    </style>
 </head>
     
 <body>
@@ -15,15 +24,16 @@
     <script type = "text/javascript">
 
         window.onload = function() {
-
-        var game = new Phaser.Game(1024, 660, Phaser.AUTo, 'gameContainer');
+        var WIDTH = 1024;
+        var HEIGHT = 660;
+        var game = new Phaser.Game(WIDTH, HEIGHT, Phaser.AUTO, '');
 
             
-        game.state.add('Boot', BasicGame.Boot);
-        game.state.add('Preloader', BasicGame.Preloader);
-        game.state.add('Main', BasicGame.Main);
-        game.state.add('Game', BasicGame.Game);
-        game.state.add('Introduction', BasicGame.Introduction);
+        game.state.add('Boot', EWW.Boot);
+        game.state.add('Preloader', EWW.Preloader);
+        game.state.add('Main', EWW.Main);
+        game.state.add('Game', EWW.Game);
+        game.state.add('Introduction', EWW.Introduction);
             
         //	Now start the Boot state.
         game.state.start('Boot');

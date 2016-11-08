@@ -1,13 +1,16 @@
-BasicGame.Main = function (game) {};
-BasicGame.Main.prototype = {
+EWW.Main = function (game) {};
+EWW.Main.prototype = {
     create: function () {
         var game = this;
-        game.add.sprite(0, 0, 'bg1');
+        game.levelData = JSON.parse(game.cache.getText('levels'));
+        game.buttonClick = game.add.audio(game.levelData.audio[0].buttonClickAudio);
+        game.transitionSound = game.add.audio(game.levelData.audio[0].transitionAudio);
+        game.add.sprite(0, 0, game.levelData.sprites[0].titleImg);
 //        game.spriteNum = 12;
 //        game.transitionPosX = -300;
 //        game.newScale = 2;
 //        game.hasTransitioned = false;
-        game.playButton = game.add.sprite(game.world.width / 2, game.world.height / 2, 'playbtn');
+        game.playButton = game.add.sprite(game.world.width / 2, game.world.height / 2, game.levelData.sprites[0].playButton);
         game.add.tween(game.playButton.scale).from({
             x: 0
             , y: 0
@@ -30,6 +33,7 @@ BasicGame.Main.prototype = {
     , update: function () {
         var game = this;
         if (this.input.activePointer.isDown) {
+            game.buttonClick.play();
             game.playButton.inputEnabled = false;
                 var playTween = game.add.tween(game.playButton.scale).to({
                     x: 0
@@ -44,7 +48,8 @@ BasicGame.Main.prototype = {
                 var nextBG = game.add.sprite(-1500, 0, 'bg2');
                 var BGTween = game.add.tween(nextBG).to({
                     x: 0
-                }, 4000, "Linear", true);
+                }, 2000, "Linear", true);
+                game.transitionSound.play();
                 BGTween.onComplete.add(function () {
                     game.state.start('Introduction');
                 })

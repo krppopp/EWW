@@ -1,13 +1,16 @@
-BasicGame.Introduction = function (game) {
+EWW.Introduction = function (game) {
 
 };
 
-BasicGame.Introduction.prototype = {
+EWW.Introduction.prototype = {
 
 	create: function () {
         var game = this;
-        game.add.sprite(0,0,'bg2');
-        game.skipButton = game.add.sprite(game.world.width*.8, game.world.height/6, 'skipbtn');
+        game.levelData = JSON.parse(game.cache.getText('levels'));
+        game.buttonClick = game.add.audio(game.levelData.audio[0].buttonClickAudio);
+        game.transitionSound = game.add.audio(game.levelData.audio[0].transitionAudio);
+        game.add.sprite(0,0,game.levelData.sprites[0].introBG);
+        game.skipButton = game.add.sprite(game.world.width*.8, game.world.height/6, game.levelData.sprites[0].skipButton);
         game.skipButton.anchor.setTo(.5,.5);
         game.add.tween(game.skipButton.scale).from({
             x: 0
@@ -27,7 +30,15 @@ BasicGame.Introduction.prototype = {
             }, 500, "Elastic", true);
         })
         game.skipButton.events.onInputDown.add(function(){
-            game.state.start('Game');
+            game.buttonClick.play();
+            var nextBG = game.add.sprite(-1500, 0, 'bg2');
+            var BGTween = game.add.tween(nextBG).to({
+                x: 0
+            }, 2000, "Linear", true);
+            game.transitionSound.play();
+            BGTween.onComplete.add(function () {
+                game.state.start('Game');
+            })
         })
 
 	},
