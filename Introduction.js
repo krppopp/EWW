@@ -31,11 +31,13 @@ EWW.Introduction.prototype = {
         })
         game.skipButton.events.onInputDown.add(function(){
             game.buttonClick.play();
-            var nextBG = game.add.sprite(-1500, 0, 'bg2');
+            game.buttonClick.onStop.add(function(){
+                game.transitionSound.play();
+            })
+            var nextBG = game.add.sprite(-1500, 0, 'bg1');
             var BGTween = game.add.tween(nextBG).to({
                 x: 0
-            }, 2000, "Linear", true);
-            game.transitionSound.play();
+            }, 800, "Linear", true);
             BGTween.onComplete.add(function () {
                 game.state.start('Game');
             })

@@ -204,10 +204,11 @@ EWW.Game.prototype = {
         
     , matchChara: function (matchObj, staticObj) {
             var game = this;
-            console.log("ayyyye");
             if (matchObj.z == staticObj.z) {
-                game.correctSound.play();
                 game.togetherSound[staticObj.z].play();
+                game.togetherSound[staticObj.z].onStop.add(function(){
+                    game.correctSound.play();
+                })
                 matchObj.enabledBody = false;
                 staticObj.enableBody = false;
                 game.completeObjects.add(matchObj);
@@ -219,53 +220,51 @@ EWW.Game.prototype = {
                 game.correctTween = game.add.tween(matchObj).to({
                     x: staticObj.x
                     , y: staticObj.y
-                }, 2000, "Linear", true);
+                }, 1000, "Linear", true);
                 game.clickNum = 0;
                 game.follow = false;
                 matchObj.alpha = 1;
                 game.activeObject = null;
-                game.correctTween.onComplete.add(function (tween) {
-                    console.log(game.matchNum);
-                    console.log(game.rightAnswers);
+                game.correctSound.onStop.add(function (tween) {
                     if (game.matchNum == game.rightAnswers && myIndex == game.rightAnswers) {
                         if (game.roundNum < game.roundDesign[0].length - 1) {
                             game.roundNum++;
                             game.set = game.rnd.integerInRange(0, game.roundDesign[0][game.roundNum].length-1);
                             var bg = game.add.sprite(0, 0, game.roundDesign[0][game.roundNum][game.set].Background);
-                            game.transitionSound.play();
                             var BGTween = game.add.tween(bg).from({
                                 x: -game.world.width - 1000
-                            }, 2000, "Linear", true);
+                            }, 800, "Linear", true);
                             BGTween.onComplete.add(function () {
                                 game.roundCreate(game.roundNum);
                             })
                         }
                         else {
-                            game.set = game.rnd.integerInRange(0, game.roundDesign[0][game.roundNum].length);
-                            var bg = game.add.sprite(0, 0, game.roundDesign[0][game.roundNum][game.set].Background);
+                            var nextRound = 0;
+                            do {
+                                nextRound = game.rnd.integerInRange(1, game.roundDesign[0].length - 1);
+                                console.log(game.lastRound);
+                                console.log(nextRound);
+                            } while (nextRound == game.lastRound);
+                            game.set = game.rnd.integerInRange(0, game.roundDesign[0][nextRound].length-1);
+                            var bg = game.add.sprite(0, 0, game.roundDesign[0][nextRound][game.set].Background);
                             var BGTween = game.add.tween(bg).from({
                                 x: -game.world.width - 1000
-                            }, 2000, "Linear", true);
-                            game.transitionSound.play();
+                            }, 800, "Linear", true);
                             BGTween.onComplete.add(function () {
-                                var nextRound = 0;
-                                do {
-                                    nextRound = game.rnd.integerInRange(1, game.roundDesign[0].length - 1);
-                                } while (nextRound == game.lastRound);
                                 game.roundCreate(nextRound);
                             })
                         }
                         //game.sfx.play(finalMatchSound);
                         //when have sounds, end based on sounds instead of tween
+                        game.transitionSound.play();
                     }
                 });
             }
             else {
                 game.wrongSound.play();
                 if (game.clickNum == 0 || !Phaser.Device.desktop) {
-                    console.log("i should be wrong and do the things that mean i'm wrong");
                     matchObj.x = EWW.matchObjPosX;
-                    matchObj.y = (game.world.height * EWW.roundYPos[game.roundNum][matchObj.z]);
+                    matchObj.y = (game.world.height * EWW.roundYPos[game.posNum-1][matchObj.z]);
                     game.wrongAnswers++;
                     if (game.wrongAnswers == 1) {
                         //game.sfx.play(WA1);
@@ -298,7 +297,7 @@ EWW.Game.prototype = {
             if (game.clickNum == 0) {
                 game.wrongAnswers++;
                 matchObj.x = EWW.matchObjPosX;
-                matchObj.y = (game.world.height * EWW.roundYPos[game.roundNum][matchObj.z]);
+                matchObj.y = (game.world.height * EWW.roundYPos[game.posNum-1][matchObj.z]);
                 if (game.wrongAnswers == 1) {
                     //game.sfx.play(WA1);
                 }
