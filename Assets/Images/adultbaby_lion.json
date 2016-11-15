@@ -1,0 +1,812 @@
+{"frames": [
+
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0000",
+	"frame": {"x":483,"y":744,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0001",
+	"frame": {"x":483,"y":744,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0002",
+	"frame": {"x":483,"y":744,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0003",
+	"frame": {"x":483,"y":744,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0004",
+	"frame": {"x":483,"y":744,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0005",
+	"frame": {"x":483,"y":744,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0006",
+	"frame": {"x":965,"y":741,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0007",
+	"frame": {"x":965,"y":741,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0008",
+	"frame": {"x":965,"y":741,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0009",
+	"frame": {"x":965,"y":741,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0010",
+	"frame": {"x":1447,"y":249,"w":480,"h":244},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":244},
+	"sourceSize": {"w":480,"h":244}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0011",
+	"frame": {"x":1447,"y":249,"w":480,"h":244},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":244},
+	"sourceSize": {"w":480,"h":244}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0012",
+	"frame": {"x":483,"y":497,"w":480,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":245},
+	"sourceSize": {"w":480,"h":245}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0013",
+	"frame": {"x":483,"y":497,"w":480,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":245},
+	"sourceSize": {"w":480,"h":245}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0014",
+	"frame": {"x":1,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0015",
+	"frame": {"x":1,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0016",
+	"frame": {"x":1,"y":249,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0017",
+	"frame": {"x":483,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0018",
+	"frame": {"x":1,"y":497,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0019",
+	"frame": {"x":1,"y":497,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0020",
+	"frame": {"x":483,"y":249,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0021",
+	"frame": {"x":483,"y":249,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0022",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0023",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0024",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0025",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0026",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0027",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0028",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0029",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0030",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0031",
+	"frame": {"x":965,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0032",
+	"frame": {"x":1447,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0033",
+	"frame": {"x":1447,"y":1,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0034",
+	"frame": {"x":1,"y":745,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0035",
+	"frame": {"x":1,"y":745,"w":480,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":246},
+	"sourceSize": {"w":480,"h":246}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0036",
+	"frame": {"x":965,"y":249,"w":480,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":245},
+	"sourceSize": {"w":480,"h":245}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0037",
+	"frame": {"x":965,"y":249,"w":480,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":245},
+	"sourceSize": {"w":480,"h":245}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0038",
+	"frame": {"x":1447,"y":495,"w":480,"h":244},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":244},
+	"sourceSize": {"w":480,"h":244}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0039",
+	"frame": {"x":1447,"y":495,"w":480,"h":244},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":244},
+	"sourceSize": {"w":480,"h":244}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0040",
+	"frame": {"x":965,"y":496,"w":480,"h":243},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":243},
+	"sourceSize": {"w":480,"h":243}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0041",
+	"frame": {"x":965,"y":496,"w":480,"h":243},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":243},
+	"sourceSize": {"w":480,"h":243}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0042",
+	"frame": {"x":1447,"y":741,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0043",
+	"frame": {"x":965,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0044",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0045",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0046",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0047",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0048",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0049",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0050",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0051",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0052",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0053",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0054",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0055",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0056",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0057",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0058",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0059",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0060",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0061",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0062",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0063",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0064",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0065",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0066",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0067",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0068",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0069",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0070",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0071",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0072",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0073",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0074",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0075",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0076",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0077",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0078",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0079",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0080",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0081",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0082",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0083",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0084",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0085",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0086",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0087",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0088",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0089",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0090",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0091",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0092",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0093",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0094",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0095",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0096",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0097",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0098",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+},
+{
+	"filename": "EW_AnimalGame_Lions_AdultBaby_v04_SM/moved -127 px in X for resized 1024 x 660 stage_0099",
+	"frame": {"x":1447,"y":984,"w":480,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":241},
+	"sourceSize": {"w":480,"h":241}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "adultbaby_lion.png",
+	"format": "RGBA8888",
+	"size": {"w":1928,"h":1226},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:4b62f9ec7f41de1f0357499d2c9227e4:ee828e91a312c2afff2e3078fad02bd5:2b534e31f250e919500b9409d6306064$"
+}
+}

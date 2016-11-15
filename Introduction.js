@@ -9,39 +9,23 @@ EWW.Introduction.prototype = {
         game.levelData = JSON.parse(game.cache.getText('levels'));
         game.buttonClick = game.add.audio(game.levelData.audio[0].buttonClickAudio);
         game.transitionSound = game.add.audio(game.levelData.audio[0].transitionAudio);
+        
         game.add.sprite(0,0,game.levelData.sprites[0].introBG);
-        game.skipButton = game.add.sprite(game.world.width*.8, game.world.height/6, game.levelData.sprites[0].skipButton);
-        game.skipButton.anchor.setTo(.5,.5);
-        game.add.tween(game.skipButton.scale).from({
-            x: 0
-            , y: 0
-        }, 1000, "Elastic", true);
-        game.skipButton.inputEnabled = true;
-        game.skipButton.events.onInputOver.add(function(sprite){
-            var playTween = game.add.tween(sprite.scale).to({
-                x: 1.1
-                , y: 1.1
-            }, 300, Phaser.Easing.Back.Out, true);
-        })
-        game.skipButton.events.onInputOut.add(function(sprite){
-            var stopTween = game.add.tween(sprite.scale).to({
-                x: 1
-                , y: 1
-            }, 500, "Elastic", true);
-        })
-        game.skipButton.events.onInputDown.add(function(){
-            game.buttonClick.play();
-            game.buttonClick.onStop.add(function(){
-                game.transitionSound.play();
+        
+        if(!window.doNotDisplayClose){
+            game.exitButton = game.add.sprite(game.world.width*.9, game.world.height*.02, game.levelData.sprites[0].exitButton,0);    
+            game.exitButton.inputEnabled = true;
+            game.exitButton.events.onInputOver.add(function(sprite){
+                sprite.frame =1;
             })
-            var nextBG = game.add.sprite(-1500, 0, 'bg1');
-            var BGTween = game.add.tween(nextBG).to({
-                x: 0
-            }, 800, "Linear", true);
-            BGTween.onComplete.add(function () {
-                game.state.start('Game');
+            game.exitButton.events.onInputDown.add(function(sprite){
+                sprite.frame = 2;
+                window.close();
             })
-        })
+            game.exitButton.events.onInputOut.add(function(sprite){
+                sprite.frame = 0;
+            })
+        }
 
 	},
 

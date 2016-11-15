@@ -1,0 +1,292 @@
+{"frames": [
+
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0000",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0001",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0002",
+	"frame": {"x":1,"y":128,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0003",
+	"frame": {"x":1,"y":128,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0004",
+	"frame": {"x":1,"y":255,"w":162,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":125},
+	"sourceSize": {"w":162,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0005",
+	"frame": {"x":1,"y":255,"w":162,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":125},
+	"sourceSize": {"w":162,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0006",
+	"frame": {"x":1,"y":382,"w":161,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":127},
+	"sourceSize": {"w":161,"h":127}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0007",
+	"frame": {"x":1,"y":382,"w":161,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":127},
+	"sourceSize": {"w":161,"h":127}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0008",
+	"frame": {"x":1,"y":511,"w":160,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":131},
+	"sourceSize": {"w":160,"h":131}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0009",
+	"frame": {"x":1,"y":511,"w":160,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":131},
+	"sourceSize": {"w":160,"h":131}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0010",
+	"frame": {"x":1,"y":644,"w":158,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":130},
+	"sourceSize": {"w":158,"h":130}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0011",
+	"frame": {"x":1,"y":644,"w":158,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":130},
+	"sourceSize": {"w":158,"h":130}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0012",
+	"frame": {"x":1,"y":776,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":129},
+	"sourceSize": {"w":157,"h":129}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0013",
+	"frame": {"x":1,"y":776,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":129},
+	"sourceSize": {"w":157,"h":129}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0014",
+	"frame": {"x":1,"y":776,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":129},
+	"sourceSize": {"w":157,"h":129}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0015",
+	"frame": {"x":1,"y":776,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":129},
+	"sourceSize": {"w":157,"h":129}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0016",
+	"frame": {"x":1,"y":776,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":129},
+	"sourceSize": {"w":157,"h":129}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0017",
+	"frame": {"x":1,"y":776,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":129},
+	"sourceSize": {"w":157,"h":129}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0018",
+	"frame": {"x":1,"y":776,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":129},
+	"sourceSize": {"w":157,"h":129}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0019",
+	"frame": {"x":1,"y":776,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":129},
+	"sourceSize": {"w":157,"h":129}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0020",
+	"frame": {"x":1,"y":644,"w":158,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":130},
+	"sourceSize": {"w":158,"h":130}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0021",
+	"frame": {"x":1,"y":644,"w":158,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":130},
+	"sourceSize": {"w":158,"h":130}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0022",
+	"frame": {"x":1,"y":511,"w":160,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":131},
+	"sourceSize": {"w":160,"h":131}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0023",
+	"frame": {"x":1,"y":511,"w":160,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":131},
+	"sourceSize": {"w":160,"h":131}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0024",
+	"frame": {"x":1,"y":382,"w":161,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":127},
+	"sourceSize": {"w":161,"h":127}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0025",
+	"frame": {"x":1,"y":382,"w":161,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":127},
+	"sourceSize": {"w":161,"h":127}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0026",
+	"frame": {"x":1,"y":255,"w":162,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":125},
+	"sourceSize": {"w":162,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0027",
+	"frame": {"x":1,"y":255,"w":162,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":125},
+	"sourceSize": {"w":162,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0028",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0029",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0030",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0031",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0032",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0033",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+},
+{
+	"filename": "EW_AnimalGame_Lions_Baby_v04_SM/0034",
+	"frame": {"x":1,"y":1,"w":163,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":125},
+	"sourceSize": {"w":163,"h":125}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "baby_lion.png",
+	"format": "RGBA8888",
+	"size": {"w":165,"h":906},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:1d1f9e3afe568c6b0253c09d33b8dedd:329312fbfb5c60a4a08f0df118c18ed2:88fcb2ea3a980a2711f6bdfdccd45156$"
+}
+}

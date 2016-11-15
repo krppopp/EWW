@@ -1,21 +1,23 @@
 {  
    "sprites":[  
       {  
-         "playButton":"play",
-         "titleImg":"bg1",
+         "playButton":"playbtns",
+         "titleImg":"backgrond",
+         "titleChara": "elmo",
+         "logo": "logo",
+         "title": "title",
+         "extra":"drawings",
          "skipButton":"skip",
-         "introBG":"bg2"
+         "introBG":"bg2",
+         "exitButton":"exitbtns"
       }
    ],
    "audio":[  
       {  
-         "mainMenuAudio":"",
+         "mainMenuAudio":"mainsong",
          "introAudio":"",
          "transitionAudio":"TransitionSwish",
-         "genericLevelAudio":[  
-            "",
-            ""
-         ],
+         "genericLevelAudio":"gameloop",
          "wrongAnswerAudio":"WrongAnswer",
          "correctAnswerAudio":"CorrectAnswer",
          "levelCompleteAudio":[  
@@ -117,8 +119,8 @@
             "Background":"bg1",
             "Sets":[  
                [  
-                  "s_blue",
-                  "l_blue",
+                  "baby_lion",
+                  "adult_lion",
                   "lionbaby",
                   "lionadult",
                   "liontogether"
@@ -359,8 +361,8 @@
                   "zebratogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
+                  "baby_lion",
+                  "adult_lion",
                   "lionbaby",
                   "lionadult",
                   "liontogether"
@@ -566,8 +568,8 @@
                   "kangarootogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
+                  "baby_lion",
+                  "adult_lion",
                   "lionbaby",
                   "lionadult",
                   "liontogether"
