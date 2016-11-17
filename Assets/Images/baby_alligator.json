@@ -1,7 +1,7 @@
 {"frames": [
 
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0000",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -9,7 +9,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0001",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -17,7 +17,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0002",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -25,7 +25,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0003",
+	"filename": "baby_alligator",
 	"frame": {"x":177,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -33,7 +33,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0004",
+	"filename": "baby_alligator",
 	"frame": {"x":348,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -41,7 +41,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0005",
+	"filename": "baby_alligator",
 	"frame": {"x":519,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -49,7 +49,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0006",
+	"filename": "baby_alligator",
 	"frame": {"x":690,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -57,7 +57,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0007",
+	"filename": "baby_alligator",
 	"frame": {"x":1,"y":55,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -65,7 +65,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0008",
+	"filename": "baby_alligator",
 	"frame": {"x":172,"y":55,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -73,7 +73,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0009",
+	"filename": "baby_alligator",
 	"frame": {"x":343,"y":55,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -81,7 +81,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0010",
+	"filename": "baby_alligator",
 	"frame": {"x":514,"y":55,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -89,7 +89,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0011",
+	"filename": "baby_alligator",
 	"frame": {"x":685,"y":55,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -97,7 +97,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0012",
+	"filename": "baby_alligator",
 	"frame": {"x":1,"y":109,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -105,7 +105,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0013",
+	"filename": "baby_alligator",
 	"frame": {"x":172,"y":109,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -113,7 +113,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0014",
+	"filename": "baby_alligator",
 	"frame": {"x":343,"y":109,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -121,7 +121,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0015",
+	"filename": "baby_alligator",
 	"frame": {"x":514,"y":109,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -129,7 +129,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0016",
+	"filename": "baby_alligator",
 	"frame": {"x":685,"y":109,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -137,7 +137,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0017",
+	"filename": "baby_alligator",
 	"frame": {"x":1,"y":163,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -145,7 +145,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0018",
+	"filename": "baby_alligator",
 	"frame": {"x":173,"y":163,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -153,7 +153,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0019",
+	"filename": "baby_alligator",
 	"frame": {"x":345,"y":163,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -161,7 +161,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0020",
+	"filename": "baby_alligator",
 	"frame": {"x":517,"y":163,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -169,7 +169,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0021",
+	"filename": "baby_alligator",
 	"frame": {"x":689,"y":163,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -177,7 +177,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0022",
+	"filename": "baby_alligator",
 	"frame": {"x":1,"y":217,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -185,7 +185,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0023",
+	"filename": "baby_alligator",
 	"frame": {"x":173,"y":217,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -193,7 +193,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0024",
+	"filename": "baby_alligator",
 	"frame": {"x":345,"y":217,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -201,7 +201,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0025",
+	"filename": "baby_alligator",
 	"frame": {"x":517,"y":217,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -209,7 +209,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0026",
+	"filename": "baby_alligator",
 	"frame": {"x":689,"y":217,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -217,7 +217,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0027",
+	"filename": "baby_alligator",
 	"frame": {"x":1,"y":271,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -225,7 +225,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0028",
+	"filename": "baby_alligator",
 	"frame": {"x":173,"y":271,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -233,7 +233,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0029",
+	"filename": "baby_alligator",
 	"frame": {"x":345,"y":271,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -241,7 +241,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0030",
+	"filename": "baby_alligator",
 	"frame": {"x":517,"y":271,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -249,7 +249,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0031",
+	"filename": "baby_alligator",
 	"frame": {"x":689,"y":271,"w":170,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -257,7 +257,7 @@
 	"sourceSize": {"w":170,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0032",
+	"filename": "baby_alligator",
 	"frame": {"x":1,"y":325,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -265,7 +265,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0033",
+	"filename": "baby_alligator",
 	"frame": {"x":172,"y":325,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -273,7 +273,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0034",
+	"filename": "baby_alligator",
 	"frame": {"x":343,"y":325,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -281,7 +281,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0035",
+	"filename": "baby_alligator",
 	"frame": {"x":514,"y":325,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -289,7 +289,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0036",
+	"filename": "baby_alligator",
 	"frame": {"x":685,"y":325,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -297,7 +297,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0037",
+	"filename": "baby_alligator",
 	"frame": {"x":1,"y":379,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -305,7 +305,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0038",
+	"filename": "baby_alligator",
 	"frame": {"x":172,"y":379,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -313,7 +313,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0039",
+	"filename": "baby_alligator",
 	"frame": {"x":343,"y":379,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -321,7 +321,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0040",
+	"filename": "baby_alligator",
 	"frame": {"x":514,"y":379,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -329,7 +329,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0041",
+	"filename": "baby_alligator",
 	"frame": {"x":685,"y":379,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -337,7 +337,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0042",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -345,7 +345,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0043",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -353,7 +353,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0044",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -361,7 +361,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0045",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -369,7 +369,14 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0046",
+	"filename": "baby_alligator",
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":52},
+	"sourceSize": {"w":169,"h":52}
+},
+{
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -377,7 +384,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0047",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -385,7 +392,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0048",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,
@@ -393,15 +400,7 @@
 	"sourceSize": {"w":169,"h":52}
 },
 {
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0049",
-	"frame": {"x":6,"y":1,"w":169,"h":52},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":52},
-	"sourceSize": {"w":169,"h":52}
-},
-{
-	"filename": "EW_AnimalGame_alligators_Baby_v03_SM/Chars scaled to 52% to fit smaller 1024 px stage/rk_0050",
+	"filename": "baby_alligator",
 	"frame": {"x":6,"y":1,"w":169,"h":52},
 	"rotated": false,
 	"trimmed": false,

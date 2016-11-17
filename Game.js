@@ -68,13 +68,13 @@ EWW.Game.prototype = {
             game.physics.arcade.overlap(game.matchObjects, game.matchObjects, game.matchObjCol, null, this);
         }
     }
-    , timeOut: function(){
+    , timeOut: function () {
         var game = this;
         console.log("timeout");
         clearTimeout(game.timeOutHandler);
         game.timeOutHandler = setTimeout((game.timeOut), 12000);
-    }    
-    , answersTimeOut: function(){
+    }
+    , answersTimeOut: function () {
         var game = this;
         console.log("timeout");
         clearTimeout(game.timeOutHandler);
@@ -97,28 +97,30 @@ EWW.Game.prototype = {
         game.rightAnswers = 0;
         var tempRoundNum = roundToPlay;
         game.lastRound = tempRoundNum;
-        if(tempRoundNum == 0){
+        if (tempRoundNum == 0) {
             game.matchNum = 2;
-        } else{
+        }
+        else {
             game.matchNum = 3;
-        } 
-        if(tempRoundNum == 0){
+        }
+        if (tempRoundNum == 0) {
             game.posNum = 1;
-        } else{
+        }
+        else {
             game.posNum = 2;
         }
         var bg = game.add.sprite(0, 0, game.roundDesign[0][roundToPlay][game.set].Background);
-         if(!window.doNotDisplayClose){
-            game.exitButton = game.add.sprite(game.world.width*.9, game.world.height*.02, game.levelData.sprites[0].exitButton,0);    
+        if (!window.doNotDisplayClose) {
+            game.exitButton = game.add.sprite(game.world.width * .9, game.world.height * .02, game.levelData.sprites[0].exitButton, 0);
             game.exitButton.inputEnabled = true;
-            game.exitButton.events.onInputOver.add(function(sprite){
-                sprite.frame =1;
+            game.exitButton.events.onInputOver.add(function (sprite) {
+                sprite.frame = 1;
             })
-            game.exitButton.events.onInputDown.add(function(sprite){
+            game.exitButton.events.onInputDown.add(function (sprite) {
                 sprite.frame = 2;
                 window.close();
             })
-            game.exitButton.events.onInputOut.add(function(sprite){
+            game.exitButton.events.onInputOut.add(function (sprite) {
                 sprite.frame = 0;
             })
         }
@@ -149,29 +151,31 @@ EWW.Game.prototype = {
         //            }
         //creates the items, based on the round number
         for (var i = 0; i < game.matchNum; i++) {
-            if(game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_lion"){
-                var newMatchObj = game.matchObjects.create(EWW.matchObjPosX, game.world.height * EWW.roundYPos[game.posNum-1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][0], 0);
-            } else{
-                var newMatchObj = game.matchObjects.create(EWW.matchObjPosX, game.world.height * EWW.roundYPos[game.posNum-1][i], 'sprites', game.roundDesign[0][roundToPlay][game.set].Sets[i][0]);
+            if (game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_lion" || game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_alligator" || game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_beaver" || game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_kangaroo" || game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_bird") {
+                var newMatchObj = game.matchObjects.create(EWW.matchObjPosX, game.world.height * EWW.roundYPos[game.posNum - 1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][0], 0);
+            }
+            else {
+                var newMatchObj = game.matchObjects.create(EWW.matchObjPosX, game.world.height * EWW.roundYPos[game.posNum - 1][i], 'sprites', game.roundDesign[0][roundToPlay][game.set].Sets[i][0]);
             }
             newMatchObj.inputEnabled = true;
             game.matchSound[newMatchObj.z] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][2]);
-            newMatchObj.events.onInputDown.add(function(sprite){
+            newMatchObj.events.onInputDown.add(function (sprite) {
                 game.matchSound[sprite.z].play();
             })
             game.add.tween(newMatchObj.scale).from({
                 x: 0
                 , y: 0
             }, 1000, "Elastic", true);
-            if(game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_lion"){
+            if (game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_lion" || game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_alligator" || game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_beaver" || game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_kangaroo" || game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_bird") {
                 console.log("y");
-                var newStaticObj = game.staticObjects.create(EWW.staticObjPosX, game.world.height * EWW.staticRoundYPos[game.posNum-1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][1], 0);
-            }else{
-                var newStaticObj = game.staticObjects.create(EWW.staticObjPosX, game.world.height * EWW.staticRoundYPos[game.posNum-1][i], 'sprites', game.roundDesign[0][roundToPlay][game.set].Sets[i][1]);
+                var newStaticObj = game.staticObjects.create(EWW.staticObjPosX, game.world.height * EWW.staticRoundYPos[game.posNum - 1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][1], 0);
+            }
+            else {
+                var newStaticObj = game.staticObjects.create(EWW.staticObjPosX, game.world.height * EWW.staticRoundYPos[game.posNum - 1][i], 'sprites', game.roundDesign[0][roundToPlay][game.set].Sets[i][1]);
             }
             newStaticObj.inputEnabled = true;
             game.staticSound[newStaticObj.z] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][3]);
-            newStaticObj.events.onInputDown.add(function(sprite){
+            newStaticObj.events.onInputDown.add(function (sprite) {
                 game.staticSound[sprite.z].play();
             });
             game.add.tween(newStaticObj.scale).from({
@@ -220,6 +224,11 @@ EWW.Game.prototype = {
             }
         });
         game.matchObjects.onChildInputOver.add(function (sprite) {
+            //game.runSpriteAnimation(sprite);
+            //nned to find a way to find the sheets frame number without manually inserting it
+            sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
+            sprite.animations.play('animate');
+            
             if (!game.follow) {
                 game.hoverTween = game.add.tween(sprite).to({
                     angle: [5, -5, 5, -5, 5, -5, 0]
@@ -239,11 +248,17 @@ EWW.Game.prototype = {
     //remove all things at the start of a new round
     
     , removeThings: function () {
-            var game = this;
-            game.world.removeAll();
-        }
-        //function to run when two items are colliding
-        
+        var game = this;
+        game.world.removeAll();
+    }
+    , runSpriteAnimation: function (mySprite) {
+        var game = this;
+        mySprite.animations.add(('animate', Phaser.Animation.generateFrameNames('animate_', 2, 12), 10, true));
+        console.log(mySprite.animations.frame('animate'));
+        mySprite.animations.play('animate');
+    }
+     //function to run when two items are colliding
+    
     , matchChara: function (matchObj, staticObj) {
             var game = this;
             //if the two items match
@@ -267,7 +282,7 @@ EWW.Game.prototype = {
                 game.follow = false;
                 matchObj.alpha = 1;
                 game.activeObject = null;
-                game.correctTween.onComplete.add(function(){
+                game.correctTween.onComplete.add(function () {
                     game.correctSound.play();
                 })
                 game.correctSound.onStop.add(function (tween) {
@@ -275,7 +290,7 @@ EWW.Game.prototype = {
                         game.wrongAnswers = 0;
                         if (game.roundNum < game.roundDesign[0].length - 1) {
                             game.roundNum++;
-                            game.set = game.rnd.integerInRange(0, game.roundDesign[0][game.roundNum].length-1);
+                            game.set = game.rnd.integerInRange(0, game.roundDesign[0][game.roundNum].length - 1);
                             var bg = game.add.sprite(0, 0, game.roundDesign[0][game.roundNum][game.set].Background);
                             var BGTween = game.add.tween(bg).from({
                                 x: -game.world.width - 1000
@@ -291,7 +306,7 @@ EWW.Game.prototype = {
                                 console.log(game.lastRound);
                                 console.log(nextRound);
                             } while (nextRound == game.lastRound);
-                            game.set = game.rnd.integerInRange(0, game.roundDesign[0][nextRound].length-1);
+                            game.set = game.rnd.integerInRange(0, game.roundDesign[0][nextRound].length - 1);
                             var bg = game.add.sprite(0, 0, game.roundDesign[0][nextRound][game.set].Background);
                             var BGTween = game.add.tween(bg).from({
                                 x: -game.world.width - 1000
@@ -305,12 +320,12 @@ EWW.Game.prototype = {
                         game.transitionSound.play();
                     }
                 });
-            }//otherwise
+            } //otherwise
             else {
                 game.wrongSound.play();
                 if (game.clickNum == 0 || !Phaser.Device.desktop) {
                     matchObj.x = EWW.matchObjPosX;
-                    matchObj.y = (game.world.height * EWW.roundYPos[game.posNum-1][matchObj.z]);
+                    matchObj.y = (game.world.height * EWW.roundYPos[game.posNum - 1][matchObj.z]);
                     game.wrongAnswers++;
                     if (game.wrongAnswers == 1) {
                         //game.sfx.play(WA1);
@@ -343,7 +358,7 @@ EWW.Game.prototype = {
             if (game.clickNum == 0) {
                 game.wrongAnswers++;
                 matchObj.x = EWW.matchObjPosX;
-                matchObj.y = (game.world.height * EWW.roundYPos[game.posNum-1][matchObj.z]);
+                matchObj.y = (game.world.height * EWW.roundYPos[game.posNum - 1][matchObj.z]);
                 if (game.wrongAnswers == 1) {
                     //game.sfx.play(WA1);
                 }
@@ -424,17 +439,15 @@ EWW.Game.prototype = {
             scaleTween2.yoyo(true, 200);
         });
     }
-, 
- randomBag: function(myArray){
+    , randomBag: function (myArray) {
         var game = this;
         var newArray = Phaser.ArrayUtils.shuffle(myArray);
         console.log(newArray);
-    } 
-    ,removeFromArray: function(result, myArray){
+    }
+    , removeFromArray: function (result, myArray) {
         var game = this;
         console.log("HEY");
         result = myArray.shift();
         console.log(result);
     }
-
 };

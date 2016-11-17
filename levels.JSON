@@ -84,8 +84,8 @@
                   "skunktogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
+                  "baby_bird",
+                  "adult_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
@@ -98,8 +98,8 @@
             "Background":"bg2",
             "Sets":[  
                [  
-                  "s_blue",
-                  "l_blue",
+                  "baby_beaver",
+                  "adult_beaver",
                   "beaverbaby",
                   "beaveradult",
                   "beavertogether"
@@ -247,8 +247,8 @@
                   "skunktogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
+                  "baby_bird",
+                  "adult_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
@@ -312,8 +312,8 @@
                   "owltogether"
                ],
                [  
-                  "s_pink",
-                  "l_pink",
+                  "baby_bird",
+                  "adult_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
@@ -382,15 +382,15 @@
             "Background":"bg2",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
+                  "baby_beaver",
+                  "adult_beaver",
                   "beaverbaby",
                   "beaveradult",
                   "beavertogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
+                  "baby_alligator",
+                  "adult_alligator",
                   "alligatorbaby",
                   "alligatoradult",
                   "alligatortogether"
@@ -419,8 +419,8 @@
                   "puffintogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
+                  "baby_bird",
+                  "adult_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
@@ -447,8 +447,8 @@
                   "sealtogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
+                  "baby_kangaroo",
+                  "adult_kangaroo",
                   "kangaroobaby",
                   "kangarooadult",
                   "kangarootogether"
@@ -468,8 +468,8 @@
             "Background":"bg3",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
+                  "baby_alligator",
+                  "adult_alligator",
                   "alligatorbaby",
                   "alligatoradult",
                   "alligatortogether"
@@ -496,8 +496,8 @@
             "Background":"bg1",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
+                  "baby_beaver",
+                  "adult_beaver",
                   "beaverbaby",
                   "beaveradult",
                   "beavertogether"
@@ -561,8 +561,8 @@
                   "owltogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
+                  "baby_kangaroo",
+                  "adult_kangaroo",
                   "kangaroobaby",
                   "kangarooadult",
                   "kangarootogether"
@@ -617,8 +617,8 @@
                   "fishtogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
+                  "baby_alligator",
+                  "adult_alligator",
                   "alligatorbaby",
                   "alligatoradult",
                   "alligatortogether"
@@ -652,8 +652,8 @@
                   "seahorsetogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
+                  "baby_bird",
+                  "adult_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
