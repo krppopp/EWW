@@ -1,7 +1,7 @@
 {"frames": [
 
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0000",
+	"filename": "adultbaby_bird/0000",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -9,7 +9,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0001",
+	"filename": "adultbaby_bird/0001",
 	"frame": {"x":376,"y":1086,"w":373,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -17,7 +17,7 @@
 	"sourceSize": {"w":373,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0002",
+	"filename": "adultbaby_bird/0002",
 	"frame": {"x":1,"y":1519,"w":373,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -25,7 +25,7 @@
 	"sourceSize": {"w":373,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0003",
+	"filename": "adultbaby_bird/0003",
 	"frame": {"x":1,"y":1947,"w":372,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -33,7 +33,7 @@
 	"sourceSize": {"w":372,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0004",
+	"filename": "adultbaby_bird/0004",
 	"frame": {"x":1,"y":1947,"w":372,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -41,7 +41,7 @@
 	"sourceSize": {"w":372,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0005",
+	"filename": "adultbaby_bird/0005",
 	"frame": {"x":1,"y":2161,"w":372,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -49,7 +49,7 @@
 	"sourceSize": {"w":372,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0006",
+	"filename": "adultbaby_bird/0006",
 	"frame": {"x":376,"y":1943,"w":371,"h":211},
 	"rotated": false,
 	"trimmed": false,
@@ -57,7 +57,7 @@
 	"sourceSize": {"w":371,"h":211}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0007",
+	"filename": "adultbaby_bird/0007",
 	"frame": {"x":749,"y":2363,"w":369,"h":210},
 	"rotated": false,
 	"trimmed": false,
@@ -65,7 +65,7 @@
 	"sourceSize": {"w":369,"h":210}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0008",
+	"filename": "adultbaby_bird/0008",
 	"frame": {"x":751,"y":1510,"w":370,"h":211},
 	"rotated": false,
 	"trimmed": false,
@@ -73,7 +73,7 @@
 	"sourceSize": {"w":370,"h":211}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0009",
+	"filename": "adultbaby_bird/0009",
 	"frame": {"x":1126,"y":868,"w":371,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -81,7 +81,7 @@
 	"sourceSize": {"w":371,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0010",
+	"filename": "adultbaby_bird/0010",
 	"frame": {"x":1,"y":2375,"w":371,"h":213},
 	"rotated": false,
 	"trimmed": false,
@@ -89,7 +89,7 @@
 	"sourceSize": {"w":371,"h":213}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0011",
+	"filename": "adultbaby_bird/0011",
 	"frame": {"x":1504,"y":218,"w":372,"h":214},
 	"rotated": false,
 	"trimmed": false,
@@ -97,7 +97,7 @@
 	"sourceSize": {"w":372,"h":214}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0012",
+	"filename": "adultbaby_bird/0012",
 	"frame": {"x":752,"y":652,"w":373,"h":214},
 	"rotated": false,
 	"trimmed": false,
@@ -105,7 +105,7 @@
 	"sourceSize": {"w":373,"h":214}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0013",
+	"filename": "adultbaby_bird/0013",
 	"frame": {"x":377,"y":435,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -113,7 +113,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0014",
+	"filename": "adultbaby_bird/0014",
 	"frame": {"x":754,"y":218,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -121,7 +121,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0015",
+	"filename": "adultbaby_bird/0015",
 	"frame": {"x":1130,"y":1,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -129,7 +129,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0016",
+	"filename": "adultbaby_bird/0016",
 	"frame": {"x":1,"y":869,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -137,7 +137,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0017",
+	"filename": "adultbaby_bird/0017",
 	"frame": {"x":377,"y":652,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -145,7 +145,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0018",
+	"filename": "adultbaby_bird/0018",
 	"frame": {"x":752,"y":435,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -153,7 +153,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0019",
+	"filename": "adultbaby_bird/0019",
 	"frame": {"x":1129,"y":218,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -161,7 +161,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0020",
+	"filename": "adultbaby_bird/0020",
 	"frame": {"x":1505,"y":1,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -169,7 +169,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0021",
+	"filename": "adultbaby_bird/0021",
 	"frame": {"x":1,"y":1086,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -177,7 +177,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0022",
+	"filename": "adultbaby_bird/0022",
 	"frame": {"x":378,"y":1,"w":374,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -185,7 +185,7 @@
 	"sourceSize": {"w":374,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0023",
+	"filename": "adultbaby_bird/0023",
 	"frame": {"x":1,"y":1,"w":375,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -193,7 +193,7 @@
 	"sourceSize": {"w":375,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0024",
+	"filename": "adultbaby_bird/0024",
 	"frame": {"x":1,"y":218,"w":375,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -201,7 +201,7 @@
 	"sourceSize": {"w":375,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0025",
+	"filename": "adultbaby_bird/0025",
 	"frame": {"x":1,"y":435,"w":374,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -209,7 +209,7 @@
 	"sourceSize": {"w":374,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0026",
+	"filename": "adultbaby_bird/0026",
 	"frame": {"x":378,"y":218,"w":374,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -217,7 +217,7 @@
 	"sourceSize": {"w":374,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0027",
+	"filename": "adultbaby_bird/0027",
 	"frame": {"x":754,"y":1,"w":374,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -225,7 +225,7 @@
 	"sourceSize": {"w":374,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0028",
+	"filename": "adultbaby_bird/0028",
 	"frame": {"x":1,"y":652,"w":374,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -233,7 +233,7 @@
 	"sourceSize": {"w":374,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0029",
+	"filename": "adultbaby_bird/0029",
 	"frame": {"x":376,"y":869,"w":373,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -241,7 +241,7 @@
 	"sourceSize": {"w":373,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0030",
+	"filename": "adultbaby_bird/0030",
 	"frame": {"x":1127,"y":435,"w":372,"h":215},
 	"rotated": false,
 	"trimmed": false,
@@ -249,7 +249,7 @@
 	"sourceSize": {"w":372,"h":215}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0031",
+	"filename": "adultbaby_bird/0031",
 	"frame": {"x":1,"y":1303,"w":372,"h":214},
 	"rotated": false,
 	"trimmed": false,
@@ -257,7 +257,7 @@
 	"sourceSize": {"w":372,"h":214}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0032",
+	"filename": "adultbaby_bird/0032",
 	"frame": {"x":1127,"y":652,"w":371,"h":214},
 	"rotated": false,
 	"trimmed": false,
@@ -265,7 +265,7 @@
 	"sourceSize": {"w":371,"h":214}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0033",
+	"filename": "adultbaby_bird/0033",
 	"frame": {"x":1,"y":2590,"w":370,"h":214},
 	"rotated": false,
 	"trimmed": false,
@@ -273,7 +273,7 @@
 	"sourceSize": {"w":370,"h":214}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0034",
+	"filename": "adultbaby_bird/0034",
 	"frame": {"x":1,"y":2806,"w":370,"h":213},
 	"rotated": false,
 	"trimmed": false,
@@ -281,7 +281,7 @@
 	"sourceSize": {"w":370,"h":213}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0035",
+	"filename": "adultbaby_bird/0035",
 	"frame": {"x":376,"y":1513,"w":371,"h":213},
 	"rotated": false,
 	"trimmed": false,
@@ -289,7 +289,7 @@
 	"sourceSize": {"w":371,"h":213}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0036",
+	"filename": "adultbaby_bird/0036",
 	"frame": {"x":376,"y":1728,"w":371,"h":213},
 	"rotated": false,
 	"trimmed": false,
@@ -297,7 +297,7 @@
 	"sourceSize": {"w":371,"h":213}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0037",
+	"filename": "adultbaby_bird/0037",
 	"frame": {"x":751,"y":1082,"w":371,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -305,7 +305,7 @@
 	"sourceSize": {"w":371,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0038",
+	"filename": "adultbaby_bird/0038",
 	"frame": {"x":751,"y":1296,"w":371,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -313,7 +313,7 @@
 	"sourceSize": {"w":371,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0039",
+	"filename": "adultbaby_bird/0039",
 	"frame": {"x":1123,"y":1510,"w":370,"h":211},
 	"rotated": false,
 	"trimmed": false,
@@ -321,7 +321,7 @@
 	"sourceSize": {"w":370,"h":211}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0040",
+	"filename": "adultbaby_bird/0040",
 	"frame": {"x":749,"y":2151,"w":370,"h":210},
 	"rotated": false,
 	"trimmed": false,
@@ -329,7 +329,7 @@
 	"sourceSize": {"w":370,"h":210}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0041",
+	"filename": "adultbaby_bird/0041",
 	"frame": {"x":749,"y":2575,"w":369,"h":209},
 	"rotated": false,
 	"trimmed": false,
@@ -337,7 +337,7 @@
 	"sourceSize": {"w":369,"h":209}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0042",
+	"filename": "adultbaby_bird/0042",
 	"frame": {"x":1120,"y":2782,"w":368,"h":209},
 	"rotated": false,
 	"trimmed": false,
@@ -345,7 +345,7 @@
 	"sourceSize": {"w":368,"h":209}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0043",
+	"filename": "adultbaby_bird/0043",
 	"frame": {"x":1493,"y":1904,"w":367,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -353,7 +353,7 @@
 	"sourceSize": {"w":367,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0044",
+	"filename": "adultbaby_bird/0044",
 	"frame": {"x":1493,"y":2114,"w":367,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -361,7 +361,7 @@
 	"sourceSize": {"w":367,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0045",
+	"filename": "adultbaby_bird/0045",
 	"frame": {"x":1493,"y":2324,"w":367,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -369,7 +369,7 @@
 	"sourceSize": {"w":367,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0046",
+	"filename": "adultbaby_bird/0046",
 	"frame": {"x":1493,"y":2534,"w":367,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -377,7 +377,7 @@
 	"sourceSize": {"w":367,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0047",
+	"filename": "adultbaby_bird/0047",
 	"frame": {"x":1491,"y":2744,"w":367,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -385,7 +385,7 @@
 	"sourceSize": {"w":367,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0048",
+	"filename": "adultbaby_bird/0048",
 	"frame": {"x":1490,"y":2954,"w":367,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -393,7 +393,7 @@
 	"sourceSize": {"w":367,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0049",
+	"filename": "adultbaby_bird/0049",
 	"frame": {"x":1496,"y":1484,"w":368,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -401,7 +401,7 @@
 	"sourceSize": {"w":368,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0050",
+	"filename": "adultbaby_bird/0050",
 	"frame": {"x":748,"y":2786,"w":370,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -409,7 +409,7 @@
 	"sourceSize": {"w":370,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0051",
+	"filename": "adultbaby_bird/0051",
 	"frame": {"x":1121,"y":2360,"w":370,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -417,7 +417,7 @@
 	"sourceSize": {"w":370,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0052",
+	"filename": "adultbaby_bird/0052",
 	"frame": {"x":1504,"y":434,"w":370,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -425,7 +425,7 @@
 	"sourceSize": {"w":370,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0053",
+	"filename": "adultbaby_bird/0053",
 	"frame": {"x":1501,"y":644,"w":370,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -433,7 +433,7 @@
 	"sourceSize": {"w":370,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0054",
+	"filename": "adultbaby_bird/0054",
 	"frame": {"x":1499,"y":1064,"w":369,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -441,7 +441,7 @@
 	"sourceSize": {"w":369,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0055",
+	"filename": "adultbaby_bird/0055",
 	"frame": {"x":1496,"y":1274,"w":369,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -449,7 +449,7 @@
 	"sourceSize": {"w":369,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0056",
+	"filename": "adultbaby_bird/0056",
 	"frame": {"x":1495,"y":1694,"w":368,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -457,7 +457,7 @@
 	"sourceSize": {"w":368,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0057",
+	"filename": "adultbaby_bird/0057",
 	"frame": {"x":1500,"y":854,"w":370,"h":208},
 	"rotated": false,
 	"trimmed": false,
@@ -465,7 +465,7 @@
 	"sourceSize": {"w":370,"h":208}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0058",
+	"filename": "adultbaby_bird/0058",
 	"frame": {"x":1121,"y":2149,"w":370,"h":209},
 	"rotated": false,
 	"trimmed": false,
@@ -473,7 +473,7 @@
 	"sourceSize": {"w":370,"h":209}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0059",
+	"filename": "adultbaby_bird/0059",
 	"frame": {"x":1120,"y":2570,"w":369,"h":210},
 	"rotated": false,
 	"trimmed": false,
@@ -481,7 +481,7 @@
 	"sourceSize": {"w":369,"h":210}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0060",
+	"filename": "adultbaby_bird/0060",
 	"frame": {"x":1121,"y":1937,"w":370,"h":210},
 	"rotated": false,
 	"trimmed": false,
@@ -489,7 +489,7 @@
 	"sourceSize": {"w":370,"h":210}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0061",
+	"filename": "adultbaby_bird/0061",
 	"frame": {"x":375,"y":2370,"w":372,"h":211},
 	"rotated": false,
 	"trimmed": false,
@@ -497,7 +497,7 @@
 	"sourceSize": {"w":372,"h":211}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0062",
+	"filename": "adultbaby_bird/0062",
 	"frame": {"x":376,"y":1300,"w":373,"h":211},
 	"rotated": false,
 	"trimmed": false,
@@ -505,7 +505,7 @@
 	"sourceSize": {"w":373,"h":211}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0063",
+	"filename": "adultbaby_bird/0063",
 	"frame": {"x":1,"y":1733,"w":373,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -513,7 +513,7 @@
 	"sourceSize": {"w":373,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0064",
+	"filename": "adultbaby_bird/0064",
 	"frame": {"x":1124,"y":1296,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -521,7 +521,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0065",
+	"filename": "adultbaby_bird/0065",
 	"frame": {"x":749,"y":1723,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -529,7 +529,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0066",
+	"filename": "adultbaby_bird/0066",
 	"frame": {"x":375,"y":2156,"w":372,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -537,7 +537,7 @@
 	"sourceSize": {"w":372,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0067",
+	"filename": "adultbaby_bird/0067",
 	"frame": {"x":374,"y":2583,"w":372,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -545,7 +545,7 @@
 	"sourceSize": {"w":372,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0068",
+	"filename": "adultbaby_bird/0068",
 	"frame": {"x":373,"y":2797,"w":372,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -553,7 +553,7 @@
 	"sourceSize": {"w":372,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0069",
+	"filename": "adultbaby_bird/0069",
 	"frame": {"x":752,"y":868,"w":372,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -561,7 +561,7 @@
 	"sourceSize": {"w":372,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0070",
+	"filename": "adultbaby_bird/0070",
 	"frame": {"x":749,"y":1937,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -569,7 +569,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0071",
+	"filename": "adultbaby_bird/0071",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -577,7 +577,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0072",
+	"filename": "adultbaby_bird/0072",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -585,7 +585,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0073",
+	"filename": "adultbaby_bird/0073",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -593,7 +593,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0074",
+	"filename": "adultbaby_bird/0074",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -601,7 +601,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0075",
+	"filename": "adultbaby_bird/0075",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -609,7 +609,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0076",
+	"filename": "adultbaby_bird/0076",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -617,7 +617,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0077",
+	"filename": "adultbaby_bird/0077",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -625,7 +625,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0078",
+	"filename": "adultbaby_bird/0078",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -633,7 +633,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0079",
+	"filename": "adultbaby_bird/0079",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -641,7 +641,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0080",
+	"filename": "adultbaby_bird/0080",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -649,7 +649,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0081",
+	"filename": "adultbaby_bird/0081",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -657,7 +657,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0082",
+	"filename": "adultbaby_bird/0082",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -665,7 +665,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0083",
+	"filename": "adultbaby_bird/0083",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -673,7 +673,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0084",
+	"filename": "adultbaby_bird/0084",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -681,7 +681,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0085",
+	"filename": "adultbaby_bird/0085",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -689,7 +689,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0086",
+	"filename": "adultbaby_bird/0086",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -697,7 +697,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0087",
+	"filename": "adultbaby_bird/0087",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -705,7 +705,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0088",
+	"filename": "adultbaby_bird/0088",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -713,7 +713,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0089",
+	"filename": "adultbaby_bird/0089",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -721,7 +721,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0090",
+	"filename": "adultbaby_bird/0090",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -729,7 +729,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0091",
+	"filename": "adultbaby_bird/0091",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -737,7 +737,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0092",
+	"filename": "adultbaby_bird/0092",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -745,7 +745,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0093",
+	"filename": "adultbaby_bird/0093",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -753,7 +753,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0094",
+	"filename": "adultbaby_bird/0094",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -761,7 +761,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0095",
+	"filename": "adultbaby_bird/0095",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -769,7 +769,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0096",
+	"filename": "adultbaby_bird/0096",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -777,7 +777,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0097",
+	"filename": "adultbaby_bird/0097",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -785,7 +785,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0098",
+	"filename": "adultbaby_bird/0098",
 	"frame": {"x":1124,"y":1082,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,
@@ -793,7 +793,7 @@
 	"sourceSize": {"w":370,"h":212}
 },
 {
-	"filename": "EW_AnimalGame_birds_AdultBaby_03_SM/0099",
+	"filename": "adultbaby_bird/0099",
 	"frame": {"x":1121,"y":1723,"w":370,"h":212},
 	"rotated": false,
 	"trimmed": false,

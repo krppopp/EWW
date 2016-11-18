@@ -1,7 +1,7 @@
 {"frames": [
 
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0000",
+	"filename": "adult_kangaroo/0000",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -9,7 +9,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0001",
+	"filename": "adult_kangaroo/0001",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -17,7 +17,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0002",
+	"filename": "adult_kangaroo/0002",
 	"frame": {"x":224,"y":717,"w":224,"h":217},
 	"rotated": false,
 	"trimmed": false,
@@ -25,7 +25,7 @@
 	"sourceSize": {"w":224,"h":217}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0003",
+	"filename": "adult_kangaroo/0003",
 	"frame": {"x":224,"y":717,"w":224,"h":217},
 	"rotated": false,
 	"trimmed": false,
@@ -33,7 +33,7 @@
 	"sourceSize": {"w":224,"h":217}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0004",
+	"filename": "adult_kangaroo/0004",
 	"frame": {"x":1,"y":1186,"w":229,"h":197},
 	"rotated": false,
 	"trimmed": false,
@@ -41,7 +41,7 @@
 	"sourceSize": {"w":229,"h":197}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0005",
+	"filename": "adult_kangaroo/0005",
 	"frame": {"x":1,"y":1186,"w":229,"h":197},
 	"rotated": false,
 	"trimmed": false,
@@ -49,7 +49,7 @@
 	"sourceSize": {"w":229,"h":197}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0006",
+	"filename": "adult_kangaroo/0006",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -57,7 +57,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0007",
+	"filename": "adult_kangaroo/0007",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -65,7 +65,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0008",
+	"filename": "adult_kangaroo/0008",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -73,7 +73,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0009",
+	"filename": "adult_kangaroo/0009",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -81,7 +81,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0010",
+	"filename": "adult_kangaroo/0010",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -89,7 +89,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0011",
+	"filename": "adult_kangaroo/0011",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -97,7 +97,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0012",
+	"filename": "adult_kangaroo/0012",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -105,7 +105,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0013",
+	"filename": "adult_kangaroo/0013",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -113,7 +113,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0014",
+	"filename": "adult_kangaroo/0014",
 	"frame": {"x":216,"y":248,"w":221,"h":237},
 	"rotated": false,
 	"trimmed": false,
@@ -121,7 +121,7 @@
 	"sourceSize": {"w":221,"h":237}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0015",
+	"filename": "adult_kangaroo/0015",
 	"frame": {"x":216,"y":248,"w":221,"h":237},
 	"rotated": false,
 	"trimmed": false,
@@ -129,7 +129,7 @@
 	"sourceSize": {"w":221,"h":237}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0016",
+	"filename": "adult_kangaroo/0016",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -137,7 +137,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0017",
+	"filename": "adult_kangaroo/0017",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -145,7 +145,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0018",
+	"filename": "adult_kangaroo/0018",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -153,7 +153,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0019",
+	"filename": "adult_kangaroo/0019",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -161,7 +161,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0020",
+	"filename": "adult_kangaroo/0020",
 	"frame": {"x":220,"y":487,"w":216,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -169,7 +169,7 @@
 	"sourceSize": {"w":216,"h":228}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0021",
+	"filename": "adult_kangaroo/0021",
 	"frame": {"x":220,"y":487,"w":216,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -177,7 +177,7 @@
 	"sourceSize": {"w":216,"h":228}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0022",
+	"filename": "adult_kangaroo/0022",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -185,7 +185,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0023",
+	"filename": "adult_kangaroo/0023",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -193,7 +193,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0024",
+	"filename": "adult_kangaroo/0024",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -201,7 +201,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0025",
+	"filename": "adult_kangaroo/0025",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -209,7 +209,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0026",
+	"filename": "adult_kangaroo/0026",
 	"frame": {"x":1,"y":765,"w":221,"h":230},
 	"rotated": false,
 	"trimmed": false,
@@ -217,7 +217,7 @@
 	"sourceSize": {"w":221,"h":230}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0027",
+	"filename": "adult_kangaroo/0027",
 	"frame": {"x":1,"y":765,"w":221,"h":230},
 	"rotated": false,
 	"trimmed": false,
@@ -225,7 +225,7 @@
 	"sourceSize": {"w":221,"h":230}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0028",
+	"filename": "adult_kangaroo/0028",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -233,7 +233,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0029",
+	"filename": "adult_kangaroo/0029",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -241,7 +241,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0030",
+	"filename": "adult_kangaroo/0030",
 	"frame": {"x":216,"y":248,"w":221,"h":237},
 	"rotated": false,
 	"trimmed": false,
@@ -249,7 +249,7 @@
 	"sourceSize": {"w":221,"h":237}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0031",
+	"filename": "adult_kangaroo/0031",
 	"frame": {"x":216,"y":248,"w":221,"h":237},
 	"rotated": false,
 	"trimmed": false,
@@ -257,7 +257,7 @@
 	"sourceSize": {"w":221,"h":237}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0032",
+	"filename": "adult_kangaroo/0032",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -265,7 +265,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0033",
+	"filename": "adult_kangaroo/0033",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -273,7 +273,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0034",
+	"filename": "adult_kangaroo/0034",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -281,7 +281,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0035",
+	"filename": "adult_kangaroo/0035",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -289,7 +289,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0036",
+	"filename": "adult_kangaroo/0036",
 	"frame": {"x":220,"y":487,"w":216,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -297,7 +297,7 @@
 	"sourceSize": {"w":216,"h":228}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0037",
+	"filename": "adult_kangaroo/0037",
 	"frame": {"x":220,"y":487,"w":216,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -305,7 +305,7 @@
 	"sourceSize": {"w":216,"h":228}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0038",
+	"filename": "adult_kangaroo/0038",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -313,7 +313,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0039",
+	"filename": "adult_kangaroo/0039",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -321,7 +321,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0040",
+	"filename": "adult_kangaroo/0040",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -329,7 +329,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0041",
+	"filename": "adult_kangaroo/0041",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -337,7 +337,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0042",
+	"filename": "adult_kangaroo/0042",
 	"frame": {"x":1,"y":765,"w":221,"h":230},
 	"rotated": false,
 	"trimmed": false,
@@ -345,7 +345,7 @@
 	"sourceSize": {"w":221,"h":230}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0043",
+	"filename": "adult_kangaroo/0043",
 	"frame": {"x":1,"y":765,"w":221,"h":230},
 	"rotated": false,
 	"trimmed": false,
@@ -353,7 +353,7 @@
 	"sourceSize": {"w":221,"h":230}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0044",
+	"filename": "adult_kangaroo/0044",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -361,7 +361,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0045",
+	"filename": "adult_kangaroo/0045",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -369,7 +369,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0046",
+	"filename": "adult_kangaroo/0046",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -377,7 +377,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0047",
+	"filename": "adult_kangaroo/0047",
 	"frame": {"x":216,"y":248,"w":221,"h":237},
 	"rotated": false,
 	"trimmed": false,
@@ -385,7 +385,7 @@
 	"sourceSize": {"w":221,"h":237}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0048",
+	"filename": "adult_kangaroo/0048",
 	"frame": {"x":216,"y":248,"w":221,"h":237},
 	"rotated": false,
 	"trimmed": false,
@@ -393,7 +393,7 @@
 	"sourceSize": {"w":221,"h":237}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0049",
+	"filename": "adult_kangaroo/0049",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -401,7 +401,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0050",
+	"filename": "adult_kangaroo/0050",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -409,7 +409,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0051",
+	"filename": "adult_kangaroo/0051",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -417,7 +417,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0052",
+	"filename": "adult_kangaroo/0052",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -425,7 +425,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0053",
+	"filename": "adult_kangaroo/0053",
 	"frame": {"x":220,"y":487,"w":216,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -433,7 +433,7 @@
 	"sourceSize": {"w":216,"h":228}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0054",
+	"filename": "adult_kangaroo/0054",
 	"frame": {"x":220,"y":487,"w":216,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -441,7 +441,7 @@
 	"sourceSize": {"w":216,"h":228}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0055",
+	"filename": "adult_kangaroo/0055",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -449,7 +449,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0056",
+	"filename": "adult_kangaroo/0056",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -457,7 +457,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0057",
+	"filename": "adult_kangaroo/0057",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -465,7 +465,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0058",
+	"filename": "adult_kangaroo/0058",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -473,7 +473,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0059",
+	"filename": "adult_kangaroo/0059",
 	"frame": {"x":1,"y":765,"w":221,"h":230},
 	"rotated": false,
 	"trimmed": false,
@@ -481,7 +481,7 @@
 	"sourceSize": {"w":221,"h":230}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0060",
+	"filename": "adult_kangaroo/0060",
 	"frame": {"x":1,"y":765,"w":221,"h":230},
 	"rotated": false,
 	"trimmed": false,
@@ -489,7 +489,7 @@
 	"sourceSize": {"w":221,"h":230}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0061",
+	"filename": "adult_kangaroo/0061",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -497,7 +497,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0062",
+	"filename": "adult_kangaroo/0062",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -505,7 +505,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0063",
+	"filename": "adult_kangaroo/0063",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -513,7 +513,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0064",
+	"filename": "adult_kangaroo/0064",
 	"frame": {"x":216,"y":248,"w":221,"h":237},
 	"rotated": false,
 	"trimmed": false,
@@ -521,7 +521,7 @@
 	"sourceSize": {"w":221,"h":237}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0065",
+	"filename": "adult_kangaroo/0065",
 	"frame": {"x":216,"y":248,"w":221,"h":237},
 	"rotated": false,
 	"trimmed": false,
@@ -529,7 +529,7 @@
 	"sourceSize": {"w":221,"h":237}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0066",
+	"filename": "adult_kangaroo/0066",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -537,7 +537,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0067",
+	"filename": "adult_kangaroo/0067",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -545,7 +545,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0068",
+	"filename": "adult_kangaroo/0068",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -553,7 +553,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0069",
+	"filename": "adult_kangaroo/0069",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -561,7 +561,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0070",
+	"filename": "adult_kangaroo/0070",
 	"frame": {"x":220,"y":487,"w":216,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -569,7 +569,7 @@
 	"sourceSize": {"w":216,"h":228}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0071",
+	"filename": "adult_kangaroo/0071",
 	"frame": {"x":220,"y":487,"w":216,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -577,7 +577,7 @@
 	"sourceSize": {"w":216,"h":228}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0072",
+	"filename": "adult_kangaroo/0072",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -585,7 +585,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0073",
+	"filename": "adult_kangaroo/0073",
 	"frame": {"x":1,"y":273,"w":213,"h":248},
 	"rotated": false,
 	"trimmed": false,
@@ -593,7 +593,7 @@
 	"sourceSize": {"w":213,"h":248}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0074",
+	"filename": "adult_kangaroo/0074",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -601,7 +601,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0075",
+	"filename": "adult_kangaroo/0075",
 	"frame": {"x":1,"y":1,"w":211,"h":270},
 	"rotated": false,
 	"trimmed": false,
@@ -609,7 +609,7 @@
 	"sourceSize": {"w":211,"h":270}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0076",
+	"filename": "adult_kangaroo/0076",
 	"frame": {"x":1,"y":765,"w":221,"h":230},
 	"rotated": false,
 	"trimmed": false,
@@ -617,7 +617,7 @@
 	"sourceSize": {"w":221,"h":230}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0077",
+	"filename": "adult_kangaroo/0077",
 	"frame": {"x":1,"y":765,"w":221,"h":230},
 	"rotated": false,
 	"trimmed": false,
@@ -625,7 +625,7 @@
 	"sourceSize": {"w":221,"h":230}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0078",
+	"filename": "adult_kangaroo/0078",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -633,7 +633,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0079",
+	"filename": "adult_kangaroo/0079",
 	"frame": {"x":1,"y":997,"w":232,"h":187},
 	"rotated": false,
 	"trimmed": false,
@@ -641,7 +641,7 @@
 	"sourceSize": {"w":232,"h":187}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0080",
+	"filename": "adult_kangaroo/0080",
 	"frame": {"x":232,"y":1186,"w":227,"h":201},
 	"rotated": false,
 	"trimmed": false,
@@ -649,7 +649,7 @@
 	"sourceSize": {"w":227,"h":201}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0081",
+	"filename": "adult_kangaroo/0081",
 	"frame": {"x":232,"y":1186,"w":227,"h":201},
 	"rotated": false,
 	"trimmed": false,
@@ -657,7 +657,7 @@
 	"sourceSize": {"w":227,"h":201}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0082",
+	"filename": "adult_kangaroo/0082",
 	"frame": {"x":235,"y":936,"w":224,"h":216},
 	"rotated": false,
 	"trimmed": false,
@@ -665,7 +665,7 @@
 	"sourceSize": {"w":224,"h":216}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0083",
+	"filename": "adult_kangaroo/0083",
 	"frame": {"x":235,"y":936,"w":224,"h":216},
 	"rotated": false,
 	"trimmed": false,
@@ -673,7 +673,7 @@
 	"sourceSize": {"w":224,"h":216}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0084",
+	"filename": "adult_kangaroo/0084",
 	"frame": {"x":1,"y":523,"w":217,"h":240},
 	"rotated": false,
 	"trimmed": false,
@@ -681,7 +681,7 @@
 	"sourceSize": {"w":217,"h":240}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0085",
+	"filename": "adult_kangaroo/0085",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -689,7 +689,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0086",
+	"filename": "adult_kangaroo/0086",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -697,7 +697,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0087",
+	"filename": "adult_kangaroo/0087",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -705,7 +705,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0088",
+	"filename": "adult_kangaroo/0088",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -713,7 +713,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0089",
+	"filename": "adult_kangaroo/0089",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -721,7 +721,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0090",
+	"filename": "adult_kangaroo/0090",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -729,7 +729,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0091",
+	"filename": "adult_kangaroo/0091",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -737,7 +737,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0092",
+	"filename": "adult_kangaroo/0092",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -745,7 +745,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0093",
+	"filename": "adult_kangaroo/0093",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -753,7 +753,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0094",
+	"filename": "adult_kangaroo/0094",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -761,7 +761,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0095",
+	"filename": "adult_kangaroo/0095",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -769,7 +769,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0096",
+	"filename": "adult_kangaroo/0096",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -777,7 +777,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0097",
+	"filename": "adult_kangaroo/0097",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -785,7 +785,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0098",
+	"filename": "adult_kangaroo/0098",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,
@@ -793,7 +793,7 @@
 	"sourceSize": {"w":216,"h":245}
 },
 {
-	"filename": "EW_AnimalGame_kangaroos_adult_v03_SM/0099",
+	"filename": "adult_kangaroo/0099",
 	"frame": {"x":214,"y":1,"w":216,"h":245},
 	"rotated": false,
 	"trimmed": false,

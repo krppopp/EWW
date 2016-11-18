@@ -1,7 +1,7 @@
 {"frames": [
 
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0000",
+	"filename": "adultbaby_beaver/0000",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -9,7 +9,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0001",
+	"filename": "adultbaby_beaver/0001",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -17,7 +17,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0002",
+	"filename": "adultbaby_beaver/0002",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -25,7 +25,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0003",
+	"filename": "adultbaby_beaver/0003",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -33,7 +33,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0004",
+	"filename": "adultbaby_beaver/0004",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -41,7 +41,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0005",
+	"filename": "adultbaby_beaver/0005",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -49,7 +49,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0006",
+	"filename": "adultbaby_beaver/0006",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -57,7 +57,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0007",
+	"filename": "adultbaby_beaver/0007",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -65,7 +65,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0008",
+	"filename": "adultbaby_beaver/0008",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -73,7 +73,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0009",
+	"filename": "adultbaby_beaver/0009",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -81,7 +81,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0010",
+	"filename": "adultbaby_beaver/0010",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -89,7 +89,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0011",
+	"filename": "adultbaby_beaver/0011",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -97,7 +97,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0012",
+	"filename": "adultbaby_beaver/0012",
 	"frame": {"x":1,"y":804,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -105,7 +105,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0013",
+	"filename": "adultbaby_beaver/0013",
 	"frame": {"x":1,"y":804,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -113,7 +113,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0014",
+	"filename": "adultbaby_beaver/0014",
 	"frame": {"x":1,"y":918,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -121,7 +121,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0015",
+	"filename": "adultbaby_beaver/0015",
 	"frame": {"x":1,"y":1032,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -129,7 +129,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0016",
+	"filename": "adultbaby_beaver/0016",
 	"frame": {"x":1,"y":1146,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -137,7 +137,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0017",
+	"filename": "adultbaby_beaver/0017",
 	"frame": {"x":1,"y":1260,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -145,7 +145,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0018",
+	"filename": "adultbaby_beaver/0018",
 	"frame": {"x":1,"y":1374,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -153,7 +153,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0019",
+	"filename": "adultbaby_beaver/0019",
 	"frame": {"x":1,"y":1488,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -161,7 +161,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0020",
+	"filename": "adultbaby_beaver/0020",
 	"frame": {"x":1,"y":1602,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -169,7 +169,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0021",
+	"filename": "adultbaby_beaver/0021",
 	"frame": {"x":1,"y":1716,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -177,7 +177,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0022",
+	"filename": "adultbaby_beaver/0022",
 	"frame": {"x":1,"y":1830,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -185,7 +185,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0023",
+	"filename": "adultbaby_beaver/0023",
 	"frame": {"x":414,"y":457,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -193,7 +193,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0024",
+	"filename": "adultbaby_beaver/0024",
 	"frame": {"x":823,"y":457,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -201,7 +201,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0025",
+	"filename": "adultbaby_beaver/0025",
 	"frame": {"x":1232,"y":457,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -209,7 +209,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0026",
+	"filename": "adultbaby_beaver/0026",
 	"frame": {"x":1,"y":1944,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -217,7 +217,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0027",
+	"filename": "adultbaby_beaver/0027",
 	"frame": {"x":418,"y":115,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -225,7 +225,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0028",
+	"filename": "adultbaby_beaver/0028",
 	"frame": {"x":828,"y":115,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -233,7 +233,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0029",
+	"filename": "adultbaby_beaver/0029",
 	"frame": {"x":412,"y":571,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -241,7 +241,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0030",
+	"filename": "adultbaby_beaver/0030",
 	"frame": {"x":819,"y":1027,"w":405,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -249,7 +249,7 @@
 	"sourceSize": {"w":405,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0031",
+	"filename": "adultbaby_beaver/0031",
 	"frame": {"x":1641,"y":457,"w":403,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -257,7 +257,7 @@
 	"sourceSize": {"w":403,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0032",
+	"filename": "adultbaby_beaver/0032",
 	"frame": {"x":411,"y":1946,"w":404,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -265,7 +265,7 @@
 	"sourceSize": {"w":404,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0033",
+	"filename": "adultbaby_beaver/0033",
 	"frame": {"x":821,"y":571,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -273,7 +273,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0034",
+	"filename": "adultbaby_beaver/0034",
 	"frame": {"x":1238,"y":115,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -281,7 +281,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0035",
+	"filename": "adultbaby_beaver/0035",
 	"frame": {"x":1,"y":1,"w":415,"h":115},
 	"rotated": false,
 	"trimmed": false,
@@ -289,7 +289,7 @@
 	"sourceSize": {"w":415,"h":115}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0036",
+	"filename": "adultbaby_beaver/0036",
 	"frame": {"x":418,"y":1,"w":414,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -297,7 +297,7 @@
 	"sourceSize": {"w":414,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0037",
+	"filename": "adultbaby_beaver/0037",
 	"frame": {"x":1,"y":234,"w":411,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -305,7 +305,7 @@
 	"sourceSize": {"w":411,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0038",
+	"filename": "adultbaby_beaver/0038",
 	"frame": {"x":834,"y":1,"w":411,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -313,7 +313,7 @@
 	"sourceSize": {"w":411,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0039",
+	"filename": "adultbaby_beaver/0039",
 	"frame": {"x":1,"y":1,"w":415,"h":115},
 	"rotated": false,
 	"trimmed": false,
@@ -321,7 +321,7 @@
 	"sourceSize": {"w":415,"h":115}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0040",
+	"filename": "adultbaby_beaver/0040",
 	"frame": {"x":1,"y":118,"w":413,"h":114},
 	"rotated": false,
 	"trimmed": false,
@@ -329,7 +329,7 @@
 	"sourceSize": {"w":413,"h":114}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0041",
+	"filename": "adultbaby_beaver/0041",
 	"frame": {"x":1,"y":348,"w":411,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -337,7 +337,7 @@
 	"sourceSize": {"w":411,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0042",
+	"filename": "adultbaby_beaver/0042",
 	"frame": {"x":1247,"y":1,"w":410,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -345,7 +345,7 @@
 	"sourceSize": {"w":410,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0043",
+	"filename": "adultbaby_beaver/0043",
 	"frame": {"x":1,"y":462,"w":409,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -353,7 +353,7 @@
 	"sourceSize": {"w":409,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0044",
+	"filename": "adultbaby_beaver/0044",
 	"frame": {"x":1,"y":576,"w":409,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -361,7 +361,7 @@
 	"sourceSize": {"w":409,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0045",
+	"filename": "adultbaby_beaver/0045",
 	"frame": {"x":416,"y":229,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -369,7 +369,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0046",
+	"filename": "adultbaby_beaver/0046",
 	"frame": {"x":826,"y":229,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -377,7 +377,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0047",
+	"filename": "adultbaby_beaver/0047",
 	"frame": {"x":1236,"y":229,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -385,7 +385,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0048",
+	"filename": "adultbaby_beaver/0048",
 	"frame": {"x":820,"y":799,"w":406,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -393,7 +393,7 @@
 	"sourceSize": {"w":406,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0049",
+	"filename": "adultbaby_beaver/0049",
 	"frame": {"x":411,"y":1027,"w":406,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -401,7 +401,7 @@
 	"sourceSize": {"w":406,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0050",
+	"filename": "adultbaby_beaver/0050",
 	"frame": {"x":820,"y":913,"w":406,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -409,7 +409,7 @@
 	"sourceSize": {"w":406,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0051",
+	"filename": "adultbaby_beaver/0051",
 	"frame": {"x":818,"y":1716,"w":405,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -417,7 +417,7 @@
 	"sourceSize": {"w":405,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0052",
+	"filename": "adultbaby_beaver/0052",
 	"frame": {"x":818,"y":1830,"w":405,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -425,7 +425,7 @@
 	"sourceSize": {"w":405,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0053",
+	"filename": "adultbaby_beaver/0053",
 	"frame": {"x":1228,"y":799,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -433,7 +433,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0054",
+	"filename": "adultbaby_beaver/0054",
 	"frame": {"x":411,"y":1141,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -441,7 +441,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0055",
+	"filename": "adultbaby_beaver/0055",
 	"frame": {"x":1226,"y":1028,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -449,7 +449,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0056",
+	"filename": "adultbaby_beaver/0056",
 	"frame": {"x":1225,"y":1143,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -457,7 +457,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0057",
+	"filename": "adultbaby_beaver/0057",
 	"frame": {"x":1225,"y":1258,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -465,7 +465,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0058",
+	"filename": "adultbaby_beaver/0058",
 	"frame": {"x":1225,"y":1373,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -473,7 +473,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0059",
+	"filename": "adultbaby_beaver/0059",
 	"frame": {"x":1225,"y":1488,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -481,7 +481,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0060",
+	"filename": "adultbaby_beaver/0060",
 	"frame": {"x":1225,"y":1603,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -489,7 +489,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0061",
+	"filename": "adultbaby_beaver/0061",
 	"frame": {"x":1225,"y":1718,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -497,7 +497,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0062",
+	"filename": "adultbaby_beaver/0062",
 	"frame": {"x":1225,"y":1833,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -505,7 +505,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0063",
+	"filename": "adultbaby_beaver/0063",
 	"frame": {"x":817,"y":1948,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -513,7 +513,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0064",
+	"filename": "adultbaby_beaver/0064",
 	"frame": {"x":1223,"y":1948,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -521,7 +521,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0065",
+	"filename": "adultbaby_beaver/0065",
 	"frame": {"x":1629,"y":1948,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -529,7 +529,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0066",
+	"filename": "adultbaby_beaver/0066",
 	"frame": {"x":411,"y":1256,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -537,7 +537,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0067",
+	"filename": "adultbaby_beaver/0067",
 	"frame": {"x":411,"y":1371,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -545,7 +545,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0068",
+	"filename": "adultbaby_beaver/0068",
 	"frame": {"x":411,"y":1486,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -553,7 +553,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0069",
+	"filename": "adultbaby_beaver/0069",
 	"frame": {"x":411,"y":1601,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -561,7 +561,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0070",
+	"filename": "adultbaby_beaver/0070",
 	"frame": {"x":411,"y":1716,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -569,7 +569,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0071",
+	"filename": "adultbaby_beaver/0071",
 	"frame": {"x":411,"y":1831,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -577,7 +577,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0072",
+	"filename": "adultbaby_beaver/0072",
 	"frame": {"x":818,"y":1141,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -585,7 +585,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0073",
+	"filename": "adultbaby_beaver/0073",
 	"frame": {"x":818,"y":1256,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -593,7 +593,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0074",
+	"filename": "adultbaby_beaver/0074",
 	"frame": {"x":1639,"y":571,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -601,7 +601,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0075",
+	"filename": "adultbaby_beaver/0075",
 	"frame": {"x":1639,"y":686,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -609,7 +609,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0076",
+	"filename": "adultbaby_beaver/0076",
 	"frame": {"x":1635,"y":801,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -617,7 +617,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0077",
+	"filename": "adultbaby_beaver/0077",
 	"frame": {"x":1635,"y":916,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -625,7 +625,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0078",
+	"filename": "adultbaby_beaver/0078",
 	"frame": {"x":1632,"y":1031,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -633,7 +633,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0079",
+	"filename": "adultbaby_beaver/0079",
 	"frame": {"x":1631,"y":1146,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -641,7 +641,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0080",
+	"filename": "adultbaby_beaver/0080",
 	"frame": {"x":1631,"y":1261,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -649,7 +649,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0081",
+	"filename": "adultbaby_beaver/0081",
 	"frame": {"x":1631,"y":1376,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -657,7 +657,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0082",
+	"filename": "adultbaby_beaver/0082",
 	"frame": {"x":1631,"y":1491,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -665,7 +665,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0083",
+	"filename": "adultbaby_beaver/0083",
 	"frame": {"x":1631,"y":1606,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -673,7 +673,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0084",
+	"filename": "adultbaby_beaver/0084",
 	"frame": {"x":1631,"y":1721,"w":404,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -681,7 +681,7 @@
 	"sourceSize": {"w":404,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0085",
+	"filename": "adultbaby_beaver/0085",
 	"frame": {"x":818,"y":1371,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -689,7 +689,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0086",
+	"filename": "adultbaby_beaver/0086",
 	"frame": {"x":818,"y":1486,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -697,7 +697,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0087",
+	"filename": "adultbaby_beaver/0087",
 	"frame": {"x":818,"y":1601,"w":405,"h":113},
 	"rotated": false,
 	"trimmed": false,
@@ -705,7 +705,7 @@
 	"sourceSize": {"w":405,"h":113}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0088",
+	"filename": "adultbaby_beaver/0088",
 	"frame": {"x":1228,"y":914,"w":405,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -713,7 +713,7 @@
 	"sourceSize": {"w":405,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0089",
+	"filename": "adultbaby_beaver/0089",
 	"frame": {"x":1230,"y":571,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -721,7 +721,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0090",
+	"filename": "adultbaby_beaver/0090",
 	"frame": {"x":412,"y":685,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -729,7 +729,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0091",
+	"filename": "adultbaby_beaver/0091",
 	"frame": {"x":821,"y":685,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -737,7 +737,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0092",
+	"filename": "adultbaby_beaver/0092",
 	"frame": {"x":1230,"y":685,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -745,7 +745,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0093",
+	"filename": "adultbaby_beaver/0093",
 	"frame": {"x":411,"y":799,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -753,7 +753,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0094",
+	"filename": "adultbaby_beaver/0094",
 	"frame": {"x":411,"y":913,"w":407,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -761,7 +761,7 @@
 	"sourceSize": {"w":407,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0095",
+	"filename": "adultbaby_beaver/0095",
 	"frame": {"x":414,"y":343,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -769,7 +769,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0096",
+	"filename": "adultbaby_beaver/0096",
 	"frame": {"x":824,"y":343,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -777,7 +777,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0097",
+	"filename": "adultbaby_beaver/0097",
 	"frame": {"x":1234,"y":343,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -785,7 +785,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0098",
+	"filename": "adultbaby_beaver/0098",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -793,7 +793,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0099",
+	"filename": "adultbaby_beaver/0099",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -801,7 +801,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0100",
+	"filename": "adultbaby_beaver/0100",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -809,7 +809,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0101",
+	"filename": "adultbaby_beaver/0101",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -817,7 +817,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0102",
+	"filename": "adultbaby_beaver/0102",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
@@ -825,7 +825,7 @@
 	"sourceSize": {"w":408,"h":112}
 },
 {
-	"filename": "EW_AnimalGame_beavers_AdultBaby_versB_v02_SM/scaled to 67 % to fit smaller 1024 px stage/rk_0103",
+	"filename": "adultbaby_beaver/0103",
 	"frame": {"x":1,"y":690,"w":408,"h":112},
 	"rotated": false,
 	"trimmed": false,
