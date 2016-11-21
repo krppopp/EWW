@@ -61,9 +61,10 @@ EWW.Game.prototype = {
             clearTimeout(game.timeOutHandler);
             game.timeOutHandler = setTimeout((game.timeOut), 12000);
         }
+                    game.physics.arcade.overlap(game.matchObjects, game.staticObjects, game.matchChara, null, this);
+
         //coll checks
         if (!game.follow) {
-            game.physics.arcade.overlap(game.matchObjects, game.staticObjects, game.matchChara, null, this);
             game.physics.arcade.overlap(game.matchObjects, game.completeObjects, game.noMatch, null, this);
             game.physics.arcade.overlap(game.matchObjects, game.matchObjects, game.matchObjCol, null, this);
         }
@@ -141,7 +142,6 @@ EWW.Game.prototype = {
         game.staticSound = [];
         game.togetherSound = [];
         game.togetherAnim = [];
-        game.correctSound = game.add.audio(game.levelData.audio[0].correctAnswerAudio);
         game.wrongSound = game.add.audio(game.levelData.audio[0].wrongAnswerAudio)
         game.transitionSound = game.add.audio(game.levelData.audio[0].transitionAudio);
         //randomly grab a set
@@ -152,12 +152,7 @@ EWW.Game.prototype = {
         //            }
         //creates the items, based on the round number
         for (var i = 0; i < game.matchNum; i++) {
-            if (game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_lion" || game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_alligator" || game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_beaver" || game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_kangaroo" || game.roundDesign[0][roundToPlay][game.set].Sets[i][0] == "baby_bird") {
-                var newMatchObj = game.matchObjects.create(EWW.matchObjPosX, game.world.height * EWW.roundYPos[game.posNum - 1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][0], 0);
-            }
-            else {
-                var newMatchObj = game.matchObjects.create(EWW.matchObjPosX, game.world.height * EWW.roundYPos[game.posNum - 1][i], 'sprites', game.roundDesign[0][roundToPlay][game.set].Sets[i][0]);
-            }
+            var newMatchObj = game.matchObjects.create(EWW.matchObjPosX, game.world.height * EWW.roundYPos[game.posNum - 1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][0], 0);
             newMatchObj.inputEnabled = true;
             game.matchSound[newMatchObj.z] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][3]);
             newMatchObj.events.onInputDown.add(function (sprite) {
@@ -167,13 +162,7 @@ EWW.Game.prototype = {
                 x: 0
                 , y: 0
             }, 1000, "Elastic", true);
-            if (game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_lion" || game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_alligator" || game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_beaver" || game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_kangaroo" || game.roundDesign[0][roundToPlay][game.set].Sets[i][1] == "adult_bird") {
-                console.log("y");
-                var newStaticObj = game.staticObjects.create(EWW.staticObjPosX, game.world.height * EWW.staticRoundYPos[game.posNum - 1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][1], 0);
-            }
-            else {
-                var newStaticObj = game.staticObjects.create(EWW.staticObjPosX, game.world.height * EWW.staticRoundYPos[game.posNum - 1][i], 'sprites', game.roundDesign[0][roundToPlay][game.set].Sets[i][1]);
-            }
+            var newStaticObj = game.staticObjects.create(EWW.staticObjPosX, game.world.height * EWW.staticRoundYPos[game.posNum - 1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][1], 0);
             newStaticObj.inputEnabled = true;
             game.staticSound[newStaticObj.z] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][4]);
             newStaticObj.events.onInputDown.add(function (sprite) {
@@ -184,18 +173,17 @@ EWW.Game.prototype = {
                 , y: 0
             }, 1000, "Elastic", true);
             game.togetherSound[newStaticObj.z] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][5]);
-            if (game.roundDesign[0][roundToPlay][game.set].Sets[i][2] != "") {
-                //x position multiplier needs to be changed
-                game.togetherAnim[newStaticObj.z] = game.add.sprite(newStaticObj.x - (newStaticObj.x * .075), newStaticObj.y, game.roundDesign[0][roundToPlay][game.set].Sets[i][2], 0);
-                game.togetherAnim[newStaticObj.z].animations.add('animate', Phaser.Animation.generateFrameNames(game.togetherAnim[newStaticObj.z].key + "/", 1, 100, '', 4), 20, false);
-                game.togetherAnim[newStaticObj.z].anchor.setTo(.5, .5);
-                game.togetherAnim[newStaticObj.z].visible = false;
-                console.log(newStaticObj.z);
-            }
+            //x position multiplier needs to be changed
+            game.togetherAnim[newStaticObj.z] = game.add.sprite(newStaticObj.x - (newStaticObj.x * .075), newStaticObj.y, game.roundDesign[0][roundToPlay][game.set].Sets[i][2], 0);
+            console.log(game.togetherAnim[newStaticObj.z]);
+            game.togetherAnim[newStaticObj.z].animations.add('animate', Phaser.Animation.generateFrameNames(game.togetherAnim[newStaticObj.z].key + "/", 1, 100, '', 4), 20, false);
+            game.togetherAnim[newStaticObj.z].anchor.setTo(.5, .5);
+            game.togetherAnim[newStaticObj.z].visible = false;
+            console.log(newStaticObj.z);
         }
         for (var i = 0; i < game.staticObjects.length; i++) {
             game.staticObjects.children[i].anchor.setTo(.5, .5);
-            game.staticObjects.children[i].body.setSize(200, 200, -50, -50);
+           // game.staticObjects.children[i].body.setSize(200, 200, -50, -50);
         }
         for (var i = 0; i < game.matchObjects.length; i++) {
             game.matchObjects.children[i].anchor.setTo(.5, .5);
@@ -235,10 +223,8 @@ EWW.Game.prototype = {
         game.matchObjects.onChildInputOver.add(function (sprite) {
             //game.runSpriteAnimation(sprite);
             //nned to find a way to find the sheets frame number without manually inserting it
-            if (sprite.key == "baby_lion" || sprite.key == "baby_beaver" || sprite.key == "baby_bird" || sprite.key == "baby_alligator" || sprite.key == "baby_kangaroo") {
-                sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
-                sprite.animations.play('animate');
-            }
+            sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
+            sprite.animations.play('animate');
             if (!game.follow) {
                 //                game.hoverTween = game.add.tween(sprite).to({
                 //                    angle: [5, -5, 5, -5, 5, -5, 0]
@@ -250,10 +236,8 @@ EWW.Game.prototype = {
             //game.hoverTween.stop();
         })
         game.staticObjects.onChildInputOver.add(function (sprite) {
-            if (sprite.key == "adult_lion" || sprite.key == "adult_beaver" || sprite.key == "adult_bird" || sprite.key == "adult_alligator" || sprite.key == "adult_kangaroo") {
-                sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
-                sprite.animations.play('animate');
-            }
+            sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
+            sprite.animations.play('animate');
         })
         if (!Phaser.Device.desktop) {
             for (var i = 0; i < game.matchObjects.length; i++) {
@@ -283,105 +267,69 @@ EWW.Game.prototype = {
             if (matchObj.z == staticObj.z) {
                 matchObj.enabledBody = false;
                 staticObj.enableBody = false;
-                game.completeObjects.add(matchObj);
-                game.completeObjects.add(staticObj);
                 game.wrongAnswers = 0;
                 game.rightAnswers++;
+                var matchIndex = staticObj.z;
                 var myIndex = game.rightAnswers;
+                var correctSound = game.add.audio(game.levelData.audio[0].correctAnswerAudio);
                 //  matchObj.bringToTop();
                 game.clickNum = 0;
                 game.follow = false;
                 matchObj.alpha = 1;
                 game.activeObject = null;
-                if (game.togetherAnim[staticObj.z] != null) {
-                    game.add.tween(staticObj).to({alpha:0}, 1000, "Linear", true);
-                    game.add.tween(matchObj).to({alpha:0}, 1000, "Linear", true);
-                    game.togetherAnim[staticObj.z].visible = true;
-                    game.togetherAnim[staticObj.z].animations.play('animate');
-                    game.togetherSound[staticObj.z].play();
-                    game.togetherSound[staticObj.z].onStop.add(function(){
-                        game.correctSound.play();
-                    })
-                        game.correctSound.onStop.add(function (tween) {
-                        if (game.matchNum == game.rightAnswers && myIndex == game.rightAnswers) {
-                            game.wrongAnswers = 0;
-                            if (game.roundNum < game.roundDesign[0].length - 1) {
-                                game.roundNum++;
-                                game.set = game.rnd.integerInRange(0, game.roundDesign[0][game.roundNum].length - 1);
-                                var bg = game.add.sprite(0, 0, game.roundDesign[0][game.roundNum][game.set].Background);
-                                var BGTween = game.add.tween(bg).from({
-                                    x: -game.world.width - 1000
-                                }, 800, "Linear", true);
-                                BGTween.onComplete.add(function () {
-                                    game.roundCreate(game.roundNum);
-                                })
-                            }
-                            else {
-                                var nextRound = 0;
-                                do {
-                                    nextRound = game.rnd.integerInRange(1, game.roundDesign[0].length - 1);
-                                    console.log(game.lastRound);
-                                    console.log(nextRound);
-                                } while (nextRound == game.lastRound);
-                                game.set = game.rnd.integerInRange(0, game.roundDesign[0][nextRound].length - 1);
-                                var bg = game.add.sprite(0, 0, game.roundDesign[0][nextRound][game.set].Background);
-                                var BGTween = game.add.tween(bg).from({
-                                    x: -game.world.width - 1000
-                                }, 800, "Linear", true);
-                                BGTween.onComplete.add(function () {
-                                    game.roundCreate(nextRound);
-                                })
-                            }
-                            //game.sfx.play(finalMatchSound);
-                            //when have sounds, end based on sounds instead of tween
-                            game.transitionSound.play();
+                game.add.tween(staticObj).to({
+                    alpha: 0
+                }, 500, "Linear", true);
+                game.add.tween(matchObj).to({
+                    alpha: 0
+                }, 500, "Linear", true);
+                game.togetherSound[matchIndex].play();
+                game.togetherAnim[matchIndex].visible = true;
+                game.togetherAnim[matchIndex].animations.play('animate');
+                game.completeObjects.add(matchObj);
+                game.completeObjects.add(staticObj);
+                game.togetherSound[matchIndex].onStop.add(function () {
+                    console.log("the sound stopped playing");
+                    correctSound.play();
+                })
+                correctSound.onStop.add(function (tween) {
+                    console.log("right answers: " + game.rightAnswers);
+                    console.log("number of matches" + game.matchNum);
+                    console.log("index number" + myIndex);
+                    if (game.matchNum == game.rightAnswers && myIndex == game.rightAnswers) {
+                        game.wrongAnswers = 0;
+                        if (game.roundNum < game.roundDesign[0].length - 1) {
+                            game.roundNum++;
+                            game.set = game.rnd.integerInRange(0, game.roundDesign[0][game.roundNum].length - 1);
+                            var bg = game.add.sprite(0, 0, game.roundDesign[0][game.roundNum][game.set].Background);
+                            var BGTween = game.add.tween(bg).from({
+                                x: -game.world.width - 1000
+                            }, 800, "Linear", true);
+                            BGTween.onComplete.add(function () {
+                                game.roundCreate(game.roundNum);
+                            })
                         }
-                    });
-                }
-                else {
-                    game.correctTween = game.add.tween(matchObj).to({
-                        x: staticObj.x
-                        , y: staticObj.y
-                    }, 1000, "Linear", true);
-                    game.correctTween.onComplete.add(function () {
-                        game.correctSound.play();
-                    })
-                    game.correctSound.onStop.add(function (tween) {
-                        if (game.matchNum == game.rightAnswers && myIndex == game.rightAnswers) {
-                            game.wrongAnswers = 0;
-                            if (game.roundNum < game.roundDesign[0].length - 1) {
-                                game.roundNum++;
-                                game.set = game.rnd.integerInRange(0, game.roundDesign[0][game.roundNum].length - 1);
-                                var bg = game.add.sprite(0, 0, game.roundDesign[0][game.roundNum][game.set].Background);
-                                var BGTween = game.add.tween(bg).from({
-                                    x: -game.world.width - 1000
-                                }, 800, "Linear", true);
-                                BGTween.onComplete.add(function () {
-                                    game.roundCreate(game.roundNum);
-                                })
-                            }
-                            else {
-                                var nextRound = 0;
-                                do {
-                                    nextRound = game.rnd.integerInRange(1, game.roundDesign[0].length - 1);
-                                    console.log(game.lastRound);
-                                    console.log(nextRound);
-                                } while (nextRound == game.lastRound);
-                                game.set = game.rnd.integerInRange(0, game.roundDesign[0][nextRound].length - 1);
-                                var bg = game.add.sprite(0, 0, game.roundDesign[0][nextRound][game.set].Background);
-                                var BGTween = game.add.tween(bg).from({
-                                    x: -game.world.width - 1000
-                                }, 800, "Linear", true);
-                                BGTween.onComplete.add(function () {
-                                    game.roundCreate(nextRound);
-                                })
-                            }
-                            //game.sfx.play(finalMatchSound);
-                            //when have sounds, end based on sounds instead of tween
-                            game.transitionSound.play();
+                        else {
+                            var nextRound = 0;
+                            do {
+                                nextRound = game.rnd.integerInRange(1, game.roundDesign[0].length - 1);
+                                console.log(game.lastRound);
+                                console.log(nextRound);
+                            } while (nextRound == game.lastRound);
+                            game.set = game.rnd.integerInRange(0, game.roundDesign[0][nextRound].length - 1);
+                            var bg = game.add.sprite(0, 0, game.roundDesign[0][nextRound][game.set].Background);
+                            var BGTween = game.add.tween(bg).from({
+                                x: -game.world.width - 1000
+                            }, 800, "Linear", true);
+                            BGTween.onComplete.add(function () {
+                                game.roundCreate(nextRound);
+                            })
                         }
-                    });
-                }
+                        //game.sfx.play(finalMatchSound);
+                        //when have sounds, end based on sounds instead of tween
+                        game.transitionSound.play();
+                    }
+                });
             } //otherwise
             else {
                 game.wrongSound.play();
@@ -511,5 +459,21 @@ EWW.Game.prototype = {
         console.log("HEY");
         result = myArray.shift();
         console.log(result);
+    },
+    render: function(){
+        //still dont understand why i cannot render this stuff
+//        var game = this;
+//        game.staticObjects.forEach(function(item){
+//            if(item.body.width == 200){
+//                console.log(item.body);
+//                console.log(game.time);
+//                game.debug.body(item);
+//            }
+//        })
+//        game.matchObjects.forEach(function(item){
+//            if(item.body.width > 0){
+//               game.debug.body(item);
+//            }        
+//        })
     }
 };

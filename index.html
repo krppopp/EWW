@@ -1,6 +1,6 @@
 <html>
 <head>
-    <script src = "phaser.js"></script>
+    <script src = "phaser.min.js"></script>
     <script src = "Boot.js"></script>
     <script src = "Preloader.js"></script>
     <script src = "Main.js"></script>
@@ -93,7 +93,7 @@
         window.onload = function() {
         var WIDTH = 1024;
         var HEIGHT = 660;
-        var game = new Phaser.Game(WIDTH, HEIGHT, Phaser.AUTO, '');
+        var game = new Phaser.Game(WIDTH, HEIGHT, Phaser.CANVAS, '');
 
             
         game.state.add('Boot', EWW.Boot);

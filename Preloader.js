@@ -43,15 +43,9 @@ EWW.Preloader.prototype = {
         for(var i = 0; i < this.roundDesign[0].length; i++){
             for(var j = 0; j < this.roundDesign[0][i].length; j++){
                 for(var k = 0; k < this.roundDesign[0][i][j].Sets.length; k++){
-                    if(this.roundDesign[0][i][j].Sets[k][0] == "baby_beaver" || this.roundDesign[0][i][j].Sets[k][0] == "baby_lion" || this.roundDesign[0][i][j].Sets[k][0] == "baby_alligator" || this.roundDesign[0][i][j].Sets[k][0] == "baby_bird" || this.roundDesign[0][i][j].Sets[k][0] == "baby_kangaroo"){
                         this.load.atlasJSONArray(this.roundDesign[0][i][j].Sets[k][0], 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][0] + ".png", 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][0] + ".json");
-                    }
-                    if(this.roundDesign[0][i][j].Sets[k][1] == "adult_lion" || this.roundDesign[0][i][j].Sets[k][1] == "adult_beaver" || this.roundDesign[0][i][j].Sets[k][1] == "adult_alligator" || this.roundDesign[0][i][j].Sets[k][1] == "adult_bird" || this.roundDesign[0][i][j].Sets[k][1] == "adult_kangaroo"){
                         this.load.atlasJSONArray(this.roundDesign[0][i][j].Sets[k][1], 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][1] + ".png", 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][1] + ".json");
-                    }
-                    if(this.roundDesign[0][i][j].Sets[k][2] != null){
                         this.load.atlasJSONArray(this.roundDesign[0][i][j].Sets[k][2], 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][2] + ".png", 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][2] + ".json");
-                    }
                     this.load.audio(this.roundDesign[0][i][j].Sets[k][3], 'Assets/Audio/Sprites/' + this.roundDesign[0][i][j].Sets[k][3] + ".wav");
                     this.load.audio(this.roundDesign[0][i][j].Sets[k][4], 'Assets/Audio/Sprites/' + this.roundDesign[0][i][j].Sets[k][4] + ".wav");
                     this.load.audio(this.roundDesign[0][i][j].Sets[k][5], 'Assets/Audio/Sprites/' + this.roundDesign[0][i][j].Sets[k][5] + ".wav"); 

@@ -1,0 +1,812 @@
+{"frames": [
+
+{
+	"filename": "adultbaby_seahorse/0000",
+	"frame": {"x":598,"y":234,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0001",
+	"frame": {"x":598,"y":234,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0002",
+	"frame": {"x":1022,"y":236,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0003",
+	"frame": {"x":1219,"y":237,"w":201,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":201,"h":236},
+	"sourceSize": {"w":201,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0004",
+	"frame": {"x":1422,"y":238,"w":209,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":236},
+	"sourceSize": {"w":209,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0005",
+	"frame": {"x":1438,"y":1,"w":213,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":235},
+	"sourceSize": {"w":213,"h":235}
+},
+{
+	"filename": "adultbaby_seahorse/0006",
+	"frame": {"x":1653,"y":1,"w":217,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":217,"h":235},
+	"sourceSize": {"w":217,"h":235}
+},
+{
+	"filename": "adultbaby_seahorse/0007",
+	"frame": {"x":184,"y":232,"w":222,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":235},
+	"sourceSize": {"w":222,"h":235}
+},
+{
+	"filename": "adultbaby_seahorse/0008",
+	"frame": {"x":1633,"y":238,"w":219,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":236},
+	"sourceSize": {"w":219,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0009",
+	"frame": {"x":795,"y":235,"w":225,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":225,"h":235},
+	"sourceSize": {"w":225,"h":235}
+},
+{
+	"filename": "adultbaby_seahorse/0010",
+	"frame": {"x":1220,"y":1,"w":216,"h":234},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":234},
+	"sourceSize": {"w":216,"h":234}
+},
+{
+	"filename": "adultbaby_seahorse/0011",
+	"frame": {"x":819,"y":1,"w":219,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":232},
+	"sourceSize": {"w":219,"h":232}
+},
+{
+	"filename": "adultbaby_seahorse/0012",
+	"frame": {"x":412,"y":1,"w":216,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":230},
+	"sourceSize": {"w":216,"h":230}
+},
+{
+	"filename": "adultbaby_seahorse/0013",
+	"frame": {"x":1,"y":1,"w":209,"h":227},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":227},
+	"sourceSize": {"w":209,"h":227}
+},
+{
+	"filename": "adultbaby_seahorse/0014",
+	"frame": {"x":212,"y":1,"w":198,"h":229},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":229},
+	"sourceSize": {"w":198,"h":229}
+},
+{
+	"filename": "adultbaby_seahorse/0015",
+	"frame": {"x":630,"y":1,"w":187,"h":231},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":231},
+	"sourceSize": {"w":187,"h":231}
+},
+{
+	"filename": "adultbaby_seahorse/0016",
+	"frame": {"x":1040,"y":1,"w":178,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":233},
+	"sourceSize": {"w":178,"h":233}
+},
+{
+	"filename": "adultbaby_seahorse/0017",
+	"frame": {"x":1,"y":230,"w":181,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":235},
+	"sourceSize": {"w":181,"h":235}
+},
+{
+	"filename": "adultbaby_seahorse/0018",
+	"frame": {"x":1,"y":467,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0019",
+	"frame": {"x":179,"y":469,"w":184,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":236},
+	"sourceSize": {"w":184,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0020",
+	"frame": {"x":365,"y":470,"w":184,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":236},
+	"sourceSize": {"w":184,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0021",
+	"frame": {"x":408,"y":233,"w":188,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":235},
+	"sourceSize": {"w":188,"h":235}
+},
+{
+	"filename": "adultbaby_seahorse/0022",
+	"frame": {"x":551,"y":472,"w":190,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":236},
+	"sourceSize": {"w":190,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0023",
+	"frame": {"x":1577,"y":1190,"w":193,"h":238},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":193,"h":238},
+	"sourceSize": {"w":193,"h":238}
+},
+{
+	"filename": "adultbaby_seahorse/0024",
+	"frame": {"x":1,"y":1422,"w":193,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":193,"h":240},
+	"sourceSize": {"w":193,"h":240}
+},
+{
+	"filename": "adultbaby_seahorse/0025",
+	"frame": {"x":571,"y":1426,"w":194,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":246},
+	"sourceSize": {"w":194,"h":246}
+},
+{
+	"filename": "adultbaby_seahorse/0026",
+	"frame": {"x":1733,"y":1431,"w":191,"h":254},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":254},
+	"sourceSize": {"w":191,"h":254}
+},
+{
+	"filename": "adultbaby_seahorse/0027",
+	"frame": {"x":179,"y":1666,"w":194,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":255},
+	"sourceSize": {"w":194,"h":255}
+},
+{
+	"filename": "adultbaby_seahorse/0028",
+	"frame": {"x":375,"y":1667,"w":191,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":255},
+	"sourceSize": {"w":191,"h":255}
+},
+{
+	"filename": "adultbaby_seahorse/0029",
+	"frame": {"x":568,"y":1674,"w":189,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":255},
+	"sourceSize": {"w":189,"h":255}
+},
+{
+	"filename": "adultbaby_seahorse/0030",
+	"frame": {"x":759,"y":1675,"w":194,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":255},
+	"sourceSize": {"w":194,"h":255}
+},
+{
+	"filename": "adultbaby_seahorse/0031",
+	"frame": {"x":955,"y":1677,"w":198,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":255},
+	"sourceSize": {"w":198,"h":255}
+},
+{
+	"filename": "adultbaby_seahorse/0032",
+	"frame": {"x":1728,"y":1687,"w":205,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":256},
+	"sourceSize": {"w":205,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0033",
+	"frame": {"x":1,"y":1923,"w":207,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":207,"h":256},
+	"sourceSize": {"w":207,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0034",
+	"frame": {"x":210,"y":1924,"w":203,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":203,"h":256},
+	"sourceSize": {"w":203,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0035",
+	"frame": {"x":1531,"y":1682,"w":195,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":256},
+	"sourceSize": {"w":195,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0036",
+	"frame": {"x":415,"y":1931,"w":191,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":256},
+	"sourceSize": {"w":191,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0037",
+	"frame": {"x":608,"y":1932,"w":183,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":256},
+	"sourceSize": {"w":183,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0038",
+	"frame": {"x":793,"y":1934,"w":183,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":256},
+	"sourceSize": {"w":183,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0039",
+	"frame": {"x":978,"y":1935,"w":183,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":256},
+	"sourceSize": {"w":183,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0040",
+	"frame": {"x":1163,"y":1936,"w":184,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":256},
+	"sourceSize": {"w":184,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0041",
+	"frame": {"x":1155,"y":1677,"w":177,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":256},
+	"sourceSize": {"w":177,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0042",
+	"frame": {"x":1349,"y":1936,"w":179,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":256},
+	"sourceSize": {"w":179,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0043",
+	"frame": {"x":1530,"y":1940,"w":179,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":256},
+	"sourceSize": {"w":179,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0044",
+	"frame": {"x":1711,"y":1945,"w":182,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":256},
+	"sourceSize": {"w":182,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0045",
+	"frame": {"x":1,"y":2181,"w":183,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":256},
+	"sourceSize": {"w":183,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0046",
+	"frame": {"x":186,"y":2182,"w":177,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":256},
+	"sourceSize": {"w":177,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0047",
+	"frame": {"x":365,"y":2189,"w":177,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":256},
+	"sourceSize": {"w":177,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0048",
+	"frame": {"x":544,"y":2190,"w":177,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":256},
+	"sourceSize": {"w":177,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0049",
+	"frame": {"x":723,"y":2192,"w":177,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":256},
+	"sourceSize": {"w":177,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0050",
+	"frame": {"x":743,"y":472,"w":177,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":236},
+	"sourceSize": {"w":177,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0051",
+	"frame": {"x":922,"y":474,"w":177,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":236},
+	"sourceSize": {"w":177,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0052",
+	"frame": {"x":1101,"y":475,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0053",
+	"frame": {"x":1279,"y":476,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0054",
+	"frame": {"x":1457,"y":476,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0055",
+	"frame": {"x":1635,"y":476,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0056",
+	"frame": {"x":1,"y":705,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0057",
+	"frame": {"x":179,"y":707,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0058",
+	"frame": {"x":357,"y":708,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0059",
+	"frame": {"x":535,"y":710,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0060",
+	"frame": {"x":713,"y":710,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0061",
+	"frame": {"x":891,"y":712,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0062",
+	"frame": {"x":1069,"y":713,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0063",
+	"frame": {"x":1247,"y":714,"w":176,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":236},
+	"sourceSize": {"w":176,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0064",
+	"frame": {"x":1,"y":943,"w":176,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":237},
+	"sourceSize": {"w":176,"h":237}
+},
+{
+	"filename": "adultbaby_seahorse/0065",
+	"frame": {"x":1772,"y":1190,"w":176,"h":239},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":239},
+	"sourceSize": {"w":176,"h":239}
+},
+{
+	"filename": "adultbaby_seahorse/0066",
+	"frame": {"x":393,"y":1424,"w":176,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":241},
+	"sourceSize": {"w":176,"h":241}
+},
+{
+	"filename": "adultbaby_seahorse/0067",
+	"frame": {"x":964,"y":1428,"w":176,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":247},
+	"sourceSize": {"w":176,"h":247}
+},
+{
+	"filename": "adultbaby_seahorse/0068",
+	"frame": {"x":1,"y":1664,"w":176,"h":254},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":254},
+	"sourceSize": {"w":176,"h":254}
+},
+{
+	"filename": "adultbaby_seahorse/0069",
+	"frame": {"x":902,"y":2193,"w":177,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":256},
+	"sourceSize": {"w":177,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0070",
+	"frame": {"x":1081,"y":2194,"w":179,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":256},
+	"sourceSize": {"w":179,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0071",
+	"frame": {"x":1262,"y":2194,"w":182,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":256},
+	"sourceSize": {"w":182,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0072",
+	"frame": {"x":1425,"y":714,"w":184,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":236},
+	"sourceSize": {"w":184,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0073",
+	"frame": {"x":1611,"y":714,"w":187,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":187,"h":236},
+	"sourceSize": {"w":187,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0074",
+	"frame": {"x":179,"y":946,"w":189,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":236},
+	"sourceSize": {"w":189,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0075",
+	"frame": {"x":370,"y":948,"w":191,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":236},
+	"sourceSize": {"w":191,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0076",
+	"frame": {"x":563,"y":948,"w":193,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":193,"h":236},
+	"sourceSize": {"w":193,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0077",
+	"frame": {"x":758,"y":950,"w":193,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":193,"h":236},
+	"sourceSize": {"w":193,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0078",
+	"frame": {"x":953,"y":951,"w":194,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":236},
+	"sourceSize": {"w":194,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0079",
+	"frame": {"x":1149,"y":952,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0080",
+	"frame": {"x":1346,"y":952,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0081",
+	"frame": {"x":1543,"y":952,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0082",
+	"frame": {"x":1740,"y":952,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0083",
+	"frame": {"x":1,"y":1184,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0084",
+	"frame": {"x":198,"y":1186,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0085",
+	"frame": {"x":395,"y":1186,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0086",
+	"frame": {"x":196,"y":1424,"w":195,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":240},
+	"sourceSize": {"w":195,"h":240}
+},
+{
+	"filename": "adultbaby_seahorse/0087",
+	"frame": {"x":1142,"y":1428,"w":195,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":247},
+	"sourceSize": {"w":195,"h":247}
+},
+{
+	"filename": "adultbaby_seahorse/0088",
+	"frame": {"x":1334,"y":1679,"w":195,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":255},
+	"sourceSize": {"w":195,"h":255}
+},
+{
+	"filename": "adultbaby_seahorse/0089",
+	"frame": {"x":1446,"y":2198,"w":195,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":256},
+	"sourceSize": {"w":195,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0090",
+	"frame": {"x":1643,"y":2203,"w":195,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":256},
+	"sourceSize": {"w":195,"h":256}
+},
+{
+	"filename": "adultbaby_seahorse/0091",
+	"frame": {"x":592,"y":1188,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0092",
+	"frame": {"x":789,"y":1189,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0093",
+	"frame": {"x":986,"y":1190,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0094",
+	"frame": {"x":1380,"y":1190,"w":195,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":237},
+	"sourceSize": {"w":195,"h":237}
+},
+{
+	"filename": "adultbaby_seahorse/0095",
+	"frame": {"x":767,"y":1427,"w":195,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":246},
+	"sourceSize": {"w":195,"h":246}
+},
+{
+	"filename": "adultbaby_seahorse/0096",
+	"frame": {"x":1339,"y":1429,"w":195,"h":248},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":248},
+	"sourceSize": {"w":195,"h":248}
+},
+{
+	"filename": "adultbaby_seahorse/0097",
+	"frame": {"x":1536,"y":1430,"w":195,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":250},
+	"sourceSize": {"w":195,"h":250}
+},
+{
+	"filename": "adultbaby_seahorse/0098",
+	"frame": {"x":1183,"y":1190,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+},
+{
+	"filename": "adultbaby_seahorse/0099",
+	"frame": {"x":1183,"y":1190,"w":195,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":236},
+	"sourceSize": {"w":195,"h":236}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "adultbaby_seahorse.png",
+	"format": "RGBA8888",
+	"size": {"w":1949,"h":2460},
+	"scale": "0.41667",
+	"smartupdate": "$TexturePacker:SmartUpdate:585c0efa98822ea59311e50b9d8611d9:7d28fbe95df7547b28d75151c6720fa5:d384d906bb597da558b696666a9258d6$"
+}
+}

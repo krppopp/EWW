@@ -35,17 +35,17 @@
             "Background":"bg1",
             "Sets":[  
                [  
-                  "s_pink",
-                  "l_pink",
-                   "",
+                  "baby_puffin",
+                  "adult_puffin",
+                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
                ],
                [  
-                  "s_blue",
-                  "l_blue",
-                   "",
+                  "baby_owl",
+                  "adult_owl",
+                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -58,17 +58,17 @@
             "Background":"bg2",
             "Sets":[  
                [  
-                  "s_green",
-                  "l_green",
-                   "",
+                  "baby_zebra",
+                  "adult_zebra",
+                   "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
                   "zebratogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_turtle",
+                  "adult_turtle",
+                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -81,9 +81,9 @@
             "Background":"bg3",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_skunk",
+                  "adult_skunk",
+                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
@@ -112,9 +112,9 @@
                   "beavertogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_bear",
+                  "adult_bear",
+                   "adultbaby_bear",
                   "polarbearbaby",
                   "polarbearadult",
                   "polarbeartogether"
@@ -135,9 +135,9 @@
                   "liontogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_crab",
+                  "adult_crab",
+                   "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
                   "crabtogether"
@@ -150,17 +150,17 @@
             "Background":"bg3",
             "Sets":[  
                [  
-                  "s_blue",
-                  "l_blue",
-                   "",
+                  "baby_rhino",
+                  "adult_rhino",
+                   "adultbaby_rhino",
                   "rhinobaby",
                   "rhinoadult",
                   "rhinotogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_lizard",
+                  "adult_lizard",
+                   "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
                   "lizardtogether"
@@ -173,17 +173,17 @@
             "Background":"bg4",
             "Sets":[  
                [  
-                  "s_blue",
-                  "l_blue",
-                   "",
+                  "baby_racoon",
+                  "adult_racoon",
+                   "adultbaby_racoon",
                   "racoonbaby",
                   "racoonadult",
                   "racoontogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_octopus",
+                  "adult_octopus",
+                   "adultbaby_octopus",
                   "octopusbaby",
                   "octopusadult",
                   "octopustogether"
@@ -198,25 +198,25 @@
             "Background":"bg1",
             "Sets":[  
                [  
-                  "s_pink",
-                  "l_pink",
-                   "",
+                  "baby_puffin",
+                  "adult_puffin",
+                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
                ],
                [  
-                  "s_blue",
-                  "l_blue",
-                   "",
+                  "baby_owl",
+                  "adult_owl",
+                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
                ],
                [  
-                  "s_green",
-                  "l_green",
-                   "",
+                 "baby_lizard",
+                  "adult_lizard",
+                   "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
                   "lizardtogether"
@@ -229,25 +229,25 @@
             "Background":"bg2",
             "Sets":[  
                [  
-                  "s_green",
-                  "l_green",
-                   "",
+                  "baby_zebra",
+                  "adult_zebra",
+                   "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
                   "zebratogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_turtle",
+                  "adult_turtle",
+                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
                ],
                [  
-                  "s_pink",
-                  "l_pink",
-                   "",
+                  "baby_elephant",
+                  "adult_elephant",
+                   "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
                   "elephanttogether"
@@ -260,9 +260,9 @@
             "Background":"bg3",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_skunk",
+                  "adult_skunk",
+                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
@@ -276,9 +276,9 @@
                   "birdtogether"
                ],
                [  
-                  "s_blue",
-                  "l_blue",
-                   "",
+                  "baby_owl",
+                  "adult_owl",
+                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -293,25 +293,25 @@
             "Background":"bg4",
             "Sets":[  
                [  
-                  "s_pink",
-                  "l_pink",
-                   "",
+                   "baby_puffin",
+                  "adult_puffin",
+                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
                ],
                [  
-                  "s_blue",
-                  "l_blue",
-                   "",
+                  "baby_seal",
+                  "adult_seal",
+                   "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
                   "sealtogether"
                ],
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_bear",
+                  "adult_bear",
+                   "adultbaby_bear",
                   "polarbearbaby",
                   "polarbearadult",
                   "polarbeartogether"
@@ -324,17 +324,17 @@
             "Background":"bg2",
             "Sets":[  
                [  
-                  "s_green",
-                  "l_green",
-                   "",
+                  "baby_skunk",
+                  "adult_skunk",
+                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_owl",
+                  "adult_owl",
+                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -355,25 +355,25 @@
             "Background":"bg3",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_seahorse",
+                  "adult_seahorse",
+                   "adultbaby_seahorse",
                   "seahorsebaby",
                   "seahorseadult",
                   "seahorsetogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_fish",
+                  "adult_fish",
+                   "adultbaby_fish",
                   "fishbaby",
                   "fishadult",
                   "fishtogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                    "baby_crab",
+                  "adult_crab",
+                   "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
                   "crabtogether"
@@ -386,9 +386,9 @@
             "Background":"bg1",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_zebra",
+                  "adult_zebra",
+                   "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
                   "zebratogether"
@@ -402,9 +402,9 @@
                   "liontogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_rhino",
+                  "adult_rhino",
+                   "adultbaby_rhino",
                   "rhinobaby",
                   "rhinoadult",
                   "rhinotogether"
@@ -433,9 +433,9 @@
                   "alligatortogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_turtle",
+                  "adult_turtle",
+                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -450,9 +450,9 @@
             "Background":"bg1",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_puffin",
+                  "adult_puffin",
+                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
@@ -466,9 +466,9 @@
                   "birdtogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_owl",
+                  "adult_owl",
+                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -481,9 +481,9 @@
             "Background":"bg2",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_seal",
+                  "adult_seal",
+                   "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
                   "sealtogether"
@@ -497,9 +497,9 @@
                   "kangarootogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_racoon",
+                  "adult_racoon",
+                   "adultbaby_racoon",
                   "racoonbaby",
                   "racoonadult",
                   "racoontogether"
@@ -520,17 +520,17 @@
                   "alligatortogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                 "baby_lizard",
+                  "adult_lizard",
+                   "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
                   "lizardtogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_turtle",
+                  "adult_turtle",
+                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -551,17 +551,17 @@
                   "beavertogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_skunk",
+                  "adult_skunk",
+                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_elephant",
+                  "adult_elephant",
+                   "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
                   "elephanttogether"
@@ -576,25 +576,25 @@
             "Background":"bg1",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_puffin",
+                  "adult_puffin",
+                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_skunk",
+                  "adult_skunk",
+                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_zebra",
+                  "adult_zebra",
+                   "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
                   "zebratogether"
@@ -607,9 +607,9 @@
             "Background":"bg2",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_owl",
+                  "adult_owl",
+                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -638,28 +638,28 @@
             "Background":"bg3",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_elephant",
+                  "adult_elephant",
+                   "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
                   "elephanttogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_seal",
+                  "adult_seal",
+                   "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
                   "sealtogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
-                  "sealbaby",
-                  "sealadult",
-                  "sealtogether"
+                  "baby_rhino",
+                  "adult_rhino",
+                   "adultbaby_rhino",
+                  "rhinobaby",
+                  "rhinoadult",
+                  "rhinotogether"
                ]
             ]
          },
@@ -669,9 +669,9 @@
             "Background":"bg4",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_fish",
+                  "adult_fish",
+                   "adultbaby_fish",
                   "fishbaby",
                   "fishadult",
                   "fishtogether"
@@ -685,9 +685,9 @@
                   "alligatortogether"
                ],
                [  
-                  "s_orange",
-                  "l_orange",
-                   "",
+                  "baby_turtle",
+                  "adult_turtle",
+                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -700,17 +700,17 @@
             "Background":"bg3",
             "Sets":[  
                [  
-                  "s_yellow",
-                  "l_yellow",
-                   "",
+                  "baby_crab",
+                  "adult_crab",
+                   "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
                   "crabtogether"
                ],
                [  
-                  "s_purple",
-                  "l_purple",
-                   "",
+                  "baby_seahorse",
+                  "adult_seahorse",
+                   "adultbaby_seahorse",
                   "seahorsebaby",
                   "seahorseadult",
                   "seahorsetogether"
