@@ -7,7 +7,7 @@
          "logo": "logo",
          "title": "title",
          "extra":"drawings",
-         "skipButton":"skip",
+         "skipButton":"",
          "introBG":"bg2",
          "exitButton":"exitbtns"
       }
@@ -37,7 +37,7 @@
                [  
                   "baby_puffin",
                   "adult_puffin",
-                   "adultbaby_puffin",
+                  "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
@@ -45,7 +45,7 @@
                [  
                   "baby_owl",
                   "adult_owl",
-                   "adultbaby_owl",
+                  "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -60,7 +60,7 @@
                [  
                   "baby_zebra",
                   "adult_zebra",
-                   "adultbaby_zebra",
+                  "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
                   "zebratogether"
@@ -68,7 +68,7 @@
                [  
                   "baby_turtle",
                   "adult_turtle",
-                   "adultbaby_turtle",
+                  "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -83,7 +83,7 @@
                [  
                   "baby_skunk",
                   "adult_skunk",
-                   "adultbaby_skunk",
+                  "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
@@ -91,7 +91,7 @@
                [  
                   "baby_bird",
                   "adult_bird",
-                   "adultbaby_bird",
+                  "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
@@ -106,7 +106,7 @@
                [  
                   "baby_beaver",
                   "adult_beaver",
-                   "adultbaby_beaver",
+                  "adultbaby_beaver",
                   "beaverbaby",
                   "beaveradult",
                   "beavertogether"
@@ -114,7 +114,7 @@
                [  
                   "baby_bear",
                   "adult_bear",
-                   "adultbaby_bear",
+                  "adultbaby_bear",
                   "polarbearbaby",
                   "polarbearadult",
                   "polarbeartogether"
@@ -129,7 +129,7 @@
                [  
                   "baby_lion",
                   "adult_lion",
-                   "adultbaby_lion",
+                  "adultbaby_lion",
                   "lionbaby",
                   "lionadult",
                   "liontogether"
@@ -137,7 +137,7 @@
                [  
                   "baby_crab",
                   "adult_crab",
-                   "adultbaby_crab",
+                  "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
                   "crabtogether"
@@ -152,7 +152,7 @@
                [  
                   "baby_rhino",
                   "adult_rhino",
-                   "adultbaby_rhino",
+                  "adultbaby_rhino",
                   "rhinobaby",
                   "rhinoadult",
                   "rhinotogether"
@@ -160,7 +160,7 @@
                [  
                   "baby_lizard",
                   "adult_lizard",
-                   "adultbaby_lizard",
+                  "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
                   "lizardtogether"
@@ -175,7 +175,7 @@
                [  
                   "baby_racoon",
                   "adult_racoon",
-                   "adultbaby_racoon",
+                  "adultbaby_racoon",
                   "racoonbaby",
                   "racoonadult",
                   "racoontogether"
@@ -183,7 +183,7 @@
                [  
                   "baby_octopus",
                   "adult_octopus",
-                   "adultbaby_octopus",
+                  "adultbaby_octopus",
                   "octopusbaby",
                   "octopusadult",
                   "octopustogether"
@@ -200,7 +200,7 @@
                [  
                   "baby_puffin",
                   "adult_puffin",
-                   "adultbaby_puffin",
+                  "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
@@ -208,7 +208,7 @@
                [  
                   "baby_owl",
                   "adult_owl",
-                   "adultbaby_owl",
+                  "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -216,7 +216,7 @@
                [  
                  "baby_lizard",
                   "adult_lizard",
-                   "adultbaby_lizard",
+                  "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
                   "lizardtogether"
@@ -231,7 +231,7 @@
                [  
                   "baby_zebra",
                   "adult_zebra",
-                   "adultbaby_zebra",
+                  "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
                   "zebratogether"
@@ -239,7 +239,7 @@
                [  
                   "baby_turtle",
                   "adult_turtle",
-                   "adultbaby_turtle",
+                  "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -247,7 +247,7 @@
                [  
                   "baby_elephant",
                   "adult_elephant",
-                   "adultbaby_elephant",
+                  "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
                   "elephanttogether"
@@ -262,7 +262,7 @@
                [  
                   "baby_skunk",
                   "adult_skunk",
-                   "adultbaby_skunk",
+                  "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
@@ -270,7 +270,7 @@
                [  
                   "baby_bird",
                   "adult_bird",
-                   "adultbaby_bird",
+                  "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
@@ -278,7 +278,7 @@
                [  
                   "baby_owl",
                   "adult_owl",
-                   "adultbaby_owl",
+                  "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -295,7 +295,7 @@
                [  
                    "baby_puffin",
                   "adult_puffin",
-                   "adultbaby_puffin",
+                  "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
@@ -303,7 +303,7 @@
                [  
                   "baby_seal",
                   "adult_seal",
-                   "adultbaby_seal",
+                  "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
                   "sealtogether"
@@ -311,7 +311,7 @@
                [  
                   "baby_bear",
                   "adult_bear",
-                   "adultbaby_bear",
+                  "adultbaby_bear",
                   "polarbearbaby",
                   "polarbearadult",
                   "polarbeartogether"
@@ -326,7 +326,7 @@
                [  
                   "baby_skunk",
                   "adult_skunk",
-                   "adultbaby_skunk",
+                  "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
@@ -334,7 +334,7 @@
                [  
                   "baby_owl",
                   "adult_owl",
-                   "adultbaby_owl",
+                  "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -342,7 +342,7 @@
                [  
                   "baby_bird",
                   "adult_bird",
-                   "adultbaby_bird",
+                  "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
@@ -357,7 +357,7 @@
                [  
                   "baby_seahorse",
                   "adult_seahorse",
-                   "adultbaby_seahorse",
+                  "adultbaby_seahorse",
                   "seahorsebaby",
                   "seahorseadult",
                   "seahorsetogether"
@@ -365,15 +365,15 @@
                [  
                   "baby_fish",
                   "adult_fish",
-                   "adultbaby_fish",
+                  "adultbaby_fish",
                   "fishbaby",
                   "fishadult",
                   "fishtogether"
                ],
                [  
-                    "baby_crab",
+                  "baby_crab",
                   "adult_crab",
-                   "adultbaby_crab",
+                  "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
                   "crabtogether"
@@ -388,7 +388,7 @@
                [  
                   "baby_zebra",
                   "adult_zebra",
-                   "adultbaby_zebra",
+                  "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
                   "zebratogether"
@@ -396,7 +396,7 @@
                [  
                   "baby_lion",
                   "adult_lion",
-                   "adultbaby_lion",
+                  "adultbaby_lion",
                   "lionbaby",
                   "lionadult",
                   "liontogether"
@@ -404,7 +404,7 @@
                [  
                   "baby_rhino",
                   "adult_rhino",
-                   "adultbaby_rhino",
+                  "adultbaby_rhino",
                   "rhinobaby",
                   "rhinoadult",
                   "rhinotogether"
@@ -419,7 +419,7 @@
                [  
                   "baby_beaver",
                   "adult_beaver",
-                   "adultbaby_beaver",
+                  "adultbaby_beaver",
                   "beaverbaby",
                   "beaveradult",
                   "beavertogether"
@@ -435,7 +435,7 @@
                [  
                   "baby_turtle",
                   "adult_turtle",
-                   "adultbaby_turtle",
+                  "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -452,7 +452,7 @@
                [  
                   "baby_puffin",
                   "adult_puffin",
-                   "adultbaby_puffin",
+                  "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
@@ -460,7 +460,7 @@
                [  
                   "baby_bird",
                   "adult_bird",
-                   "adultbaby_bird",
+                  "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"
@@ -468,7 +468,7 @@
                [  
                   "baby_owl",
                   "adult_owl",
-                   "adultbaby_owl",
+                  "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -483,7 +483,7 @@
                [  
                   "baby_seal",
                   "adult_seal",
-                   "adultbaby_seal",
+                  "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
                   "sealtogether"
@@ -491,7 +491,7 @@
                [  
                   "baby_kangaroo",
                   "adult_kangaroo",
-                   "adultbaby_kangaroo",
+                  "adultbaby_kangaroo",
                   "kangaroobaby",
                   "kangarooadult",
                   "kangarootogether"
@@ -499,7 +499,7 @@
                [  
                   "baby_racoon",
                   "adult_racoon",
-                   "adultbaby_racoon",
+                  "adultbaby_racoon",
                   "racoonbaby",
                   "racoonadult",
                   "racoontogether"
@@ -514,15 +514,15 @@
                [  
                   "baby_alligator",
                   "adult_alligator",
-                   "adultbaby_alligator",
+                  "adultbaby_alligator",
                   "alligatorbaby",
                   "alligatoradult",
                   "alligatortogether"
                ],
                [  
-                 "baby_lizard",
+                  "baby_lizard",
                   "adult_lizard",
-                   "adultbaby_lizard",
+                  "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
                   "lizardtogether"
@@ -530,7 +530,7 @@
                [  
                   "baby_turtle",
                   "adult_turtle",
-                   "adultbaby_turtle",
+                  "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -545,7 +545,7 @@
                [  
                   "baby_beaver",
                   "adult_beaver",
-                   "adultbaby_beaver",
+                  "adultbaby_beaver",
                   "beaverbaby",
                   "beaveradult",
                   "beavertogether"
@@ -553,7 +553,7 @@
                [  
                   "baby_skunk",
                   "adult_skunk",
-                   "adultbaby_skunk",
+                  "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
@@ -561,7 +561,7 @@
                [  
                   "baby_elephant",
                   "adult_elephant",
-                   "adultbaby_elephant",
+                  "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
                   "elephanttogether"
@@ -578,7 +578,7 @@
                [  
                   "baby_puffin",
                   "adult_puffin",
-                   "adultbaby_puffin",
+                  "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
                   "puffintogether"
@@ -586,7 +586,7 @@
                [  
                   "baby_skunk",
                   "adult_skunk",
-                   "adultbaby_skunk",
+                  "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
                   "skunktogether"
@@ -594,7 +594,7 @@
                [  
                   "baby_zebra",
                   "adult_zebra",
-                   "adultbaby_zebra",
+                  "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
                   "zebratogether"
@@ -609,7 +609,7 @@
                [  
                   "baby_owl",
                   "adult_owl",
-                   "adultbaby_owl",
+                  "adultbaby_owl",
                   "owlbaby",
                   "owladult",
                   "owltogether"
@@ -617,7 +617,7 @@
                [  
                   "baby_kangaroo",
                   "adult_kangaroo",
-                   "adultbaby_kangaroo",
+                  "adultbaby_kangaroo",
                   "kangaroobaby",
                   "kangarooadult",
                   "kangarootogether"
@@ -625,7 +625,7 @@
                [  
                   "baby_lion",
                   "adult_lion",
-                   "adultbaby_lion",
+                  "adultbaby_lion",
                   "lionbaby",
                   "lionadult",
                   "liontogether"
@@ -640,7 +640,7 @@
                [  
                   "baby_elephant",
                   "adult_elephant",
-                   "adultbaby_elephant",
+                  "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
                   "elephanttogether"
@@ -648,7 +648,7 @@
                [  
                   "baby_seal",
                   "adult_seal",
-                   "adultbaby_seal",
+                  "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
                   "sealtogether"
@@ -656,7 +656,7 @@
                [  
                   "baby_rhino",
                   "adult_rhino",
-                   "adultbaby_rhino",
+                  "adultbaby_rhino",
                   "rhinobaby",
                   "rhinoadult",
                   "rhinotogether"
@@ -671,7 +671,7 @@
                [  
                   "baby_fish",
                   "adult_fish",
-                   "adultbaby_fish",
+                  "adultbaby_fish",
                   "fishbaby",
                   "fishadult",
                   "fishtogether"
@@ -679,7 +679,7 @@
                [  
                   "baby_alligator",
                   "adult_alligator",
-                   "adultbaby_alligator",
+                  "adultbaby_alligator",
                   "alligatorbaby",
                   "alligatoradult",
                   "alligatortogether"
@@ -687,7 +687,7 @@
                [  
                   "baby_turtle",
                   "adult_turtle",
-                   "adultbaby_turtle",
+                  "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
                   "turtletogether"
@@ -702,7 +702,7 @@
                [  
                   "baby_crab",
                   "adult_crab",
-                   "adultbaby_crab",
+                  "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
                   "crabtogether"
@@ -710,7 +710,7 @@
                [  
                   "baby_seahorse",
                   "adult_seahorse",
-                   "adultbaby_seahorse",
+                  "adultbaby_seahorse",
                   "seahorsebaby",
                   "seahorseadult",
                   "seahorsetogether"
@@ -718,7 +718,7 @@
                [  
                   "baby_bird",
                   "adult_bird",
-                   "adultbaby_bird",
+                  "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
                   "birdtogether"

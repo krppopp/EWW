@@ -14,7 +14,7 @@ var EWW = {
         //totaly number of game sprites
         spriteNum: 12,
         //X position of interactable, matching sprites
-        matchObjPosX: 200,
+        matchObjPosX: 100,
         //X position of non-interactable, static sprites 
         staticObjPosX: 800,
         //Y position of interactive, matching sprites
@@ -105,7 +105,6 @@ EWW.Boot.prototype = {
     },
 
     preload: function () {
-
         this.load.text('levels', 'levels.json');
 
     },

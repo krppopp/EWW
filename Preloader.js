@@ -15,7 +15,6 @@ EWW.Preloader.prototype = {
         this.audio = [this.levelData.audio];
         this.roundDesign = [this.levelData.levels];
         
-        this.load.atlasJSONArray('sprites', 'Assets/Images/phart.png', 'Assets/Images/phart.json');
         //this.load.atlasJSONArray('intro', 'Assets/Images/intro.png', 'Assets/Images/intro,json');
         this.load.spritesheet(this.sprites[0][0].playButton, 'Assets/Images/' + this.sprites[0][0].playButton + '.png', 197, 210);
         this.load.spritesheet(this.sprites[0][0].exitButton, 'Assets/Images/' + this.sprites[0][0].exitButton + '.png', 82, 81);
@@ -46,6 +45,8 @@ EWW.Preloader.prototype = {
                         this.load.atlasJSONArray(this.roundDesign[0][i][j].Sets[k][0], 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][0] + ".png", 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][0] + ".json");
                         this.load.atlasJSONArray(this.roundDesign[0][i][j].Sets[k][1], 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][1] + ".png", 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][1] + ".json");
                         this.load.atlasJSONArray(this.roundDesign[0][i][j].Sets[k][2], 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][2] + ".png", 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][2] + ".json");
+                    this.load.json(this.roundDesign[0][i][j].Sets[k][1], 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][1] + ".json");
+                    this.load.json(this.roundDesign[0][i][j].Sets[k][0], 'Assets/Images/' + this.roundDesign[0][i][j].Sets[k][0] + ".json");
                     this.load.audio(this.roundDesign[0][i][j].Sets[k][3], 'Assets/Audio/Sprites/' + this.roundDesign[0][i][j].Sets[k][3] + ".wav");
                     this.load.audio(this.roundDesign[0][i][j].Sets[k][4], 'Assets/Audio/Sprites/' + this.roundDesign[0][i][j].Sets[k][4] + ".wav");
                     this.load.audio(this.roundDesign[0][i][j].Sets[k][5], 'Assets/Audio/Sprites/' + this.roundDesign[0][i][j].Sets[k][5] + ".wav"); 

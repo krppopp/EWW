@@ -50,6 +50,7 @@ EWW.Game.prototype = {
         var game = this;
         //for stick and click
         if (game.follow) {
+            game.world.bringToTop(game.activeObject);
             game.activeObject.alpha = .8;
             game.activeObject.x = game.input.mousePointer.x - 5;
             game.activeObject.y = game.input.mousePointer.y - 5;
@@ -61,8 +62,7 @@ EWW.Game.prototype = {
             clearTimeout(game.timeOutHandler);
             game.timeOutHandler = setTimeout((game.timeOut), 12000);
         }
-                    game.physics.arcade.overlap(game.matchObjects, game.staticObjects, game.matchChara, null, this);
-
+        game.physics.arcade.overlap(game.matchObjects, game.staticObjects, game.matchChara, null, this);
         //coll checks
         if (!game.follow) {
             game.physics.arcade.overlap(game.matchObjects, game.completeObjects, game.noMatch, null, this);
@@ -71,13 +71,11 @@ EWW.Game.prototype = {
     }
     , timeOut: function () {
         var game = this;
-        console.log("timeout");
         clearTimeout(game.timeOutHandler);
         game.timeOutHandler = setTimeout((game.timeOut), 12000);
     }
     , answersTimeOut: function () {
         var game = this;
-        console.log("timeout");
         clearTimeout(game.timeOutHandler);
         game.timeOutHandler = setTimeout((game.timeOut), 12000);
     }
@@ -141,56 +139,74 @@ EWW.Game.prototype = {
         game.matchSound = [];
         game.staticSound = [];
         game.togetherSound = [];
+        game.staticAnim = [];
+        game.staticAnimIsPlaying = [false, false, false];
         game.togetherAnim = [];
         game.wrongSound = game.add.audio(game.levelData.audio[0].wrongAnswerAudio)
         game.transitionSound = game.add.audio(game.levelData.audio[0].transitionAudio);
-        //randomly grab a set
-        //            if(game.roundDesign[0][roundToPlay][set].Theme){
-        //                game.sfx.play(game.roundDesign[0][roundToPlay][set].Sound);
-        //            } else{
-        //                game.sfx.play(basicIntro);
-        //            }
         //creates the items, based on the round number
         for (var i = 0; i < game.matchNum; i++) {
             var newMatchObj = game.matchObjects.create(EWW.matchObjPosX, game.world.height * EWW.roundYPos[game.posNum - 1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][0], 0);
+            var you = game.cache.getJSON(game.roundDesign[0][roundToPlay][game.set].Sets[i][0]);
+            newMatchObj.body.setSize(you.frames[0].spriteSourceSize.x, you.frames[0].spriteSourceSize.y, you.frames[0].spriteSourceSize.w, you.frames[0].spriteSourceSize.h);
+            newMatchObj.anchor.setTo(.2, .7);
+            newMatchObj.indexNum = i;
             newMatchObj.inputEnabled = true;
-            game.matchSound[newMatchObj.z] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][3]);
-            newMatchObj.events.onInputDown.add(function (sprite) {
-                game.matchSound[sprite.z].play();
-            })
+            newMatchObj.input.pixelPerfectClick = true;
+            newMatchObj.input.pixelPerfectOver = true;
+            if (roundToPlay != 0) {
+                newMatchObj.scale.x = .8;
+                newMatchObj.scale.y = .8;
+            }
+            game.matchSound[newMatchObj.indexNum] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][3]);
             game.add.tween(newMatchObj.scale).from({
                 x: 0
                 , y: 0
             }, 1000, "Elastic", true);
             var newStaticObj = game.staticObjects.create(EWW.staticObjPosX, game.world.height * EWW.staticRoundYPos[game.posNum - 1][i], game.roundDesign[0][roundToPlay][game.set].Sets[i][1], 0);
+            var me = game.cache.getJSON(game.roundDesign[0][roundToPlay][game.set].Sets[i][1]);
+            newStaticObj.body.setSize(me.frames[0].spriteSourceSize.x, me.frames[0].spriteSourceSize.y, me.frames[0].spriteSourceSize.w, me.frames[0].spriteSourceSize.h);
+            console.log(newStaticObj.body);
+            newStaticObj.anchor.setTo(.5, .5);
+            if (roundToPlay != 0) {
+                newStaticObj.scale.x = .8;
+                newStaticObj.scale.y = .8;
+            }
+            newStaticObj.indexNum = i;
             newStaticObj.inputEnabled = true;
-            game.staticSound[newStaticObj.z] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][4]);
+            newStaticObj.input.pixelPerfectClick = true;
+            newStaticObj.input.pixelPerfectOver = true;
+            game.staticSound[newStaticObj.indexNum] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][4]);
             newStaticObj.events.onInputDown.add(function (sprite) {
-                game.staticSound[sprite.z].play();
+                if (!game.staticAnimIsPlaying[sprite.indexNum]) {
+                    game.staticAnim[sprite.indexNum] = sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
+                    game.staticAnim[sprite.indexNum].onComplete.add(function () {
+                        game.staticAnimIsPlaying[sprite.indexNum] = false;
+                    });
+                    game.staticAnim[sprite.indexNum].play();
+                    game.staticAnimIsPlaying[sprite.indexNum] = true;
+                }
+                game.staticSound[sprite.indexNum].play();
             });
             game.add.tween(newStaticObj.scale).from({
                 x: 0
                 , y: 0
             }, 1000, "Elastic", true);
-            game.togetherSound[newStaticObj.z] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][5]);
+            game.togetherSound[newStaticObj.indexNum] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][5]);
             //x position multiplier needs to be changed
-            game.togetherAnim[newStaticObj.z] = game.add.sprite(newStaticObj.x - (newStaticObj.x * .075), newStaticObj.y, game.roundDesign[0][roundToPlay][game.set].Sets[i][2], 0);
-            console.log(game.togetherAnim[newStaticObj.z]);
-            game.togetherAnim[newStaticObj.z].animations.add('animate', Phaser.Animation.generateFrameNames(game.togetherAnim[newStaticObj.z].key + "/", 1, 100, '', 4), 20, false);
-            game.togetherAnim[newStaticObj.z].anchor.setTo(.5, .5);
-            game.togetherAnim[newStaticObj.z].visible = false;
-            console.log(newStaticObj.z);
-        }
-        for (var i = 0; i < game.staticObjects.length; i++) {
-            game.staticObjects.children[i].anchor.setTo(.5, .5);
-           // game.staticObjects.children[i].body.setSize(200, 200, -50, -50);
-        }
-        for (var i = 0; i < game.matchObjects.length; i++) {
-            game.matchObjects.children[i].anchor.setTo(.5, .5);
+            game.togetherAnim[newStaticObj.indexNum] = game.add.sprite(newStaticObj.x, newStaticObj.y, game.roundDesign[0][roundToPlay][game.set].Sets[i][2], 0);
+            if (roundToPlay != 0) {
+                game.togetherAnim[newStaticObj.indexNum].scale.x = .8;
+                game.togetherAnim[newStaticObj.indexNum].scale.y = .8;
+            }
+            game.togetherAnim[newStaticObj.indexNum].animations.add('animate', Phaser.Animation.generateFrameNames(game.togetherAnim[newStaticObj.indexNum].key + "/", 1, 100, '', 4), 20, false);
+            game.togetherAnim[newStaticObj.indexNum].anchor.setTo(.5, .5);
+            game.togetherAnim[newStaticObj.indexNum].visible = false;
         }
         //input stuff
         game.matchObjects.onChildInputDown.add(function (sprite) {
             //game.sfx.play(sprite.name);
+            game.matchSound[sprite.indexNum].play();
             sprite.body.collideWorldBounds = true;
             var clickScaleTween = game.add.tween(sprite.scale).to({
                 x: 1.2
@@ -202,11 +218,19 @@ EWW.Game.prototype = {
                 game.follow = true;
             }
         });
+        if (roundToPlay == 0) {
+            var scaleIntX = 1.0;
+            var scaleIntY = 1.0;
+        }
+        else {
+            var scaleIntX = 0.8;
+            var scaleIntY = 0.8;
+        }
         game.matchObjects.onChildInputUp.add(function (sprite) {
             game.clickNum++;
             var clickScaleTween = game.add.tween(sprite.scale).to({
-                x: 1.0
-                , y: 1.0
+                x: scaleIntX
+                , y: scaleIntY
             }, 100, "Linear", true);
             if (!Phaser.Device.desktop) {
                 sprite.alpha = 1;
@@ -221,23 +245,21 @@ EWW.Game.prototype = {
             }
         });
         game.matchObjects.onChildInputOver.add(function (sprite) {
-            //game.runSpriteAnimation(sprite);
-            //nned to find a way to find the sheets frame number without manually inserting it
-            sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
-            sprite.animations.play('animate');
+            game.hoverTimeout = setTimeout(function(){
+                game.matchSound[sprite.indexNum].play();
+                sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
+                sprite.animations.play('animate');
+            }, 4000);
+
             if (!game.follow) {
-                //                game.hoverTween = game.add.tween(sprite).to({
-                //                    angle: [5, -5, 5, -5, 5, -5, 0]
-                //                }, 1000, "Linear", true);
+                game.hoverTween = game.add.tween(sprite).to({
+                    angle: [5, -5, 5, -5, 5, -5, 0]
+                }, 1000, "Linear", true);
             }
         })
         game.matchObjects.onChildInputOut.add(function (sprite) {
-            //sprite.angle = 0;
+            clearTimeout(game.hoverTimeout);
             //game.hoverTween.stop();
-        })
-        game.staticObjects.onChildInputOver.add(function (sprite) {
-            sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
-            sprite.animations.play('animate');
         })
         if (!Phaser.Device.desktop) {
             for (var i = 0; i < game.matchObjects.length; i++) {
@@ -254,7 +276,6 @@ EWW.Game.prototype = {
     , runSpriteAnimation: function (mySprite) {
             var game = this;
             mySprite.animations.add(('animate', Phaser.Animation.generateFrameNames('animate_', 2, 12), 10, true));
-            console.log(mySprite.animations.frame('animate'));
             mySprite.animations.play('animate');
         }
         //function to run when two items are colliding
@@ -264,12 +285,12 @@ EWW.Game.prototype = {
             //if the two items match
             clearTimeout(game.answersTimeOutHandler);
             game.timeOutHandler = setTimeout((game.timeOut), 12000);
-            if (matchObj.z == staticObj.z) {
+            if (matchObj.indexNum == staticObj.indexNum) {
                 matchObj.enabledBody = false;
                 staticObj.enableBody = false;
                 game.wrongAnswers = 0;
                 game.rightAnswers++;
-                var matchIndex = staticObj.z;
+                var matchIndex = staticObj.indexNum;
                 var myIndex = game.rightAnswers;
                 var correctSound = game.add.audio(game.levelData.audio[0].correctAnswerAudio);
                 //  matchObj.bringToTop();
@@ -289,13 +310,11 @@ EWW.Game.prototype = {
                 game.completeObjects.add(matchObj);
                 game.completeObjects.add(staticObj);
                 game.togetherSound[matchIndex].onStop.add(function () {
-                    console.log("the sound stopped playing");
                     correctSound.play();
                 })
                 correctSound.onStop.add(function (tween) {
-                    console.log("right answers: " + game.rightAnswers);
-                    console.log("number of matches" + game.matchNum);
-                    console.log("index number" + myIndex);
+                    staticObj.destroy();
+                    matchObj.destroy();
                     if (game.matchNum == game.rightAnswers && myIndex == game.rightAnswers) {
                         game.wrongAnswers = 0;
                         if (game.roundNum < game.roundDesign[0].length - 1) {
@@ -313,8 +332,6 @@ EWW.Game.prototype = {
                             var nextRound = 0;
                             do {
                                 nextRound = game.rnd.integerInRange(1, game.roundDesign[0].length - 1);
-                                console.log(game.lastRound);
-                                console.log(nextRound);
                             } while (nextRound == game.lastRound);
                             game.set = game.rnd.integerInRange(0, game.roundDesign[0][nextRound].length - 1);
                             var bg = game.add.sprite(0, 0, game.roundDesign[0][nextRound][game.set].Background);
@@ -335,14 +352,14 @@ EWW.Game.prototype = {
                 game.wrongSound.play();
                 if (game.clickNum == 0 || !Phaser.Device.desktop) {
                     matchObj.x = EWW.matchObjPosX;
-                    matchObj.y = (game.world.height * EWW.roundYPos[game.posNum - 1][matchObj.z]);
+                    matchObj.y = (game.world.height * EWW.roundYPos[game.posNum - 1][matchObj.indexNum]);
                     game.wrongAnswers++;
                     if (game.wrongAnswers == 1) {
                         //game.sfx.play(WA1);
                     }
                     if (game.wrongAnswers == 2) {
                         for (var i = 0; i < game.staticObjects.length; i++) {
-                            if (matchObj.z == game.staticObjects.children[i].z) {
+                            if (matchObj.indexNum == game.staticObjects.children[i].indexNum) {
                                 var correctObject = game.staticObjects.children[i];
                                 break;
                             }
@@ -351,7 +368,7 @@ EWW.Game.prototype = {
                     }
                     if (game.wrongAnswers == 3) {
                         for (var i = 0; i < game.staticObjects.length; i++) {
-                            if (matchObj.z == game.staticObjects.children[i].z) {
+                            if (matchObj.indexNum == game.staticObjects.children[i].indexNum) {
                                 var correctObject = game.staticObjects.children[i];
                                 break;
                             }
@@ -368,13 +385,13 @@ EWW.Game.prototype = {
             if (game.clickNum == 0) {
                 game.wrongAnswers++;
                 matchObj.x = EWW.matchObjPosX;
-                matchObj.y = (game.world.height * EWW.roundYPos[game.posNum - 1][matchObj.z]);
+                matchObj.y = (game.world.height * EWW.roundYPos[game.posNum - 1][matchObj.indexNum]);
                 if (game.wrongAnswers == 1) {
                     //game.sfx.play(WA1);
                 }
                 if (game.wrongAnswers == 2) {
                     for (var i = 0; i < game.staticObjects.length; i++) {
-                        if (matchObj.z == game.staticObjects.children[i].z) {
+                        if (matchObj.indexNum == game.staticObjects.children[i].indexNum) {
                             var correctObject = game.staticObjects.children[i];
                             break;
                         }
@@ -383,7 +400,7 @@ EWW.Game.prototype = {
                 }
                 if (game.wrongAnswers == 3) {
                     for (var i = 0; i < game.staticObjects.length; i++) {
-                        if (matchObj.z == game.staticObjects.children[i].z) {
+                        if (matchObj.indexNum == game.staticObjects.children[i].indexNum) {
                             var correctObject = game.staticObjects.children[i];
                             break;
                         }
@@ -452,28 +469,25 @@ EWW.Game.prototype = {
     , randomBag: function (myArray) {
         var game = this;
         var newArray = Phaser.ArrayUtils.shuffle(myArray);
-        console.log(newArray);
     }
     , removeFromArray: function (result, myArray) {
         var game = this;
-        console.log("HEY");
         result = myArray.shift();
-        console.log(result);
-    },
-    render: function(){
+    }
+    , render: function () {
         //still dont understand why i cannot render this stuff
-//        var game = this;
-//        game.staticObjects.forEach(function(item){
-//            if(item.body.width == 200){
-//                console.log(item.body);
-//                console.log(game.time);
-//                game.debug.body(item);
-//            }
-//        })
-//        game.matchObjects.forEach(function(item){
-//            if(item.body.width > 0){
-//               game.debug.body(item);
-//            }        
-//        })
+        //        var game = this;
+        //        game.staticObjects.forEach(function(item){
+        //            if(item.body.width == 200){
+        //                console.log(item.body);
+        //                console.log(game.time);
+        //                game.debug.body(item);
+        //            }
+        //        })
+        //        game.matchObjects.forEach(function(item){
+        //            if(item.body.width > 0){
+        //               game.debug.body(item);
+        //            }        
+        //        })
     }
 };
