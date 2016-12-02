@@ -26,6 +26,19 @@ EWW.Introduction.prototype = {
                 sprite.frame = 0;
             })
         }
+        game.introVO = game.add.audio(game.levelData.audio[0].introIntroVO);
+        game.intstrVO = game.add.audio(game.levelData.audio[0].introInstrVO);
+        game.concVO = game.add.audio(game.levelData.audio[0].introConclVO);
+        game.introVO.play();
+        game.introVO.onStop.add(function(){
+            game.intstrVO.play();
+            game.intstrVO.onStop.add(function(){
+                game.concVO.play();
+                game.concVO.onStop.add(function(){
+                    game.state.start('Game');
+                })
+            })
+        })
 
 	},
 

@@ -38,10 +38,34 @@ EWW.Main.prototype = {
         game.playButton.anchor.setTo(.5, .5);
         game.logo.anchor.setTo(.5, .5);
         game.title.anchor.setTo(.5, .5);
-        game.add.tween(game.playButton.scale).from({
+        game.startButtTween = game.add.tween(game.playButton.scale).from({
             x: 0
             , y: 0
         }, 2000, "Elastic", true); 
+        game.startButtTween.onComplete.add(function(){
+            game.playButton.inputEnabled = true;
+            game.playButton.events.onInputOver.add(function (sprite) {
+                sprite.frame = 1;
+                var playTween = game.add.tween(sprite.scale).to({
+                    x: 1.1
+                    , y: 1.1
+                }, 300, Phaser.Easing.Back.Out, true);
+            })
+            game.playButton.events.onInputOut.add(function (sprite) {
+                sprite.frame = 0;
+                var stopTween = game.add.tween(sprite.scale).to({
+                    x: 1
+                    , y: 1
+                }, 500, "Elastic", true);
+            })
+            game.playButton.events.onInputDown.add(function (sprite) {
+                sprite.frame = 2;
+            })
+            game.playButton.events.onInputUp.add(function(sprite){
+                console.log("am happen");
+                sprite.frame = 1;
+            })
+            })
         game.add.tween(game.title.scale).from({
             x: 0
             , y: 0
@@ -60,29 +84,12 @@ EWW.Main.prototype = {
         game.cropTween = game.add.tween(game.cropRect).to({width:game.extra.width},1000,"Linear",true);
         game.extra.crop(game.cropRect);
         game.cropTween.start();
-        
-        game.playButton.inputEnabled = true;
-        game.playButton.events.onInputOver.add(function (sprite) {
-            sprite.frame = 1;
-            var playTween = game.add.tween(sprite.scale).to({
-                x: 1.1
-                , y: 1.1
-            }, 300, Phaser.Easing.Back.Out, true);
-        })
-        game.playButton.events.onInputOut.add(function (sprite) {
-            sprite.frame = 0;
-            var stopTween = game.add.tween(sprite.scale).to({
-                x: 1
-                , y: 1
-            }, 500, "Elastic", true);
-        })
-        game.playButton.events.onInputDown.add(function (sprite) {
-            sprite.frame = 2;
-        })
-         game.playButton.events.onInputUp.add(function(sprite){
-            console.log("am happen");
-            sprite.frame = 1;
-        })
+        game.introVO = game.add.audio(game.levelData.audio[0].mainMenuVO);
+        game.startVO = game.add.audio(game.levelData.audio[0].mainMenuStartVO);
+        game.introVO.play();
+        game.introVO.onStop.add(function(){
+            game.startVO.play();
+        });
     }
     , update: function () {
             var game = this;
@@ -111,7 +118,9 @@ EWW.Main.prototype = {
                     x: 0
                 }, 800, "Linear", true);
                 BGTween.onComplete.add(function () {
-                    game.state.start('Game');
+                    game.introVO.stop();
+                    game.startVO.stop();
+                    game.state.start('Introduction');
                 })
                 game.clickedScreen = true;
             }

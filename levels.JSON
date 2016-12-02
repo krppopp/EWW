@@ -9,30 +9,71 @@
          "extra":"drawings",
          "skipButton":"",
          "introBG":"bg2",
-         "exitButton":"exitbtns"
+         "exitButton":"exitbtns",
+         "loadingBar": "loading-bar",
+         "loadingBarBg": "loading-bar-bg",
+         "loadingBg": "loading-bg",
+         "loadingText": "loading-text",
+         "transitionSprites": "loading"
       }
    ],
    "audio":[  
       {  
          "mainMenuAudio":"mainsong",
-         "introAudio":"",
+         "mainMenuVO": "EWB_1",
+         "mainMenuStartVO": "EWB_2",
+         "mainMenuDesktopStartVO": "EWB_3",
+         "mainMenuMobileStartVO": "EWB_4_ALT",
+         "introIntroVO":"EWB_5",
+         "introInstrVO": "EWB_6_ALT",
+         "introConclVO": "EWB_7",
          "transitionAudio":"TransitionSwish",
+         "gameInstrVO": "EWB_8",
+         "gameHintVO": "EWB_9",
          "genericLevelAudio":"gameloop",
          "wrongAnswerAudio":"WrongAnswer",
-         "correctAnswerAudio":"CorrectAnswer",
-         "levelCompleteAudio":[  
-            "",
-            ""
+         "one_wrongAnswerVO":[
+            "EWB_26", "EWB_27", "EWB_28"
          ],
-         "buttonClickAudio":"UIbuttonclick"
+         "two_wrongAnswerVO":[
+            "EWB_29", "EWB_30", "EWB_32", "EWB_31", "EWB_33", "EWB_34"
+         ],
+         "three_wrongAnswerVO": [
+            "EWB_35", "EWB_36" 
+         ],
+         "three_wrongAnswerVOExtra": "EWB_37",
+         "correctAnswerAudio":"CorrectAnswer",
+         "correctAnswerVO":[
+            "EWB_38", "EWB_39", "EWB_40", "EWB_41", "EWB_42"     
+         ],
+         "correctAnswerVOtwo": "EWB_37",
+         "levelCompleteVO":[  
+            "EWB_43", "EWB_44_ALT", "EWB_45", "EWB_46"
+         ],
+         "levelFactVO":[
+            "EWB_47", "EWB_48", "EWB_49"  
+         ],
+         "transitionVO": [
+            "EWB_50", "EWB_51", "EWB_52", "EWB_53" 
+         ],
+         "buttonClickAudio":"UIbuttonclick",
+         "inactTODesktop": "EWB_20",
+         "inactTOMobile": "EWB_19",
+         "inactTO2": "EWB_22",
+         "inactTO2Alt": "EWB_23",
+         "inactTO3": "EWB_24",
+         "partialDragTO": "EWB_25",
+         "partialMatchODesktop": "EWB_21"
+
       }
    ],
    "levels":[  
       [  
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg1",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_puffin",
@@ -40,7 +81,14 @@
                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
-                  "puffintogether"
+                  "puffintogether",
+                  "EWB_70",
+                  "EWB_69",
+                  "EWB_105",
+                  "EWB_104",
+                  "EWB_140",
+                  "EWB_55",
+                  ["EWB_159", "EWB_160"]
                ],
                [  
                   "baby_owl",
@@ -48,14 +96,22 @@
                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
-                  "owltogether"
+                  "owltogether",
+                  "EWB_78",
+                  "EWB_77",
+                  "EWB_113",
+                  "EWB_114",
+                  "EWB_144",
+                  "EWB_56",
+                  ["EWB_166", "EWB_167_ALT"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg2",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_zebra",
@@ -63,7 +119,14 @@
                   "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
-                  "zebratogether"
+                  "zebratogether",
+                  "EWB_92",
+                  "EWB_91",
+                  "EWB_127",
+                  "EWB_92",
+                  "EWB_150",
+                  "EWB_55",
+                  ["EWB_182", "EWB_183"]
                ],
                [  
                   "baby_turtle",
@@ -71,14 +134,22 @@
                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
-                  "turtletogether"
+                  "turtletogether",
+                  "EWB_101",
+                  "EWB_100",
+                  "EWB_137",
+                  "EWB_136",
+                  "EWB_156",
+                  "EWB_57",
+                  ["EWB_194", "EWB_195"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg3",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_skunk",
@@ -86,7 +157,14 @@
                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
-                  "skunktogether"
+                  "skunktogether",
+                  "EWB_74",
+                  "EWB_75",
+                  "EWB_109",
+                  "EWB_110",
+                  "EWB_143",
+                  "EWB_55",
+                  ["EWB_164", "EWB_165"]
                ],
                [  
                   "baby_bird",
@@ -94,14 +172,22 @@
                   "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
-                  "birdtogether"
+                  "birdtogether",
+                  "EWB_81",
+                  "EWB_80",
+                  "EWB_116",
+                  "EWB_115",
+                  "EWB_65",
+                   "EWB_58",
+                  ["EWB_170", "EWB_171"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg4",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_beaver",
@@ -109,7 +195,14 @@
                   "adultbaby_beaver",
                   "beaverbaby",
                   "beaveradult",
-                  "beavertogether"
+                  "beavertogether",
+                  "EWB_76",
+                  "EWB_97",
+                  "EWB_111",
+                  "EWB_133",
+                  "EWB_154",
+                  "EWB_56",
+                  ["EWB_190", "EWB_191"]
                ],
                [  
                   "baby_bear",
@@ -117,14 +210,22 @@
                   "adultbaby_bear",
                   "polarbearbaby",
                   "polarbearadult",
-                  "polarbeartogether"
+                  "polarbeartogether",
+                  "EWB_74",
+                  "EWB_73",
+                  "EWB_109",
+                  "EWB_108",
+                  "EWB_142",
+                  "EWB_59",
+                  ["EWB_162","EWB_163"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg1",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_lion",
@@ -132,7 +233,14 @@
                   "adultbaby_lion",
                   "lionbaby",
                   "lionadult",
-                  "liontogether"
+                  "liontogether",
+                  "EWB_74",
+                  "EWB_93",
+                  "EWB_109",
+                  "EWB_129",
+                  "EWB_151",
+                  "EWB_56",
+                  ["EWB_184","EWB_185"]
                ],
                [  
                   "baby_crab",
@@ -140,14 +248,22 @@
                   "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
-                  "crabtogether"
+                  "crabtogether",
+                  "EWB_90",
+                  "EWB_89",
+                  "EWB_126",
+                  "EWB_125",
+                  "EWB_149",
+                  "EWB_58",
+                  ["EWB_180", "EWB_181"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg3",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_rhino",
@@ -155,7 +271,14 @@
                   "adultbaby_rhino",
                   "rhinobaby",
                   "rhinoadult",
-                  "rhinotogether"
+                  "rhinotogether",
+                  "EWB_95",
+                  "EWB_94",
+                  "EWB_132",
+                  "EWB_130",
+                  "EWB_152",
+                  "EWB_59",
+                  ["EWB_186", "EWB_187"]
                ],
                [  
                   "baby_lizard",
@@ -163,14 +286,22 @@
                   "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
-                  "lizardtogether"
+                  "lizardtogether",
+                  "EWB_103",
+                  "EWB_102",
+                  "EWB_139",
+                  "EWB_138",
+                  "EWB_157",
+                  "EWB_57",
+                  ["EWB_196","EWB_197"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg4",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_racoon",
@@ -178,7 +309,14 @@
                   "adultbaby_racoon",
                   "racoonbaby",
                   "racoonadult",
-                  "racoontogether"
+                  "racoontogether",
+                  "EWB_76",
+                  "EWB_79",
+                  "EWB_111",
+                  "EWB_114",
+                  "EWB_145",
+                  "EWB_59",
+                  ["EWB_168","EWB_169"]
                ],
                [  
                   "baby_octopus",
@@ -186,16 +324,24 @@
                   "adultbaby_octopus",
                   "octopusbaby",
                   "octopusadult",
-                  "octopustogether"
+                  "octopustogether",
+                  "EWB_88",
+                  "EWB_87",
+                  "EWB_124",
+                  "EWB_123",
+                  "EWB_148",
+                  "EWB_58",
+                  ["EWB_178","EWB_179"]
                ]
             ]
          }
       ],
       [  
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg1",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_puffin",
@@ -203,7 +349,14 @@
                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
-                  "puffintogether"
+                  "puffintogether",
+                  "EWB_70",
+                  "EWB_69",
+                  "EWB_105",
+                  "EWB_104",
+                  "EWB_140",
+                  "EWB_55",
+                  ["EWB_159", "EWB_160"]
                ],
                [  
                   "baby_owl",
@@ -211,7 +364,14 @@
                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
-                  "owltogether"
+                  "owltogether",
+                  "EWB_78",
+                  "EWB_77",
+                  "EWB_113",
+                  "EWB_114",
+                  "EWB_144",
+                  "EWB_56",
+                  ["EWB_166", "EWB_167_ALT"]
                ],
                [  
                  "baby_lizard",
@@ -219,14 +379,22 @@
                   "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
-                  "lizardtogether"
+                  "lizardtogether",
+                  "EWB_103",
+                  "EWB_102",
+                  "EWB_139",
+                  "EWB_138",
+                  "EWB_157",
+                  "EWB_57",
+                  ["EWB_196","EWB_197"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg2",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_zebra",
@@ -234,7 +402,14 @@
                   "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
-                  "zebratogether"
+                  "zebratogether",
+                  "EWB_92",
+                  "EWB_91",
+                  "EWB_127",
+                  "EWB_92",
+                  "EWB_150",
+                  "EWB_55",
+                  ["EWB_182", "EWB_183"]
                ],
                [  
                   "baby_turtle",
@@ -242,7 +417,14 @@
                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
-                  "turtletogether"
+                  "turtletogether",
+                  "EWB_101",
+                  "EWB_100",
+                  "EWB_137",
+                  "EWB_136",
+                  "EWB_156",
+                  "EWB_57",
+                  ["EWB_194", "EWB_195"]
                ],
                [  
                   "baby_elephant",
@@ -250,14 +432,22 @@
                   "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
-                  "elephanttogether"
+                  "elephanttogether",
+                  "EWB_95",
+                  "EWB_96",
+                  "EWB_132",
+                  "EWB_131",
+                  "EWB_153",
+                  "EWB_59",
+                  ["EWB_188","EWB_189"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":false,
+            "Sound":null,
             "Background":"bg3",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_skunk",
@@ -265,7 +455,14 @@
                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
-                  "skunktogether"
+                  "skunktogether",
+                  "EWB_74",
+                  "EWB_75",
+                  "EWB_109",
+                  "EWB_110",
+                  "EWB_143",
+                  "EWB_55",
+                  ["EWB_164", "EWB_165"]
                ],
                [  
                   "baby_bird",
@@ -273,7 +470,14 @@
                   "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
-                  "birdtogether"
+                  "birdtogether",
+                  "EWB_81",
+                  "EWB_80",
+                  "EWB_116",
+                  "EWB_115",
+                  "EWB_65",
+                   "EWB_58",
+                  ["EWB_170", "EWB_171"]
                ],
                [  
                   "baby_owl",
@@ -281,16 +485,24 @@
                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
-                  "owltogether"
+                  "owltogether",
+                  "EWB_78",
+                  "EWB_77",
+                  "EWB_113",
+                  "EWB_114",
+                  "EWB_144",
+                  "EWB_56",
+                  ["EWB_166", "EWB_167_ALT"]
                ]
             ]
          }
       ],
       [  
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_10",
             "Background":"bg4",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                    "baby_puffin",
@@ -298,7 +510,14 @@
                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
-                  "puffintogether"
+                  "puffintogether",
+                  "EWB_70",
+                  "EWB_69",
+                  "EWB_105",
+                  "EWB_104",
+                  "EWB_140",
+                  "EWB_55",
+                  ["EWB_159", "EWB_160"]
                ],
                [  
                   "baby_seal",
@@ -306,7 +525,14 @@
                   "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
-                  "sealtogether"
+                  "sealtogether",
+                  "EWB_72",
+                  "EWB_71",
+                  "EWB_107",
+                  "EWB_106_ALT",
+                  "EWB_141",
+                  "EWB_59",
+                  ["EWB_160", "EWB_161"]
                ],
                [  
                   "baby_bear",
@@ -314,14 +540,22 @@
                   "adultbaby_bear",
                   "polarbearbaby",
                   "polarbearadult",
-                  "polarbeartogether"
+                  "polarbeartogether",
+                  "EWB_74",
+                  "EWB_73",
+                  "EWB_109",
+                  "EWB_108",
+                  "EWB_142",
+                  "EWB_59",
+                  ["EWB_162","EWB_163"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_12",
             "Background":"bg2",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_skunk",
@@ -329,7 +563,14 @@
                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
-                  "skunktogether"
+                  "skunktogether",
+                  "EWB_74",
+                  "EWB_75",
+                  "EWB_109",
+                  "EWB_110",
+                  "EWB_143",
+                  "EWB_55",
+                  ["EWB_164", "EWB_165"]
                ],
                [  
                   "baby_owl",
@@ -337,7 +578,14 @@
                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
-                  "owltogether"
+                  "owltogether",
+                  "EWB_78",
+                  "EWB_77",
+                  "EWB_113",
+                  "EWB_114",
+                  "EWB_144",
+                  "EWB_56",
+                  ["EWB_166", "EWB_167_ALT"]
                ],
                [  
                   "baby_bird",
@@ -345,14 +593,22 @@
                   "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
-                  "birdtogether"
+                  "birdtogether",
+                  "EWB_81",
+                  "EWB_80",
+                  "EWB_116",
+                  "EWB_115",
+                  "EWB_65",
+                   "EWB_58",
+                  ["EWB_170", "EWB_171"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_11",
             "Background":"bg3",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_seahorse",
@@ -360,7 +616,14 @@
                   "adultbaby_seahorse",
                   "seahorsebaby",
                   "seahorseadult",
-                  "seahorsetogether"
+                  "seahorsetogether",
+                  "EWB_86",
+                  "EWB_85",
+                  "EWB_122",
+                  "EWB_121",
+                  "EWB_147",
+                  "EWB_58",
+                  ["EWB_176", "EWB_177"]
                ],
                [  
                   "baby_fish",
@@ -368,7 +631,14 @@
                   "adultbaby_fish",
                   "fishbaby",
                   "fishadult",
-                  "fishtogether"
+                  "fishtogether",
+                  "EWB_84",
+                  "EWB_68",
+                  "EWB_120",
+                  "EWB_119",
+                  "EWB_68",
+                  "EWB_57",
+                  ["EWB_174", "EWB_175"]
                ],
                [  
                   "baby_crab",
@@ -376,14 +646,22 @@
                   "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
-                  "crabtogether"
+                  "crabtogether",
+                  "EWB_90",
+                  "EWB_89",
+                  "EWB_126",
+                  "EWB_125",
+                  "EWB_149",
+                  "EWB_58",
+                  ["EWB_180", "EWB_181"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_14_ALT",
             "Background":"bg1",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_zebra",
@@ -391,7 +669,14 @@
                   "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
-                  "zebratogether"
+                  "zebratogether",
+                  "EWB_92",
+                  "EWB_91",
+                  "EWB_127",
+                  "EWB_92",
+                  "EWB_150",
+                  "EWB_55",
+                  ["EWB_182", "EWB_183"]
                ],
                [  
                   "baby_lion",
@@ -399,7 +684,14 @@
                   "adultbaby_lion",
                   "lionbaby",
                   "lionadult",
-                  "liontogether"
+                  "liontogether",
+                  "EWB_74",
+                  "EWB_93",
+                  "EWB_109",
+                  "EWB_129",
+                  "EWB_151",
+                  "EWB_56",
+                  ["EWB_184","EWB_185"]
                ],
                [  
                   "baby_rhino",
@@ -407,14 +699,22 @@
                   "adultbaby_rhino",
                   "rhinobaby",
                   "rhinoadult",
-                  "rhinotogether"
+                  "rhinotogether",
+                  "EWB_95",
+                  "EWB_94",
+                  "EWB_132",
+                  "EWB_130",
+                  "EWB_152",
+                  "EWB_59",
+                  ["EWB_186", "EWB_187"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_13",
             "Background":"bg2",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_beaver",
@@ -422,7 +722,14 @@
                   "adultbaby_beaver",
                   "beaverbaby",
                   "beaveradult",
-                  "beavertogether"
+                  "beavertogether",
+                  "EWB_76",
+                  "EWB_97",
+                  "EWB_111",
+                  "EWB_133",
+                  "EWB_154",
+                  "EWB_56",
+                  ["EWB_190", "EWB_191"]
                ],
                [  
                   "baby_alligator",
@@ -430,7 +737,14 @@
                   "adultbaby_alligator",
                   "alligatorbaby",
                   "alligatoradult",
-                  "alligatortogether"
+                  "alligatortogether",
+                  "EWB_99",
+                  "EWB_98",
+                  "EWB_134",
+                  "EWB_135",
+                  "EWB_155",
+                  "EWB_57",
+                  ["EWB_192","EWB_193_ALT"]
                ],
                [  
                   "baby_turtle",
@@ -438,16 +752,24 @@
                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
-                  "turtletogether"
+                  "turtletogether",
+                  "EWB_101",
+                  "EWB_100",
+                  "EWB_137",
+                  "EWB_136",
+                  "EWB_156",
+                  "EWB_57",
+                  ["EWB_194", "EWB_195"]
                ]
             ]
          }
       ],
       [  
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_17",
             "Background":"bg1",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_puffin",
@@ -455,7 +777,14 @@
                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
-                  "puffintogether"
+                  "puffintogether",
+                  "EWB_70",
+                  "EWB_69",
+                  "EWB_105",
+                  "EWB_104",
+                  "EWB_140",
+                  "EWB_55",
+                  ["EWB_159", "EWB_160"]
                ],
                [  
                   "baby_bird",
@@ -463,7 +792,14 @@
                   "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
-                  "birdtogether"
+                  "birdtogether",
+                  "EWB_81",
+                  "EWB_80",
+                  "EWB_116",
+                  "EWB_115",
+                  "EWB_65",
+                  "EWB_58",
+                  ["EWB_170", "EWB_171"]
                ],
                [  
                   "baby_owl",
@@ -471,14 +807,22 @@
                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
-                  "owltogether"
+                  "owltogether",
+                  "EWB_78",
+                  "EWB_77",
+                  "EWB_113",
+                  "EWB_114",
+                  "EWB_144",
+                  "EWB_56",
+                  ["EWB_166", "EWB_167_ALT"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_15",
             "Background":"bg2",
+             "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_seal",
@@ -486,7 +830,14 @@
                   "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
-                  "sealtogether"
+                  "sealtogether",
+                  "EWB_72",
+                  "EWB_71",
+                  "EWB_107",
+                  "EWB_106_ALT",
+                  "EWB_141",
+                  "EWB_59",
+                  ["EWB_160", "EWB_161"]
                ],
                [  
                   "baby_kangaroo",
@@ -494,7 +845,14 @@
                   "adultbaby_kangaroo",
                   "kangaroobaby",
                   "kangarooadult",
-                  "kangarootogether"
+                  "kangarootogether",
+                  "EWB_83",
+                  "EWB_82",
+                  "EWB_118",
+                  "EWB_117",
+                  "EWB_146",
+                  "EWB_56",
+                  ["EWB_172", "EWB_173"]
                ],
                [  
                   "baby_racoon",
@@ -502,14 +860,22 @@
                   "adultbaby_racoon",
                   "racoonbaby",
                   "racoonadult",
-                  "racoontogether"
+                  "racoontogether",
+                  "EWB_76",
+                  "EWB_79",
+                  "EWB_111",
+                  "EWB_114",
+                  "EWB_145",
+                  "EWB_59",
+                  ["EWB_168","EWB_169"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_16",
             "Background":"bg3",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_alligator",
@@ -517,7 +883,14 @@
                   "adultbaby_alligator",
                   "alligatorbaby",
                   "alligatoradult",
-                  "alligatortogether"
+                  "alligatortogether",
+                  "EWB_99",
+                  "EWB_98",
+                  "EWB_134",
+                  "EWB_135",
+                  "EWB_155",
+                  "EWB_57",
+                  ["EWB_192","EWB_193_ALT"]
                ],
                [  
                   "baby_lizard",
@@ -525,7 +898,14 @@
                   "adultbaby_lizard",
                   "lizardbaby",
                   "lizardadult",
-                  "lizardtogether"
+                  "lizardtogether",
+                  "EWB_103",
+                  "EWB_102",
+                  "EWB_139",
+                  "EWB_138",
+                  "EWB_157",
+                  "EWB_57",
+                  ["EWB_196","EWB_197"]
                ],
                [  
                   "baby_turtle",
@@ -533,14 +913,22 @@
                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
-                  "turtletogether"
+                  "turtletogether",
+                  "EWB_101",
+                  "EWB_100",
+                  "EWB_137",
+                  "EWB_136",
+                  "EWB_156",
+                  "EWB_57",
+                  ["EWB_194", "EWB_195"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_15",
             "Background":"bg4",
+            "ExtraAudio": null,
             "Sets":[  
                [  
                   "baby_beaver",
@@ -548,7 +936,14 @@
                   "adultbaby_beaver",
                   "beaverbaby",
                   "beaveradult",
-                  "beavertogether"
+                  "beavertogether",
+                  "EWB_76",
+                  "EWB_97",
+                  "EWB_111",
+                  "EWB_133",
+                  "EWB_154",
+                  "EWB_56",
+                  ["EWB_190", "EWB_191"]
                ],
                [  
                   "baby_skunk",
@@ -556,7 +951,14 @@
                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
-                  "skunktogether"
+                  "skunktogether",
+                  "EWB_74",
+                  "EWB_75",
+                  "EWB_109",
+                  "EWB_110",
+                  "EWB_143",
+                  "EWB_55",
+                  ["EWB_164", "EWB_165"]
                ],
                [  
                   "baby_elephant",
@@ -564,24 +966,39 @@
                   "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
-                  "elephanttogether"
+                  "elephanttogether",
+                  "EWB_95",
+                  "EWB_96",
+                  "EWB_132",
+                  "EWB_131",
+                  "EWB_153",
+                  "EWB_59",
+                  ["EWB_188","EWB_189"]
                ]
             ]
          }
       ],
       [  
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_18_ALT",
             "Background":"bg1",
-            "Sets":[  
+             "ExtraAudio": "EWB_55",
+            "Sets":[ 
                [  
                   "baby_puffin",
                   "adult_puffin",
                   "adultbaby_puffin",
                   "puffinbaby",
                   "puffinadult",
-                  "puffintogether"
+                  "puffintogether",
+                  "EWB_70",
+                  "EWB_69",
+                  "EWB_105",
+                  "EWB_104",
+                  "EWB_140",
+                  "EWB_55",
+                  ["EWB_159", "EWB_160"]
                ],
                [  
                   "baby_skunk",
@@ -589,7 +1006,14 @@
                   "adultbaby_skunk",
                   "skunkbaby",
                   "skunkadult",
-                  "skunktogether"
+                  "skunktogether",
+                  "EWB_74",
+                  "EWB_75",
+                  "EWB_109",
+                  "EWB_110",
+                  "EWB_143",
+                  "EWB_55",
+                  ["EWB_164", "EWB_165"]
                ],
                [  
                   "baby_zebra",
@@ -597,14 +1021,22 @@
                   "adultbaby_zebra",
                   "zebrababy",
                   "zebraadult",
-                  "zebratogether"
+                  "zebratogether",
+                  "EWB_92",
+                  "EWB_91",
+                  "EWB_127",
+                  "EWB_92",
+                  "EWB_150",
+                  "EWB_55",
+                  ["EWB_182", "EWB_183"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_18_ALT",
             "Background":"bg2",
+             "ExtraAudio": "EWB_56",
             "Sets":[  
                [  
                   "baby_owl",
@@ -612,7 +1044,14 @@
                   "adultbaby_owl",
                   "owlbaby",
                   "owladult",
-                  "owltogether"
+                  "owltogether",
+                  "EWB_78",
+                  "EWB_77",
+                  "EWB_113",
+                  "EWB_114",
+                  "EWB_144",
+                  "EWB_56",
+                  ["EWB_166", "EWB_167_ALT"]
                ],
                [  
                   "baby_kangaroo",
@@ -620,7 +1059,14 @@
                   "adultbaby_kangaroo",
                   "kangaroobaby",
                   "kangarooadult",
-                  "kangarootogether"
+                  "kangarootogether",
+                  "EWB_83",
+                  "EWB_82",
+                  "EWB_118",
+                  "EWB_117",
+                  "EWB_146",
+                  "EWB_56",
+                  ["EWB_172", "EWB_173"]
                ],
                [  
                   "baby_lion",
@@ -628,14 +1074,22 @@
                   "adultbaby_lion",
                   "lionbaby",
                   "lionadult",
-                  "liontogether"
+                  "liontogether",
+                  "EWB_74",
+                  "EWB_93",
+                  "EWB_109",
+                  "EWB_129",
+                  "EWB_151",
+                  "EWB_56",
+                  ["EWB_184","EWB_185"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_18_ALT",
             "Background":"bg3",
+            "ExtraAudio": "EWB_59",
             "Sets":[  
                [  
                   "baby_elephant",
@@ -643,7 +1097,14 @@
                   "adultbaby_elephant",
                   "elephantbaby",
                   "elephantadult",
-                  "elephanttogether"
+                  "elephanttogether",
+                  "EWB_95",
+                  "EWB_96",
+                  "EWB_132",
+                  "EWB_131",
+                  "EWB_153",
+                  "EWB_59",
+                  ["EWB_188","EWB_189"]
                ],
                [  
                   "baby_seal",
@@ -651,7 +1112,14 @@
                   "adultbaby_seal",
                   "sealbaby",
                   "sealadult",
-                  "sealtogether"
+                  "sealtogether",
+                  "EWB_72",
+                  "EWB_71",
+                  "EWB_107",
+                  "EWB_106_ALT",
+                  "EWB_141",
+                  "EWB_59",
+                  ["EWB_160", "EWB_161"]
                ],
                [  
                   "baby_rhino",
@@ -659,14 +1127,22 @@
                   "adultbaby_rhino",
                   "rhinobaby",
                   "rhinoadult",
-                  "rhinotogether"
+                  "rhinotogether",
+                  "EWB_95",
+                  "EWB_94",
+                  "EWB_132",
+                  "EWB_130",
+                  "EWB_152",
+                  "EWB_59",
+                  ["EWB_186", "EWB_187"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_18_ALT",
             "Background":"bg4",
+            "ExtraAudio": "EWB_57",
             "Sets":[  
                [  
                   "baby_fish",
@@ -674,7 +1150,14 @@
                   "adultbaby_fish",
                   "fishbaby",
                   "fishadult",
-                  "fishtogether"
+                  "fishtogether",
+                  "EWB_84",
+                  "EWB_68",
+                  "EWB_120",
+                  "EWB_119",
+                  "EWB_68",
+                   "EWB_57",
+                  ["EWB_174", "EWB_175"]
                ],
                [  
                   "baby_alligator",
@@ -682,7 +1165,14 @@
                   "adultbaby_alligator",
                   "alligatorbaby",
                   "alligatoradult",
-                  "alligatortogether"
+                  "alligatortogether",
+                  "EWB_99",
+                  "EWB_98",
+                  "EWB_134",
+                  "EWB_135",
+                  "EWB_155",
+                  "EWB_57",
+                  ["EWB_192","EWB_193_ALT"]
                ],
                [  
                   "baby_turtle",
@@ -690,14 +1180,22 @@
                   "adultbaby_turtle",
                   "turtlebaby",
                   "turtleadult",
-                  "turtletogether"
+                  "turtletogether",
+                  "EWB_101",
+                  "EWB_100",
+                  "EWB_137",
+                  "EWB_136",
+                  "EWB_156",
+                  "EWB_57",
+                  ["EWB_194", "EWB_195"]
                ]
             ]
          },
          {  
-            "Theme":"false",
-            "Sound":"null",
+            "Theme":true,
+            "Sound":"EWB_18_ALT",
             "Background":"bg3",
+            "ExtraAudio": "EWB_58",
             "Sets":[  
                [  
                   "baby_crab",
@@ -705,7 +1203,14 @@
                   "adultbaby_crab",
                   "crabbaby",
                   "crabadult",
-                  "crabtogether"
+                  "crabtogether",
+                  "EWB_90",
+                  "EWB_89",
+                  "EWB_126",
+                  "EWB_125",
+                  "EWB_149",
+                  "EWB_58",
+                  ["EWB_180", "EWB_181"]
                ],
                [  
                   "baby_seahorse",
@@ -713,7 +1218,14 @@
                   "adultbaby_seahorse",
                   "seahorsebaby",
                   "seahorseadult",
-                  "seahorsetogether"
+                  "seahorsetogether",
+                  "EWB_86",
+                  "EWB_85",
+                  "EWB_122",
+                  "EWB_121",
+                  "EWB_147",
+                  "EWB_58",
+                  ["EWB_176", "EWB_177"]
                ],
                [  
                   "baby_bird",
@@ -721,7 +1233,14 @@
                   "adultbaby_bird",
                   "birdbaby",
                   "birdadult",
-                  "birdtogether"
+                  "birdtogether",
+                  "EWB_81",
+                  "EWB_80",
+                  "EWB_116",
+                  "EWB_115",
+                  "EWB_65",
+                  "EWB_58",
+                  ["EWB_170", "EWB_171"]
                ]
             ]
          }
