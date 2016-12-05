@@ -106,14 +106,12 @@ EWW.Boot.prototype = {
 
     preload: function () {
         this.load.text('levels', 'levels.json');
-        
-        
 
     },
 
     create: function () {
 
-        this.state.start('Preloader');
+        this.state.start('Prepreload');
 
     },
     enterIncorrectOrientation: function () {

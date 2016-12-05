@@ -1,172 +1,172 @@
 {"frames": [
 
 {
-	"filename": "alligator",
-	"frame": {"x":711,"y":104,"w":275,"h":80},
+	"filename": "animal_0000__Group_",
+	"frame": {"x":258,"y":785,"w":239,"h":264},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":209,"y":5,"w":275,"h":80},
-	"sourceSize": {"w":275,"h":80}
+	"spriteSourceSize": {"x":132,"y":127,"w":239,"h":264},
+	"sourceSize": {"w":239,"h":264}
 },
 {
-	"filename": "bear",
-	"frame": {"x":191,"y":192,"w":193,"h":167},
+	"filename": "animal_0001__Group_",
+	"frame": {"x":1,"y":929,"w":253,"h":122},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":4,"y":5,"w":193,"h":167},
-	"sourceSize": {"w":193,"h":167}
+	"spriteSourceSize": {"x":631,"y":0,"w":253,"h":122},
+	"sourceSize": {"w":253,"h":122}
 },
 {
-	"filename": "beaver",
-	"frame": {"x":1,"y":400,"w":241,"h":105},
+	"filename": "animal_0002__Group_",
+	"frame": {"x":217,"y":1446,"w":97,"h":185},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":269,"y":120,"w":241,"h":105},
-	"sourceSize": {"w":241,"h":105}
+	"spriteSourceSize": {"x":685,"y":134,"w":97,"h":185},
+	"sourceSize": {"w":97,"h":185}
 },
 {
-	"filename": "birb",
-	"frame": {"x":967,"y":350,"w":103,"h":111},
+	"filename": "animal_0003__Group_",
+	"frame": {"x":308,"y":617,"w":156,"h":166},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":258,"y":288,"w":103,"h":111},
-	"sourceSize": {"w":103,"h":111}
+	"spriteSourceSize": {"x":897,"y":510,"w":156,"h":166},
+	"sourceSize": {"w":156,"h":166}
 },
 {
-	"filename": "crab",
-	"frame": {"x":487,"y":336,"w":181,"h":148},
+	"filename": "animal_0004__Group_",
+	"frame": {"x":1,"y":1264,"w":219,"h":180},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":642,"y":258,"w":181,"h":148},
-	"sourceSize": {"w":181,"h":148}
+	"spriteSourceSize": {"x":223,"y":455,"w":219,"h":180},
+	"sourceSize": {"w":219,"h":180}
 },
 {
-	"filename": "elephant",
-	"frame": {"x":1,"y":1,"w":239,"h":189},
+	"filename": "animal_0005__Group_",
+	"frame": {"x":1,"y":779,"w":255,"h":148},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":632,"y":65,"w":239,"h":189},
-	"sourceSize": {"w":239,"h":189}
+	"spriteSourceSize": {"x":441,"y":528,"w":255,"h":148},
+	"sourceSize": {"w":255,"h":148}
 },
 {
-	"filename": "fish",
-	"frame": {"x":970,"y":249,"w":93,"h":72},
+	"filename": "animal_0006__Group_",
+	"frame": {"x":1,"y":1446,"w":214,"h":236},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":241,"y":65,"w":93,"h":72},
-	"sourceSize": {"w":93,"h":72}
+	"spriteSourceSize": {"x":0,"y":272,"w":214,"h":236},
+	"sourceSize": {"w":214,"h":236}
 },
 {
-	"filename": "kangaroo",
-	"frame": {"x":1,"y":192,"w":188,"h":206},
+	"filename": "animal_0007__Group_",
+	"frame": {"x":1,"y":1053,"w":243,"h":209},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":109,"y":108,"w":188,"h":206},
-	"sourceSize": {"w":188,"h":206}
+	"spriteSourceSize": {"x":0,"y":0,"w":243,"h":209},
+	"sourceSize": {"w":243,"h":209}
 },
 {
-	"filename": "lion",
-	"frame": {"x":244,"y":361,"w":241,"h":133},
+	"filename": "animal_0008__Group_",
+	"frame": {"x":352,"y":1,"w":132,"h":207},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":28,"y":410,"w":241,"h":133},
-	"sourceSize": {"w":241,"h":133}
+	"spriteSourceSize": {"x":1077,"y":195,"w":132,"h":207},
+	"sourceSize": {"w":132,"h":207}
 },
 {
-	"filename": "lizard",
-	"frame": {"x":617,"y":1,"w":229,"h":101},
+	"filename": "animal_0009__Group_",
+	"frame": {"x":256,"y":1051,"w":232,"h":190},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":400,"y":314,"w":229,"h":101},
-	"sourceSize": {"w":229,"h":101}
+	"spriteSourceSize": {"x":809,"y":317,"w":232,"h":190},
+	"sourceSize": {"w":232,"h":190}
 },
 {
-	"filename": "octopus",
-	"frame": {"x":573,"y":123,"w":136,"h":198},
+	"filename": "animal_0010__Group_",
+	"frame": {"x":1,"y":648,"w":293,"h":129},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":821,"y":345,"w":136,"h":198},
-	"sourceSize": {"w":136,"h":198}
+	"spriteSourceSize": {"x":501,"y":389,"w":293,"h":129},
+	"sourceSize": {"w":293,"h":129}
 },
 {
-	"filename": "owl",
-	"frame": {"x":843,"y":350,"w":122,"h":134},
+	"filename": "animal_0011__Group_",
+	"frame": {"x":246,"y":1243,"w":232,"h":182},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":711,"y":409,"w":122,"h":134},
-	"sourceSize": {"w":122,"h":134}
+	"spriteSourceSize": {"x":664,"y":494,"w":232,"h":182},
+	"sourceSize": {"w":232,"h":182}
 },
 {
-	"filename": "puffin",
-	"frame": {"x":670,"y":323,"w":171,"h":140},
+	"filename": "animal_0012__Group_",
+	"frame": {"x":1,"y":405,"w":305,"h":241},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":182,"y":366,"w":171,"h":140},
-	"sourceSize": {"w":171,"h":140}
+	"spriteSourceSize": {"x":797,"y":72,"w":305,"h":241},
+	"sourceSize": {"w":305,"h":241}
 },
 {
-	"filename": "racoon",
-	"frame": {"x":711,"y":186,"w":150,"h":126},
+	"filename": "animal_0013__Group_",
+	"frame": {"x":311,"y":210,"w":171,"h":247},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":807,"y":5,"w":150,"h":126},
-	"sourceSize": {"w":150,"h":126}
+	"spriteSourceSize": {"x":1038,"y":429,"w":171,"h":247},
+	"sourceSize": {"w":171,"h":247}
 },
 {
-	"filename": "rhino",
-	"frame": {"x":242,"y":1,"w":170,"h":184},
+	"filename": "animal_0014__Group_",
+	"frame": {"x":308,"y":459,"w":189,"h":156},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":4,"y":222,"w":170,"h":184},
-	"sourceSize": {"w":170,"h":184}
+	"spriteSourceSize": {"x":1020,"y":0,"w":189,"h":156},
+	"sourceSize": {"w":189,"h":156}
 },
 {
-	"filename": "seahorse",
-	"frame": {"x":988,"y":101,"w":76,"h":146},
+	"filename": "animal_0015__Group_",
+	"frame": {"x":316,"y":1571,"w":120,"h":92},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":544,"y":113,"w":76,"h":146},
-	"sourceSize": {"w":76,"h":146}
+	"spriteSourceSize": {"x":298,"y":73,"w":120,"h":92},
+	"sourceSize": {"w":120,"h":92}
 },
 {
-	"filename": "seal",
-	"frame": {"x":386,"y":187,"w":185,"h":147},
+	"filename": "animal_0016__Group_",
+	"frame": {"x":1,"y":101,"w":308,"h":135},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":528,"y":396,"w":185,"h":147},
-	"sourceSize": {"w":185,"h":147}
+	"spriteSourceSize": {"x":335,"y":142,"w":308,"h":135},
+	"sourceSize": {"w":308,"h":135}
 },
 {
-	"filename": "squirrel",
-	"frame": {"x":848,"y":1,"w":198,"h":98},
+	"filename": "animal_0017__Group_",
+	"frame": {"x":316,"y":1427,"w":132,"h":142},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":502,"y":5,"w":198,"h":98},
-	"sourceSize": {"w":198,"h":98}
+	"spriteSourceSize": {"x":320,"y":356,"w":132,"h":142},
+	"sourceSize": {"w":132,"h":142}
 },
 {
-	"filename": "turtle",
-	"frame": {"x":414,"y":1,"w":201,"h":120},
+	"filename": "animal_0018__Group_",
+	"frame": {"x":1,"y":1,"w":349,"h":98},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":352,"y":423,"w":201,"h":120},
-	"sourceSize": {"w":201,"h":120}
+	"spriteSourceSize": {"x":261,"y":0,"w":349,"h":98},
+	"sourceSize": {"w":349,"h":98}
 },
 {
-	"filename": "zebra",
-	"frame": {"x":863,"y":186,"w":105,"h":162},
+	"filename": "animal_0019__Group_",
+	"frame": {"x":1,"y":238,"w":307,"h":165},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":852,"y":162,"w":105,"h":162},
-	"sourceSize": {"w":105,"h":162}
+	"spriteSourceSize": {"x":28,"y":511,"w":307,"h":165},
+	"sourceSize": {"w":307,"h":165}
 }],
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "loading.png",
 	"format": "RGBA8888",
-	"size": {"w":1071,"h":506},
-	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:283ab4bb58a9ed91998ad1ff4b608a3e:69e788aa87f66524d8f83529d47ed636:5294b8b30e478db5089d68a09bebcee6$"
+	"size": {"w":498,"h":1683},
+	"scale": "0.9375",
+	"smartupdate": "$TexturePacker:SmartUpdate:1c8a339939388002a0b944c7a16016f2:cb760812dea61ca40da092c1f0f8e342:5294b8b30e478db5089d68a09bebcee6$"
 }
 }

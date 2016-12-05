@@ -6,6 +6,7 @@
     <script src = "Main.js"></script>
     <script src = "Game.js"></script>
     <script src = "Introduction.js"></script>
+    <script src = "Prepreload.js"></script>
     <style>
         body {
             margin: 0;
@@ -101,7 +102,8 @@
         game.state.add('Main', EWW.Main);
         game.state.add('Game', EWW.Game);
         game.state.add('Introduction', EWW.Introduction);
-            
+        game.state.add('Prepreload', EWW.Prepreload);
+                    
         //	Now start the Boot state.
         game.state.start('Boot');
         };

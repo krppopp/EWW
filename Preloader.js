@@ -8,11 +8,30 @@ EWW.Preloader.prototype = {
         this.levelData = JSON.parse(this.cache.getText('levels'));
         this.sprites = [this.levelData.sprites];
         this.audio = [this.levelData.audio];
-        this.roundDesign = [this.levelData.levels];
-        //this.load.atlasJSONArray('intro', 'Assets/Images/intro.png', 'Assets/Images/intro,json');
-
+        this.roundDesign = [this.levelData.levels];        
         
-        //var bg = this.add.sprite(0,0,this.sprites.loadingBg);
+        this.bg = this.add.sprite(0,0,this.sprites[0][0].loadingBg);
+        var loadingBarBg = this.add.sprite(this.world.width/2, this.world.height/2, this.sprites[0][0].loadingBarBg);
+        loadingBarBg.anchor.setTo(.5,.5);
+        var loadingBar = this.add.sprite(loadingBarBg.x*.6, loadingBarBg.y*.85, this.sprites[0][0].loadingBar);
+       // loadingBar.anchor.setTo(.5,.5);
+        this.load.setPreloadSprite(loadingBar);
+        var loadingText = this.add.sprite(loadingBarBg.x, loadingBarBg.y, this.sprites[0][0].loadingText);
+        loadingText.anchor.setTo(.5,.5);
+        
+        this.fileNum = 0;
+        this.loadNum = 0;
+        this.load.onFileComplete.add(this.fileCompete, this);
+        
+        
+//        this.load.atlasJSONArray(this.sprites[0][0].transitionSprites, 'Assets/Images/' + this.sprites[0][0].transitionSprites + ".png", 'Assets/Images/' + this.sprites[0][0].transitionSprites + ".json");
+//        this.load.image(this.sprites[0][0].loadingBar, 'Assets/Images/' + this.sprites[0][0].loadingBar + '.png');
+//        this.load.image(this.sprites[0][0].loadingBarBg, 'Assets/Images/' + this.sprites[0][0].loadingBarBg + '.png');
+//        this.load.image(this.sprites[0][0].loadingBg, 'Assets/Images/' + this.sprites[0][0].loadingBg + '.png');
+//        this.load.image(this.sprites[0][0].loadingText, 'Assets/Images/' + this.sprites[0][0].loadingText + '.png');
+        for(var i = 0; i <this.sprites[0][0].introAnimationSheetsNum; i++){
+            this.load.atlasJSONArray(this.sprites[0][0].introAnimation + i, 'Assets/Images/' + this.sprites[0][0].introAnimation + "-" + i + ".png", 'Assets/Images/' + this.sprites[0][0].introAnimation + "-" + i + ".json");
+        }
         
         this.load.spritesheet(this.sprites[0][0].playButton, 'Assets/Images/' + this.sprites[0][0].playButton + '.png', 197, 210);
         this.load.spritesheet(this.sprites[0][0].exitButton, 'Assets/Images/' + this.sprites[0][0].exitButton + '.png', 82, 81);
@@ -103,7 +122,18 @@ EWW.Preloader.prototype = {
             }
         }
     }
-    , create: function () {}
+    , create: function () {
+
+    }
+    , fileCompete: function(){
+        if(this.loadNum % 18 == 0){
+        var newSprite = this.add.sprite(-100,0,this.sprites[0][0].transitionSprites, this.fileNum);
+        this.fileNum ++;
+        this.world.sendToBack(newSprite);
+        this.world.sendToBack(this.bg);
+        }
+        this.loadNum++;
+    }
     , update: function () {
         this.state.start('Main');
     }

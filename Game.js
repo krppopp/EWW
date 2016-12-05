@@ -197,7 +197,11 @@ EWW.Game.prototype = {
         game.completeObjects.enableBody = true;
         game.completeObjects.physicsBodyType = Phaser.Physics.ARCADE;
         game.matchSound = [];
+        game.matchLabelSound = [];
+        game.matchSoundRotate = [];
         game.staticSound = [];
+        game.staticLabelSound = [];
+        game.staticSoundRotate = [];
         game.togetherSound = [];
         game.staticAnim = [];
         game.staticAnimIsPlaying = [false, false, false];
@@ -229,6 +233,8 @@ EWW.Game.prototype = {
                 newMatchObj.scale.y = .8;
             }
             game.matchSound[newMatchObj.indexNum] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][3]);
+            game.matchLabelSound[newMatchObj.indexNum] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][6]);
+            game.matchSoundRotate[newMatchObj.indexNum] = 0;
             game.add.tween(newMatchObj.scale).from({
                 x: 0
                 , y: 0
@@ -247,6 +253,8 @@ EWW.Game.prototype = {
             newStaticObj.input.pixelPerfectClick = true;
             newStaticObj.input.pixelPerfectOver = true;
             game.staticSound[newStaticObj.indexNum] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][4]);
+            game.staticLabelSound[newStaticObj.indexNum] = game.add.audio(game.roundDesign[0][roundToPlay][game.set].Sets[i][7]);
+            game.staticSoundRotate[newStaticObj.indexNum] = 0;
             newStaticObj.events.onInputDown.add(function (sprite) {
                 if (!game.staticAnimIsPlaying[sprite.indexNum]) {
                     game.staticAnim[sprite.indexNum] = sprite.animations.add('animate', Phaser.Animation.generateFrameNames(sprite.key + "/", 1, 100, '', 4), 20, false);
@@ -256,7 +264,14 @@ EWW.Game.prototype = {
                     game.staticAnim[sprite.indexNum].play();
                     game.staticAnimIsPlaying[sprite.indexNum] = true;
                 }
-                game.staticSound[sprite.indexNum].play();
+                if (game.staticSoundRotate[sprite.indexNum] == 0) {
+                    game.staticLabelSound[sprite.indexNum].play();
+                    game.staticSoundRotate[sprite.indexNum] = 1
+                }
+                else {
+                    game.staticSound[sprite.indexNum].play();
+                    game.staticSoundRotate[sprite.indexNum] = 0;
+                }
             });
             game.add.tween(newStaticObj.scale).from({
                 x: 0
@@ -281,7 +296,14 @@ EWW.Game.prototype = {
             clearTimeout(game.hoverTimeout);
             clearTimeout(game.dormantTimeoutHandler);
             if (!game.follow) {
-                game.matchSound[sprite.indexNum].play();
+                if (game.matchSoundRotate[sprite.indexNum] == 0) {
+                    game.matchLabelSound[sprite.indexNum].play();
+                    game.matchSoundRotate[sprite.indexNum] = 1
+                }
+                else {
+                    game.matchSound[sprite.indexNum].play();
+                    game.matchSoundRotate[sprite.indexNum] = 0;
+                }
             }
             sprite.body.collideWorldBounds = true;
             var clickScaleTween = game.add.tween(sprite.scale).to({
@@ -354,11 +376,6 @@ EWW.Game.prototype = {
         var game = this;
         game.world.removeAll();
     }
-    , runSpriteAnimation: function (mySprite) {
-            var game = this;
-            mySprite.animations.add(('animate', Phaser.Animation.generateFrameNames('animate_', 2, 12), 10, true));
-            mySprite.animations.play('animate');
-        }
         //function to run when two items are colliding
         
     , matchChara: function (matchObj, staticObj) {
@@ -484,6 +501,7 @@ EWW.Game.prototype = {
                                         game.factIntroVO = game.add.audio(game.levelData.audio[0].levelFactVO[0, game.rnd.integerInRange(0, game.levelData.audio[0].levelFactVO.length)])
                                         game.factIntroVO.play();
                                         game.factIntroVO.onStop.add(function () {
+                                            //game is getting hung up on these lines below
                                             game.factVO = game.add.audio(game.roundDesign[0][game.currentRound][game.set].Sets[game.rnd.integerInRange(0, game.roundDesign[0][game.currentRound][game.set].Sets.length)][12][game.rnd.integerInRange(0, 1)]);
                                             game.factVO.play();
                                             game.factVO.onStop.add(function () {
@@ -587,7 +605,11 @@ EWW.Game.prototype = {
                     }
                 }
             }
-        }
+        },
+    correctAnswer: function(){
+        
+    }
+    
         //function that runs when an already matched item matches with an unmatched item 
         
     , noMatch: function (matchObj, staticObj) {
@@ -618,11 +640,6 @@ EWW.Game.prototype = {
                     game.drawLines(matchObj, correctObject);
                 }
             }
-        }
-        //function for winning
-        
-    , youWin: function () {
-            var game = this;
         }
         //function to make the dotted line hint stuff
         
@@ -675,29 +692,5 @@ EWW.Game.prototype = {
             tween2.yoyo(true, 200);
             scaleTween2.yoyo(true, 200);
         });
-    }
-    , randomBag: function (myArray) {
-        var game = this;
-        var newArray = Phaser.ArrayUtils.shuffle(myArray);
-    }
-    , removeFromArray: function (result, myArray) {
-        var game = this;
-        result = myArray.shift();
-    }
-    , render: function () {
-        //still dont understand why i cannot render this stuff
-        //        var game = this;
-        //        game.staticObjects.forEach(function(item){
-        //            if(item.body.width == 200){
-        //                console.log(item.body);
-        //                console.log(game.time);
-        //                game.debug.body(item);
-        //            }
-        //        })
-        //        game.matchObjects.forEach(function(item){
-        //            if(item.body.width > 0){
-        //               game.debug.body(item);
-        //            }        
-        //        })
     }
 };

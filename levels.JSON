@@ -14,7 +14,12 @@
          "loadingBarBg": "loading-bar-bg",
          "loadingBg": "loading-bg",
          "loadingText": "loading-text",
-         "transitionSprites": "loading"
+         "transitionSprites": "loading",
+         "introAnimation": "elmo",
+         "introAnimationSheetsNum":6,
+         "introAnimFrameCount":[43,51,39,48,20,44],
+         "introAnimFrameStart": [1,44,95,134,182,202],
+         "introAnimFrameEnd":[43,94,133,181,201,245]
       }
    ],
    "audio":[  
